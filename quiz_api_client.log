@@ -1,0 +1,316 @@
+2025-05-17 01:45:30,537 - INFO - Deleting all existing data...
+2025-05-17 01:45:30,909 - ERROR - Failed to fetch quizzes: 404
+2025-05-17 01:45:31,060 - ERROR - Failed to fetch collections: 404
+2025-05-17 01:45:31,060 - INFO - State saved to created_data_state.json
+2025-05-17 01:45:31,060 - INFO - All data deleted successfully
+2025-05-17 01:45:31,061 - INFO - Creating collection: Lập trình Mobile
+2025-05-17 01:45:31,207 - ERROR - Failed to create collection: 404
+2025-05-17 01:45:31,208 - ERROR - Response: 
+2025-05-17 01:45:32,208 - INFO - Creating collection: Lập trình Web
+2025-05-17 01:45:32,524 - ERROR - Failed to create collection: 404
+2025-05-17 01:45:32,524 - ERROR - Response: 
+2025-05-17 01:45:33,525 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-05-17 01:45:33,798 - ERROR - Failed to create collection: 404
+2025-05-17 01:45:33,798 - ERROR - Response: 
+2025-05-17 01:45:34,798 - INFO - Data processing completed
+2025-05-17 01:48:13,458 - INFO - Loading existing state from created_data_state.json
+2025-05-17 01:48:13,458 - INFO - Loaded state: {'collections': {}}
+2025-05-17 01:48:13,458 - INFO - Deleting all existing data...
+2025-05-17 01:48:14,417 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:14,417 - INFO - All data deleted successfully
+2025-05-17 01:48:14,418 - INFO - Creating collection: Lập trình Mobile
+2025-05-17 01:48:14,644 - INFO - Collection created successfully with ID: 1
+2025-05-17 01:48:14,644 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:15,145 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 1
+2025-05-17 01:48:15,289 - INFO - Quiz created successfully with ID: 1
+2025-05-17 01:48:15,289 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:16,881 - INFO - Question created successfully with ID: 1
+2025-05-17 01:48:17,383 - INFO - Question created successfully with ID: 2
+2025-05-17 01:48:17,778 - INFO - Question created successfully with ID: 3
+2025-05-17 01:48:18,235 - INFO - Question created successfully with ID: 4
+2025-05-17 01:48:18,736 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 1
+2025-05-17 01:48:18,888 - INFO - Quiz created successfully with ID: 2
+2025-05-17 01:48:18,889 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:19,880 - INFO - Question created successfully with ID: 5
+2025-05-17 01:48:20,275 - INFO - Question created successfully with ID: 6
+2025-05-17 01:48:20,717 - INFO - Question created successfully with ID: 7
+2025-05-17 01:48:21,094 - INFO - Question created successfully with ID: 8
+2025-05-17 01:48:21,552 - INFO - Question created successfully with ID: 9
+2025-05-17 01:48:22,052 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 1
+2025-05-17 01:48:22,104 - INFO - Quiz created successfully with ID: 3
+2025-05-17 01:48:22,105 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:22,999 - INFO - Question created successfully with ID: 10
+2025-05-17 01:48:23,383 - INFO - Question created successfully with ID: 11
+2025-05-17 01:48:23,797 - INFO - Question created successfully with ID: 12
+2025-05-17 01:48:24,226 - INFO - Question created successfully with ID: 13
+2025-05-17 01:48:24,727 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 1
+2025-05-17 01:48:24,779 - INFO - Quiz created successfully with ID: 4
+2025-05-17 01:48:24,780 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:25,665 - INFO - Question created successfully with ID: 14
+2025-05-17 01:48:26,050 - INFO - Question created successfully with ID: 15
+2025-05-17 01:48:26,441 - INFO - Question created successfully with ID: 16
+2025-05-17 01:48:26,814 - INFO - Question created successfully with ID: 17
+2025-05-17 01:48:27,314 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 1
+2025-05-17 01:48:27,356 - INFO - Quiz created successfully with ID: 5
+2025-05-17 01:48:27,357 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:28,245 - INFO - Question created successfully with ID: 18
+2025-05-17 01:48:28,630 - INFO - Question created successfully with ID: 19
+2025-05-17 01:48:29,008 - INFO - Question created successfully with ID: 20
+2025-05-17 01:48:29,377 - INFO - Question created successfully with ID: 21
+2025-05-17 01:48:29,826 - INFO - Question created successfully with ID: 22
+2025-05-17 01:48:30,827 - INFO - Creating collection: Lập trình Web
+2025-05-17 01:48:30,859 - INFO - Collection created successfully with ID: 2
+2025-05-17 01:48:30,859 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:31,360 - INFO - Creating quiz: HTML cơ bản for collection ID: 2
+2025-05-17 01:48:31,408 - INFO - Quiz created successfully with ID: 6
+2025-05-17 01:48:31,408 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:32,319 - INFO - Question created successfully with ID: 23
+2025-05-17 01:48:32,693 - INFO - Question created successfully with ID: 24
+2025-05-17 01:48:33,582 - INFO - Question created successfully with ID: 25
+2025-05-17 01:48:34,036 - INFO - Question created successfully with ID: 26
+2025-05-17 01:48:34,537 - INFO - Creating quiz: CSS nâng cao for collection ID: 2
+2025-05-17 01:48:34,577 - INFO - Quiz created successfully with ID: 7
+2025-05-17 01:48:34,578 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:35,484 - INFO - Question created successfully with ID: 27
+2025-05-17 01:48:35,865 - INFO - Question created successfully with ID: 28
+2025-05-17 01:48:36,249 - INFO - Question created successfully with ID: 29
+2025-05-17 01:48:36,617 - INFO - Question created successfully with ID: 30
+2025-05-17 01:48:36,991 - INFO - Question created successfully with ID: 31
+2025-05-17 01:48:37,491 - INFO - Creating quiz: JavaScript DOM for collection ID: 2
+2025-05-17 01:48:37,530 - INFO - Quiz created successfully with ID: 8
+2025-05-17 01:48:37,530 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:38,432 - INFO - Question created successfully with ID: 32
+2025-05-17 01:48:38,810 - INFO - Question created successfully with ID: 33
+2025-05-17 01:48:39,181 - INFO - Question created successfully with ID: 34
+2025-05-17 01:48:39,554 - INFO - Question created successfully with ID: 35
+2025-05-17 01:48:39,933 - INFO - Question created successfully with ID: 36
+2025-05-17 01:48:40,434 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 2
+2025-05-17 01:48:40,473 - INFO - Quiz created successfully with ID: 9
+2025-05-17 01:48:40,473 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:41,349 - INFO - Question created successfully with ID: 37
+2025-05-17 01:48:41,722 - INFO - Question created successfully with ID: 38
+2025-05-17 01:48:42,092 - INFO - Question created successfully with ID: 39
+2025-05-17 01:48:42,464 - INFO - Question created successfully with ID: 40
+2025-05-17 01:48:42,827 - INFO - Question created successfully with ID: 41
+2025-05-17 01:48:43,328 - INFO - Creating quiz: RESTful API với Express for collection ID: 2
+2025-05-17 01:48:43,365 - INFO - Quiz created successfully with ID: 10
+2025-05-17 01:48:43,366 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:44,250 - INFO - Question created successfully with ID: 42
+2025-05-17 01:48:44,628 - INFO - Question created successfully with ID: 43
+2025-05-17 01:48:45,001 - INFO - Question created successfully with ID: 44
+2025-05-17 01:48:45,376 - INFO - Question created successfully with ID: 45
+2025-05-17 01:48:46,376 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-05-17 01:48:46,404 - INFO - Collection created successfully with ID: 3
+2025-05-17 01:48:46,405 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:46,905 - INFO - Creating quiz: Danh sách liên kết for collection ID: 3
+2025-05-17 01:48:46,938 - INFO - Quiz created successfully with ID: 11
+2025-05-17 01:48:46,938 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:47,815 - INFO - Question created successfully with ID: 46
+2025-05-17 01:48:48,196 - INFO - Question created successfully with ID: 47
+2025-05-17 01:48:48,565 - INFO - Question created successfully with ID: 48
+2025-05-17 01:48:48,940 - INFO - Question created successfully with ID: 49
+2025-05-17 01:48:49,310 - INFO - Question created successfully with ID: 50
+2025-05-17 01:48:49,811 - INFO - Creating quiz: Cây nhị phân for collection ID: 3
+2025-05-17 01:48:49,847 - INFO - Quiz created successfully with ID: 12
+2025-05-17 01:48:49,848 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:50,734 - INFO - Question created successfully with ID: 51
+2025-05-17 01:48:51,113 - INFO - Question created successfully with ID: 52
+2025-05-17 01:48:51,483 - INFO - Question created successfully with ID: 53
+2025-05-17 01:48:51,864 - INFO - Question created successfully with ID: 54
+2025-05-17 01:48:52,364 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 3
+2025-05-17 01:48:52,403 - INFO - Quiz created successfully with ID: 13
+2025-05-17 01:48:52,403 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:53,279 - INFO - Question created successfully with ID: 55
+2025-05-17 01:48:53,655 - INFO - Question created successfully with ID: 56
+2025-05-17 01:48:54,022 - INFO - Question created successfully with ID: 57
+2025-05-17 01:48:54,386 - INFO - Question created successfully with ID: 58
+2025-05-17 01:48:54,762 - INFO - Question created successfully with ID: 59
+2025-05-17 01:48:55,262 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 3
+2025-05-17 01:48:55,305 - INFO - Quiz created successfully with ID: 14
+2025-05-17 01:48:55,305 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:56,183 - INFO - Question created successfully with ID: 60
+2025-05-17 01:48:56,552 - INFO - Question created successfully with ID: 61
+2025-05-17 01:48:56,931 - INFO - Question created successfully with ID: 62
+2025-05-17 01:48:57,432 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 3
+2025-05-17 01:48:57,469 - INFO - Quiz created successfully with ID: 15
+2025-05-17 01:48:57,469 - INFO - State saved to created_data_state.json
+2025-05-17 01:48:58,387 - INFO - Question created successfully with ID: 63
+2025-05-17 01:48:58,756 - INFO - Question created successfully with ID: 64
+2025-05-17 01:48:59,131 - INFO - Question created successfully with ID: 65
+2025-05-17 01:48:59,506 - INFO - Question created successfully with ID: 66
+2025-05-17 01:49:00,506 - INFO - Data processing completed
+2025-05-17 08:43:50,400 - INFO - Loading existing state from created_data_state.json
+2025-05-17 08:43:50,400 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 1, 'quizzes': {'Cơ bản về Widget': {'id': 1, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 2, 'questions': {}}, 'Điều hướng màn hình': {'id': 3, 'questions': {}}, 'Thiết kế Material Design': {'id': 4, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 5, 'questions': {}}}}, 'Lập trình Web': {'id': 2, 'quizzes': {'HTML cơ bản': {'id': 6, 'questions': {}}, 'CSS nâng cao': {'id': 7, 'questions': {}}, 'JavaScript DOM': {'id': 8, 'questions': {}}, 'Xây dựng SPA với React': {'id': 9, 'questions': {}}, 'RESTful API với Express': {'id': 10, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 3, 'quizzes': {'Danh sách liên kết': {'id': 11, 'questions': {}}, 'Cây nhị phân': {'id': 12, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 13, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 14, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 15, 'questions': {}}}}}}
+2025-05-17 08:43:50,401 - INFO - Deleting all existing data...
+2025-05-17 08:43:50,893 - INFO - Deleted all questions for quiz ID: 1
+2025-05-17 08:43:51,070 - INFO - Deleted quiz with ID: 1
+2025-05-17 08:43:51,366 - INFO - Deleted all questions for quiz ID: 2
+2025-05-17 08:43:51,484 - INFO - Deleted quiz with ID: 2
+2025-05-17 08:43:51,885 - INFO - Deleted all questions for quiz ID: 3
+2025-05-17 08:43:52,075 - INFO - Deleted quiz with ID: 3
+2025-05-17 08:43:52,484 - INFO - Deleted all questions for quiz ID: 4
+2025-05-17 08:43:52,602 - INFO - Deleted quiz with ID: 4
+2025-05-17 08:43:52,904 - INFO - Deleted all questions for quiz ID: 5
+2025-05-17 08:43:52,940 - INFO - Deleted quiz with ID: 5
+2025-05-17 08:43:53,369 - INFO - Deleted all questions for quiz ID: 6
+2025-05-17 08:43:53,448 - INFO - Deleted quiz with ID: 6
+2025-05-17 08:43:53,842 - INFO - Deleted all questions for quiz ID: 7
+2025-05-17 08:43:53,878 - INFO - Deleted quiz with ID: 7
+2025-05-17 08:43:54,188 - INFO - Deleted all questions for quiz ID: 8
+2025-05-17 08:43:54,292 - INFO - Deleted quiz with ID: 8
+2025-05-17 08:43:54,581 - INFO - Deleted all questions for quiz ID: 9
+2025-05-17 08:43:54,625 - INFO - Deleted quiz with ID: 9
+2025-05-17 08:43:54,899 - INFO - Deleted all questions for quiz ID: 10
+2025-05-17 08:43:54,942 - INFO - Deleted quiz with ID: 10
+2025-05-17 08:43:55,250 - INFO - Deleted all questions for quiz ID: 11
+2025-05-17 08:43:55,282 - INFO - Deleted quiz with ID: 11
+2025-05-17 08:43:55,563 - INFO - Deleted all questions for quiz ID: 12
+2025-05-17 08:43:55,599 - INFO - Deleted quiz with ID: 12
+2025-05-17 08:43:55,879 - INFO - Deleted all questions for quiz ID: 13
+2025-05-17 08:43:55,928 - INFO - Deleted quiz with ID: 13
+2025-05-17 08:43:56,191 - INFO - Deleted all questions for quiz ID: 14
+2025-05-17 08:43:56,230 - INFO - Deleted quiz with ID: 14
+2025-05-17 08:43:56,484 - INFO - Deleted all questions for quiz ID: 15
+2025-05-17 08:43:56,524 - INFO - Deleted quiz with ID: 15
+2025-05-17 08:43:56,910 - INFO - Deleted collection with ID: 1
+2025-05-17 08:43:57,471 - INFO - Deleted collection with ID: 2
+2025-05-17 08:43:58,033 - INFO - Deleted collection with ID: 3
+2025-05-17 08:43:58,591 - INFO - Deleted collection with ID: 4
+2025-05-17 08:43:59,153 - INFO - Deleted collection with ID: 5
+2025-05-17 08:43:59,655 - INFO - State saved to created_data_state.json
+2025-05-17 08:43:59,655 - INFO - All data deleted successfully
+2025-05-17 08:43:59,656 - INFO - Creating collection: Lập trình Mobile
+2025-05-17 08:43:59,712 - INFO - Collection created successfully with ID: 6
+2025-05-17 08:43:59,712 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:00,213 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 6
+2025-05-17 08:44:00,258 - INFO - Quiz created successfully with ID: 16
+2025-05-17 08:44:00,259 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:19,336 - INFO - Loading existing state from created_data_state.json
+2025-05-17 08:44:19,336 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 6, 'quizzes': {'Cơ bản về Widget': {'id': 16, 'questions': {}}}}}}
+2025-05-17 08:44:19,336 - INFO - Deleting all existing data...
+2025-05-17 08:44:19,406 - WARNING - Failed to delete questions for quiz 16: 404
+2025-05-17 08:44:19,441 - INFO - Deleted quiz with ID: 16
+2025-05-17 08:44:19,724 - INFO - Deleted collection with ID: 6
+2025-05-17 08:44:20,225 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:20,225 - INFO - All data deleted successfully
+2025-05-17 08:44:20,226 - INFO - Creating collection: Lập trình Mobile
+2025-05-17 08:44:20,264 - INFO - Collection created successfully with ID: 7
+2025-05-17 08:44:20,264 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:20,765 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 7
+2025-05-17 08:44:20,802 - INFO - Quiz created successfully with ID: 17
+2025-05-17 08:44:20,803 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:21,968 - INFO - Question created successfully with ID: 67
+2025-05-17 08:44:22,363 - INFO - Question created successfully with ID: 68
+2025-05-17 08:44:22,758 - INFO - Question created successfully with ID: 69
+2025-05-17 08:44:23,155 - INFO - Question created successfully with ID: 70
+2025-05-17 08:44:23,656 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 7
+2025-05-17 08:44:23,698 - INFO - Quiz created successfully with ID: 18
+2025-05-17 08:44:23,699 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:24,581 - INFO - Question created successfully with ID: 71
+2025-05-17 08:44:24,969 - INFO - Question created successfully with ID: 72
+2025-05-17 08:44:25,374 - INFO - Question created successfully with ID: 73
+2025-05-17 08:44:25,752 - INFO - Question created successfully with ID: 74
+2025-05-17 08:44:26,233 - INFO - Question created successfully with ID: 75
+2025-05-17 08:44:26,734 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 7
+2025-05-17 08:44:26,779 - INFO - Quiz created successfully with ID: 19
+2025-05-17 08:44:26,780 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:27,671 - INFO - Question created successfully with ID: 76
+2025-05-17 08:44:28,064 - INFO - Question created successfully with ID: 77
+2025-05-17 08:44:28,447 - INFO - Question created successfully with ID: 78
+2025-05-17 08:44:28,829 - INFO - Question created successfully with ID: 79
+2025-05-17 08:44:29,334 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 7
+2025-05-17 08:44:29,375 - INFO - Quiz created successfully with ID: 20
+2025-05-17 08:44:29,375 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:30,269 - INFO - Question created successfully with ID: 80
+2025-05-17 08:44:30,695 - INFO - Question created successfully with ID: 81
+2025-05-17 08:44:31,072 - INFO - Question created successfully with ID: 82
+2025-05-17 08:44:31,444 - INFO - Question created successfully with ID: 83
+2025-05-17 08:44:31,945 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 7
+2025-05-17 08:44:31,981 - INFO - Quiz created successfully with ID: 21
+2025-05-17 08:44:31,982 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:32,869 - INFO - Question created successfully with ID: 84
+2025-05-17 08:44:33,258 - INFO - Question created successfully with ID: 85
+2025-05-17 08:44:33,662 - INFO - Question created successfully with ID: 86
+2025-05-17 08:44:34,052 - INFO - Question created successfully with ID: 87
+2025-05-17 08:44:34,437 - INFO - Question created successfully with ID: 88
+2025-05-17 08:44:35,438 - INFO - Creating collection: Lập trình Web
+2025-05-17 08:44:35,474 - INFO - Collection created successfully with ID: 8
+2025-05-17 08:44:35,474 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:35,975 - INFO - Creating quiz: HTML cơ bản for collection ID: 8
+2025-05-17 08:44:36,033 - INFO - Quiz created successfully with ID: 22
+2025-05-17 08:44:36,033 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:36,904 - INFO - Question created successfully with ID: 89
+2025-05-17 08:44:37,282 - INFO - Question created successfully with ID: 90
+2025-05-17 08:44:37,688 - INFO - Question created successfully with ID: 91
+2025-05-17 08:44:38,064 - INFO - Question created successfully with ID: 92
+2025-05-17 08:44:38,565 - INFO - Creating quiz: CSS nâng cao for collection ID: 8
+2025-05-17 08:44:38,609 - INFO - Quiz created successfully with ID: 23
+2025-05-17 08:44:38,610 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:39,494 - INFO - Question created successfully with ID: 93
+2025-05-17 08:44:39,891 - INFO - Question created successfully with ID: 94
+2025-05-17 08:44:40,279 - INFO - Question created successfully with ID: 95
+2025-05-17 08:44:40,654 - INFO - Question created successfully with ID: 96
+2025-05-17 08:44:41,030 - INFO - Question created successfully with ID: 97
+2025-05-17 08:44:41,531 - INFO - Creating quiz: JavaScript DOM for collection ID: 8
+2025-05-17 08:44:41,571 - INFO - Quiz created successfully with ID: 24
+2025-05-17 08:44:41,572 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:42,447 - INFO - Question created successfully with ID: 98
+2025-05-17 08:44:42,820 - INFO - Question created successfully with ID: 99
+2025-05-17 08:44:43,186 - INFO - Question created successfully with ID: 100
+2025-05-17 08:44:43,563 - INFO - Question created successfully with ID: 101
+2025-05-17 08:44:43,952 - INFO - Question created successfully with ID: 102
+2025-05-17 08:44:44,454 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 8
+2025-05-17 08:44:44,491 - INFO - Quiz created successfully with ID: 25
+2025-05-17 08:44:44,492 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:45,368 - INFO - Question created successfully with ID: 103
+2025-05-17 08:44:45,751 - INFO - Question created successfully with ID: 104
+2025-05-17 08:44:46,132 - INFO - Question created successfully with ID: 105
+2025-05-17 08:44:46,507 - INFO - Question created successfully with ID: 106
+2025-05-17 08:44:46,877 - INFO - Question created successfully with ID: 107
+2025-05-17 08:44:47,377 - INFO - Creating quiz: RESTful API với Express for collection ID: 8
+2025-05-17 08:44:47,415 - INFO - Quiz created successfully with ID: 26
+2025-05-17 08:44:47,416 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:48,297 - INFO - Question created successfully with ID: 108
+2025-05-17 08:44:48,675 - INFO - Question created successfully with ID: 109
+2025-05-17 08:44:49,055 - INFO - Question created successfully with ID: 110
+2025-05-17 08:44:49,430 - INFO - Question created successfully with ID: 111
+2025-05-17 08:44:50,431 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-05-17 08:44:50,462 - INFO - Collection created successfully with ID: 9
+2025-05-17 08:44:50,463 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:50,964 - INFO - Creating quiz: Danh sách liên kết for collection ID: 9
+2025-05-17 08:44:50,998 - INFO - Quiz created successfully with ID: 27
+2025-05-17 08:44:50,998 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:51,870 - INFO - Question created successfully with ID: 112
+2025-05-17 08:44:52,267 - INFO - Question created successfully with ID: 113
+2025-05-17 08:44:52,650 - INFO - Question created successfully with ID: 114
+2025-05-17 08:44:53,029 - INFO - Question created successfully with ID: 115
+2025-05-17 08:44:53,400 - INFO - Question created successfully with ID: 116
+2025-05-17 08:44:53,901 - INFO - Creating quiz: Cây nhị phân for collection ID: 9
+2025-05-17 08:44:53,940 - INFO - Quiz created successfully with ID: 28
+2025-05-17 08:44:53,941 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:54,829 - INFO - Question created successfully with ID: 117
+2025-05-17 08:44:55,211 - INFO - Question created successfully with ID: 118
+2025-05-17 08:44:55,579 - INFO - Question created successfully with ID: 119
+2025-05-17 08:44:55,965 - INFO - Question created successfully with ID: 120
+2025-05-17 08:44:56,466 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 9
+2025-05-17 08:44:56,501 - INFO - Quiz created successfully with ID: 29
+2025-05-17 08:44:56,502 - INFO - State saved to created_data_state.json
+2025-05-17 08:44:57,378 - INFO - Question created successfully with ID: 121
+2025-05-17 08:44:57,762 - INFO - Question created successfully with ID: 122
+2025-05-17 08:44:58,137 - INFO - Question created successfully with ID: 123
+2025-05-17 08:44:58,504 - INFO - Question created successfully with ID: 124
+2025-05-17 08:44:58,871 - INFO - Question created successfully with ID: 125
+2025-05-17 08:44:59,372 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 9
+2025-05-17 08:44:59,413 - INFO - Quiz created successfully with ID: 30
+2025-05-17 08:44:59,414 - INFO - State saved to created_data_state.json
+2025-05-17 08:45:00,293 - INFO - Question created successfully with ID: 126
+2025-05-17 08:45:00,669 - INFO - Question created successfully with ID: 127
+2025-05-17 08:45:01,058 - INFO - Question created successfully with ID: 128
+2025-05-17 08:45:01,558 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 9
+2025-05-17 08:45:01,599 - INFO - Quiz created successfully with ID: 31
+2025-05-17 08:45:01,600 - INFO - State saved to created_data_state.json
+2025-05-17 08:45:02,473 - INFO - Question created successfully with ID: 129
+2025-05-17 08:45:02,845 - INFO - Question created successfully with ID: 130
+2025-05-17 08:45:03,222 - INFO - Question created successfully with ID: 131
+2025-05-17 08:45:03,586 - INFO - Question created successfully with ID: 132
+2025-05-17 08:45:04,586 - INFO - Data processing completed
