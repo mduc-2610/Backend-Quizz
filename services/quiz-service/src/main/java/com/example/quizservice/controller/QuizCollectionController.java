@@ -40,6 +40,7 @@ public class QuizCollectionController {
         return quizCollectionService.getQuizCollectionById(id)
                 .map(collection -> {
                     enrichWithCompleteUrl(collection, request);
+                    addQuizWithCompleteUrl(collection, request); 
                     return ResponseEntity.ok(collection);
                 })
                 .orElse(ResponseEntity.notFound().build());
@@ -99,14 +100,14 @@ public class QuizCollectionController {
         }
     }
 
-    private void enrichWithCompleteUrl(QuizCollection collection,  HttpServletRequest request) {
+    public void enrichWithCompleteUrl(QuizCollection collection,  HttpServletRequest request) {
         if (collection.getCoverPhoto() != null) {
             collection.setCoverPhoto(urlService.getCompleteFileUrl(collection.getCoverPhoto(), request));
         }
     }
 
-    private void addQuizWithCompleteUrl(QuizCollection collection, HttpServletRequest request) {
-        Set<Quiz> quizzes = quizService.getQuizzesByCollectionId(collection);
+    public void addQuizWithCompleteUrl(QuizCollection collection, HttpServletRequest request) {
+        Set<Quiz> quizzes = quizService.getQuizzesByCollection(collection);
         quizzes.forEach(quiz -> {
             if (quiz.getCoverPhoto() != null) {
                 quiz.setCoverPhoto(urlService.getCompleteFileUrl(quiz.getCoverPhoto(), request));

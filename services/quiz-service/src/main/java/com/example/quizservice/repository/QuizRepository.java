@@ -19,4 +19,5 @@ public interface QuizRepository extends JpaRepository<Quiz, Long> {
 
     
     Set<Quiz> findByQuizCollection(QuizCollection quizCollection);
+    Set<Quiz> findByQuizCollectionId(Long id);
 }

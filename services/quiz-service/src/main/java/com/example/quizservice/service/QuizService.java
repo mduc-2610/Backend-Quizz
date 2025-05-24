@@ -137,7 +137,12 @@ public class QuizService {
         return quiz;
     }
 
-    public Set<Quiz> getQuizzesByCollectionId(QuizCollection collection) {
+    public Set<Quiz> getQuizzesByCollection(QuizCollection collection) {
         return quizRepository.findByQuizCollection(collection);
     }
+
+    public Set<Quiz> getQuizzesByCollectionId(Long id) {
+        return quizRepository.findByQuizCollectionId(id);
+    }
+    
 }
