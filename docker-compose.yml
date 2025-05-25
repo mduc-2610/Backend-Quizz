@@ -141,6 +141,8 @@ services:
         condition: service_healthy
     networks:
       - quiz-network
+    volumes:
+      - ./uploads/user-service:/app/uploads
 
   question-service:
     build:

@@ -16,17 +16,12 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
-# Gitpod
-GITPOD_BASE_URL = "https://8080-mduc2610-temp-txa6cej4fdy.ws-us118.gitpod.io"
-
-#Codespaces
-CODESPACE_BASE_URL = "https://upgraded-telegram-9v4jgg9jvjjh465-8080.app.github.dev"
 
 class QuizAPIClient:
-    def __init__(self, base_url=f"{GITPOD_BASE_URL}/api"):
+    def __init__(self, base_url):
         self.base_url = base_url
         self.state_file = "created_data_state.json"
-        self.data_file = "load_script/quiz_data.json"
+        self.data_file = "load_script/data/quiz_data.json"
         self.state = self._load_state()
         
     def _load_state(self):
@@ -466,10 +461,3 @@ class QuizAPIClient:
         self._save_state()
         
         logger.info("All data deleted successfully")
-
-def main():
-    client = QuizAPIClient()
-    client.process_all_data()
-
-if __name__ == "__main__":
-    main()
