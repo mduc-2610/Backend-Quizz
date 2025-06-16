@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 @AllArgsConstructor
 public class QuizDTO {
     private Long userId;
-    private String quizCollectionId;
+    private Long quizCollectionId;
     private String title;
     private String description;
     private String keyword;

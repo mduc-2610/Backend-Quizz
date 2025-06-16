@@ -30,7 +30,8 @@ public class QuizCollection {
 
     private Boolean visibleTo;
 
-    private LocalDateTime timestamp;    private String coverPhoto;
+    private LocalDateTime timestamp;    
+    private String coverPhoto;
     
     @OneToMany(mappedBy = "quizCollection", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @Builder.Default

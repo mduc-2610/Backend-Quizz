@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-GITPOD_BASE_URL = "https://8080-mduc2610-temp-txa6cej4fdy.ws-us119.gitpod.io"
+GITPOD_BASE_URL = "https://8080-mduc2610-temp-txa6cej4fdy.ws-us120.gitpod.io"
 CODESPACE_BASE_URL = "https://upgraded-telegram-9v4jgg9jvjjh465-8080.app.github.dev"
 
 class EnhancedQuizAPIClient:
@@ -54,7 +54,7 @@ def main():
     parser = argparse.ArgumentParser(description='User API Client')
     parser.add_argument('--users', action='store_true', help='Create only users')
     parser.add_argument('--quizzes', action='store_true', help='Create only quizzes')
-    parser.add_argument('--count', type=int, default=10, help='Number of users to create')
+    parser.add_argument('--count', type=int, default=30, help='Number of users to create')
     parser.add_argument('--clear', default=True, action='store_true', help='Clear existing data first')
     # parser.add_argument('--complete', action='store_true', help='Setup complete environment (users + quizzes)')
     

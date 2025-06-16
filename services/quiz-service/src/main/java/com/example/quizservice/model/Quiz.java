@@ -11,6 +11,7 @@ import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 @Table(name = "quizzes")
@@ -50,9 +51,14 @@ public class Quiz {
     @JoinColumn(name = "collection_id")
     @JsonIgnore
     private QuizCollection quizCollection;
+    
     @OneToMany(mappedBy = "quiz", cascade = CascadeType.ALL)
     @JsonIgnore
     @JsonManagedReference
     private Set<QuizGame> quizGames;
 
+    @JsonProperty("quizCollectionId")
+    public Long getCollectionId() {
+        return quizCollection != null ? quizCollection.getId() : null;
+    }
 }

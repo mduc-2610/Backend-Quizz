@@ -17,7 +17,7 @@ public interface QuizRepository extends JpaRepository<Quiz, Long> {
     List<Quiz> findByTitleContainingIgnoreCase(String title);
     List<Quiz> findTop10ByOrderByCreatedAtDesc();
 
-    
+
     Set<Quiz> findByQuizCollection(QuizCollection quizCollection);
     Set<Quiz> findByQuizCollectionId(Long id);
 }

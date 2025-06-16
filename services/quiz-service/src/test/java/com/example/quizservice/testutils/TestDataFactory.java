@@ -28,6 +28,20 @@ public class TestDataFactory {
                 .build();
     }
 
+    public static MultipartFile createMockMultipartFile() {
+        byte[] content = new byte[1024]; 
+        for (int i = 0; i < content.length; i++) {
+            content[i] = (byte) (i % 256);
+        }
+        
+        return new MockMultipartFile(
+                "file",                   
+                "test-cover.jpg",         
+                "image/jpeg",             
+                content                   
+        );
+    }
+
     public static QuizCollectionDTO createQuizCollectionDTOWithImage() throws IOException {
         QuizCollectionDTO dto = createQuizCollectionDTO();
         dto.setCoverPhotoFile(createMockImageFile());
@@ -88,7 +102,7 @@ public class TestDataFactory {
 
     public static QuizDTO createQuizDTOWithCollection(Long collectionId) {
         QuizDTO dto = createQuizDTO();
-        dto.setQuizCollectionId(String.valueOf(collectionId));
+        dto.setQuizCollectionId(collectionId);
         return dto;
     }
 

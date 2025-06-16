@@ -8,7 +8,7 @@
       "coverPhoto": "images/collections/mobile.png",
       "quizzes": [
         {
-          "userId": 3,
+          "userId": 1,
           "title": "Cơ bản về Widget",
           "description": "Bộ câu hỏi kiểm tra kiến thức về cơ bản về widget.",
           "keyword": "lập-trình-mobile",
@@ -139,7 +139,7 @@
           ]
         },
         {
-          "userId": 4,
+          "userId": 1,
           "title": "Quản lý trạng thái trong Flutter",
           "description": "Bộ câu hỏi kiểm tra kiến thức về quản lý trạng thái trong flutter.",
           "keyword": "lập-trình-mobile",
@@ -272,7 +272,7 @@
           ]
         },
         {
-          "userId": 8,
+          "userId": 1,
           "title": "Điều hướng màn hình",
           "description": "Bộ câu hỏi kiểm tra kiến thức về điều hướng màn hình.",
           "keyword": "lập-trình-mobile",
@@ -403,7 +403,7 @@
           ]
         },
         {
-          "userId": 5,
+          "userId": 1,
           "title": "Thiết kế Material Design",
           "description": "Bộ câu hỏi kiểm tra kiến thức về thiết kế material design.",
           "keyword": "lập-trình-mobile",
@@ -513,7 +513,7 @@
           ]
         },
         {
-          "userId": 2,
+          "userId": 1,
           "title": "Tương tác API trong Flutter",
           "description": "Bộ câu hỏi kiểm tra kiến thức về tương tác api trong flutter.",
           "keyword": "lập-trình-mobile",
@@ -676,7 +676,7 @@
       "coverPhoto": "images/collections/web.png",
       "quizzes": [
         {
-          "userId": 9,
+          "userId": 1,
           "title": "HTML cơ bản",
           "description": "Bộ câu hỏi kiểm tra kiến thức về html cơ bản.",
           "keyword": "lập-trình-web",
@@ -794,7 +794,7 @@
           ]
         },
         {
-          "userId": 6,
+          "userId": 1,
           "title": "CSS nâng cao",
           "description": "Bộ câu hỏi kiểm tra kiến thức về css nâng cao.",
           "keyword": "lập-trình-web",
@@ -947,7 +947,7 @@
           ]
         },
         {
-          "userId": 3,
+          "userId": 1,
           "title": "JavaScript DOM",
           "description": "Bộ câu hỏi kiểm tra kiến thức về javascript dom.",
           "keyword": "lập-trình-web",
@@ -1096,7 +1096,7 @@
           ]
         },
         {
-          "userId": 7,
+          "userId": 2,
           "title": "Xây dựng SPA với React",
           "description": "Bộ câu hỏi kiểm tra kiến thức về xây dựng spa với react.",
           "keyword": "lập-trình-web",
@@ -1369,7 +1369,7 @@
       "coverPhoto": "images/collections/dsa.jpg",
       "quizzes": [
         {
-          "userId": 4,
+          "userId": 2,
           "title": "Danh sách liên kết",
           "description": "Bộ câu hỏi kiểm tra kiến thức về danh sách liên kết.",
           "keyword": "cấu-trúc-dữ-liệu-và-giải-thuật",
@@ -1507,7 +1507,7 @@
           ]
         },
         {
-          "userId": 9,
+          "userId": 2,
           "title": "Cây nhị phân",
           "description": "Bộ câu hỏi kiểm tra kiến thức về cây nhị phân.",
           "keyword": "cấu-trúc-dữ-liệu-và-giải-thuật",
@@ -1638,7 +1638,7 @@
           ]
         },
         {
-          "userId": 1,
+          "userId": 2,
           "title": "Thuật toán sắp xếp",
           "description": "Bộ câu hỏi kiểm tra kiến thức về thuật toán sắp xếp.",
           "keyword": "cấu-trúc-dữ-liệu-và-giải-thuật",
@@ -1771,7 +1771,7 @@
           ]
         },
         {
-          "userId": 5,
+          "userId": 2,
           "title": "Tìm kiếm nhị phân",
           "description": "Bộ câu hỏi kiểm tra kiến thức về tìm kiếm nhị phân.",
           "keyword": "cấu-trúc-dữ-liệu-và-giải-thuật",
@@ -1872,7 +1872,7 @@
           ]
         },
         {
-          "userId": 7,
+          "userId": 2,
           "title": "Đệ quy và quy hoạch động",
           "description": "Bộ câu hỏi kiểm tra kiến thức về đệ quy và quy hoạch động.",
           "keyword": "cấu-trúc-dữ-liệu-và-giải-thuật",

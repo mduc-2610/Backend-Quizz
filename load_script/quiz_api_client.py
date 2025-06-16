@@ -49,8 +49,11 @@ class QuizAPIClient:
             logger.info(f"Skipping already created collection: {category}")
             return self.state["collections"][category]["id"]
         
+        user_request = requests.get(f"{self.base_url}/users")
+        user_list = user_request.json()
+
         form_data = {
-            "authorId": collection_data["authorId"],
+            "authorId": user_list[random.randint(0, 1)]["id"],
             "description": collection_data["description"],
             "category": collection_data["category"],
             "visibleTo": collection_data["visibleTo"]
@@ -100,7 +103,10 @@ class QuizAPIClient:
     def create_quiz(self, quiz_data, collection_id):
         title = quiz_data["title"]
         collection_category = None
-        
+        user_request = requests.get(f"{self.base_url}/users")
+        user_list = user_request.json()
+
+
         for category, data in self.state["collections"].items():
             if data["id"] == collection_id:
                 collection_category = category
@@ -111,8 +117,8 @@ class QuizAPIClient:
             return self.state["collections"][collection_category]["quizzes"][title]["id"]
         
         form_data = {
-            "userId": quiz_data["userId"],
-            "quizCollectionId": str(collection_id),  # Ensure it's a string as expected by the API
+            "userId": user_list[random.randint(0, 1)]["id"],
+            "quizCollectionId": str(collection_id),  
             "title": quiz_data["title"],
             "description": quiz_data["description"],
             "keyword": quiz_data["keyword"],

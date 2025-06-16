@@ -263,7 +263,7 @@ class UserAPIClient:
         logger.info(f"Deleted {deleted_count} users successfully")
         return deleted_count
     
-    def process_user_data(self, count=10, clear_existing=False):
+    def process_user_data(self, count=30, clear_existing=False):
         """Main method to process user data creation"""
         if clear_existing:
             self.delete_all_users()

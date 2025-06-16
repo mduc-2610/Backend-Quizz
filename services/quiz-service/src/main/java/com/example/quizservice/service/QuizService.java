@@ -79,7 +79,7 @@ public class QuizService {
 
         if (quizDTO.getQuizCollectionId() != null) {
             QuizCollection quizCollection = quizCollectionRepository
-                    .findById(Long.parseLong(quizDTO.getQuizCollectionId()))
+                    .findById(quizDTO.getQuizCollectionId())
                     .orElseThrow(() -> new RuntimeException(
                             "Quiz Collection not found with id: " + quizDTO.getQuizCollectionId()));
             existingQuiz.setQuizCollection(quizCollection);
@@ -122,9 +122,9 @@ public class QuizService {
         quiz.setVisibleQuizQuestion(quizDTO.getVisibleQuizQuestion());
         quiz.setShuffle(quizDTO.getShuffle());
 
-        if (quizDTO.getQuizCollectionId() != null && !quizDTO.getQuizCollectionId().isEmpty()) {
+        if (quizDTO.getQuizCollectionId() != null) {
             try {
-                Long collectionId = Long.parseLong(quizDTO.getQuizCollectionId());
+                Long collectionId = quizDTO.getQuizCollectionId();
                 QuizCollection quizCollection = quizCollectionRepository.findById(collectionId)
                         .orElseThrow(() -> new RuntimeException(
                                 "Quiz Collection not found with id: " + quizDTO.getQuizCollectionId()));
