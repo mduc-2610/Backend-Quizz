@@ -37,6 +37,10 @@ public class Quiz {
     private Integer score;
 
     private String coverPhoto;
+    
+    @Column(nullable = false)
+    @Builder.Default
+    private Integer numberQuestion = 0;
 
     private LocalDateTime createdAt;
 
@@ -47,6 +51,7 @@ public class Quiz {
     private Boolean visibleQuizQuestion;
 
     private Boolean shuffle;
+    
     @ManyToOne
     @JoinColumn(name = "collection_id")
     @JsonIgnore

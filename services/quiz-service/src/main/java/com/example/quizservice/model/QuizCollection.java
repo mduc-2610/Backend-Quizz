@@ -33,7 +33,7 @@ public class QuizCollection {
     private LocalDateTime timestamp;    
     private String coverPhoto;
     
-    @OneToMany(mappedBy = "quizCollection", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "quizCollection", cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
     @Builder.Default
     private Set<Quiz> quizzes = new HashSet<>();
 }

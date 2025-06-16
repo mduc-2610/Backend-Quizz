@@ -6,6 +6,8 @@ import com.example.quizservice.model.QuizCollection;
 import com.example.quizservice.service.QuizCollectionService;
 import com.example.quizservice.service.QuizService;
 import com.example.quizservice.service.UrlService;
+import com.example.quizservice.client.QuestionClient;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -24,6 +26,7 @@ public class QuizCollectionController {
     private final QuizCollectionService quizCollectionService;
     private final QuizService quizService;
     private final UrlService urlService;
+    private final QuestionClient questionClient;
 
     @GetMapping
     public ResponseEntity<List<QuizCollection>> getAllQuizCollections(HttpServletRequest request) {
@@ -111,8 +114,24 @@ public class QuizCollectionController {
         quizzes.forEach(quiz -> {
             if (quiz.getCoverPhoto() != null) {
                 quiz.setCoverPhoto(urlService.getCompleteFileUrl(quiz.getCoverPhoto(), request));
-            }
+            };
+            setQuestionCount(quiz);
         });
         collection.setQuizzes(quizzes);
+    }
+    
+    private void setQuestionCount(Quiz quiz) {
+        try {
+            ResponseEntity<Integer> response = questionClient.getQuestionCountByQuizId(quiz.getId());
+            if (response.getStatusCode().is2xxSuccessful() && response.getBody() != null) {
+                quiz.setNumberQuestion(response.getBody().intValue());
+            } else {
+                // log.warn("Failed to get question count for quiz ID: {}", quiz.getId());
+                quiz.setNumberQuestion(0);
+            }
+        } catch (Exception e) {
+            // log.error("Error calling question service for quiz ID: {}", quiz.getId(), e);
+            quiz.setNumberQuestion(0);
+        }
     }
 }

@@ -7,6 +7,7 @@ import com.example.quizservice.model.QuizCollection;
 import com.example.quizservice.repository.QuizCollectionRepository;
 import com.example.quizservice.repository.QuizRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.transaction.annotation.Transactional;
 
 import org.hibernate.annotations.CollectionId;
 import org.springframework.stereotype.Service;
@@ -144,5 +145,36 @@ public class QuizService {
     public Set<Quiz> getQuizzesByCollectionId(Long id) {
         return quizRepository.findByQuizCollectionId(id);
     }
-    
+
+    @Transactional
+    public void incrementQuestionCount(Long quizId) {
+        Quiz quiz = quizRepository.findById(quizId)
+                .orElseThrow(() -> new RuntimeException("Quiz not found with id: " + quizId));
+        
+        quiz.setNumberQuestion(quiz.getNumberQuestion() + 1);
+        quiz.setUpdatedAt(LocalDateTime.now());
+        quizRepository.save(quiz);
+    }
+
+    @Transactional
+    public void decrementQuestionCount(Long quizId) {
+        Quiz quiz = quizRepository.findById(quizId)
+                .orElseThrow(() -> new RuntimeException("Quiz not found with id: " + quizId));
+        
+        int currentCount = quiz.getNumberQuestion();
+        quiz.setNumberQuestion(Math.max(0, currentCount - 1));
+        quiz.setUpdatedAt(LocalDateTime.now());
+        quizRepository.save(quiz);
+    }
+
+    @Transactional 
+    public void updateQuestionCount(Long quizId, Integer questionCount) {
+        Quiz quiz = quizRepository.findById(quizId)
+                .orElseThrow(() -> new RuntimeException("Quiz not found with id: " + quizId));
+
+        int currentCount = quiz.getNumberQuestion();
+        quiz.setNumberQuestion(Math.max(0, currentCount - questionCount));
+        quiz.setUpdatedAt(LocalDateTime.now());
+        quizRepository.save(quiz);
+    }
 }

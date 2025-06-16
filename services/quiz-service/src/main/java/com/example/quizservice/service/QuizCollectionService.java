@@ -8,6 +8,7 @@ import com.example.quizservice.repository.QuizRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -77,24 +78,21 @@ public class QuizCollectionService {
         
         return quizCollectionRepository.save(existingCollection);
     }
-    
+
+    @Transactional
     public void deleteQuizCollection(Long id) throws IOException {
         QuizCollection collection = quizCollectionRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Collection not found with id: " + id));
-        
+
+        quizRepository.removeCollectionReference(id);
+
         if (collection.getCoverPhoto() != null) {
             fileStorageService.deleteFile(collection.getCoverPhoto());
         }
-        
+
         quizCollectionRepository.delete(collection);
     }
-    
-    /**
-     * Adds a quiz to a collection
-     * @param collectionId ID of the collection
-     * @param quizId ID of the quiz to add
-     * @return The updated QuizCollection
-     */
+
     public QuizCollection addQuizToCollection(Long collectionId, Long quizId) {
         QuizCollection collection = quizCollectionRepository.findByIdWithQuizzes(collectionId)
                 .orElseThrow(() -> new RuntimeException("Collection not found with id: " + collectionId));
@@ -105,15 +103,9 @@ public class QuizCollectionService {
         quiz.setQuizCollection(collection);
         quizRepository.save(quiz);
         
-        // The collection's quizzes set should be automatically updated due to the bidirectional relationship
         return quizCollectionRepository.findByIdWithQuizzes(collectionId).orElseThrow();
     }
-      /**
-     * Removes a quiz from a collection
-     * @param collectionId ID of the collection
-     * @param quizId ID of the quiz to remove
-     * @return The updated QuizCollection
-     */
+    
     public QuizCollection removeQuizFromCollection(Long collectionId, Long quizId) {
         // Verify collection exists
         quizCollectionRepository.findById(collectionId)

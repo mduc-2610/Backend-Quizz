@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-GITPOD_BASE_URL = "https://8080-mduc2610-temp-txa6cej4fdy.ws-us120.gitpod.io"
+GITPOD_BASE_URL = "https://8080-mduc2610-backendquizz-cpw69jddzgx.ws-us120.gitpod.io"
 CODESPACE_BASE_URL = "https://upgraded-telegram-9v4jgg9jvjjh465-8080.app.github.dev"
 
 class EnhancedQuizAPIClient:

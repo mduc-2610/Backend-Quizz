@@ -13,6 +13,7 @@ import java.util.Map;
 import java.util.HashMap;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.example.questionservice.dto.QuestionDTO;
 
 import java.io.IOException;
 import java.time.LocalDateTime;
@@ -38,6 +39,10 @@ public class QuestionService {
     public boolean existsById(Long id) {
         return questionRepository.existsById(id);
     }
+
+    public Integer getQuestionCountByQuizId(Long quizId) {
+        return questionRepository.countByQuizId(quizId);
+    }
     
     public void deleteQuestion(Long id) throws IOException {
         Question question = questionRepository.findById(id)
@@ -51,6 +56,12 @@ public class QuestionService {
             fileStorageService.deleteFile(question.getAudio());
         }
     
+        // try {
+        //     quizClient.decrementQuestionCount(question.getQuizId());
+        // } catch (Exception e) {
+        //     System.err.println("Failed to decrement question count for quiz " + question.getQuizId() + ": " + e.getMessage());
+        // }
+
         questionRepository.deleteById(id);
     }
 
@@ -60,6 +71,7 @@ public class QuestionService {
 
     public void deleteAllQuestionsByQuizId(Long quizId) throws IOException {
         List<Question> questions = questionRepository.findByQuizId(quizId);
+        int questionCount = questions.size();
 
         for (Question question : questions) {
             String questionType = question.getQuestionType().getName();
@@ -94,6 +106,14 @@ public class QuestionService {
             //         questionRepository.deleteById(question.getId());
             // }
         }
+
+        // for (int i = 0; i < questionCount; i++) {
+        //     try {
+        //         quizClient.decrementQuestionCount(questions.get(i).getQuizId());
+        //     } catch (Exception e) {
+        //         System.err.println("Failed to decrement question count for quiz " + quizId + ": " + e.getMessage());
+        //     }
+        // }
     }
 
     public List<Question> getAllQuestions() {
@@ -208,6 +228,12 @@ public class QuestionService {
                 .updatedAt(LocalDateTime.now())
                 .build();
 
+        // try {
+        //     quizClient.incrementQuestionCount(question.getQuizId());
+        // } catch (Exception e) {
+        //     System.err.println("Failed to increment question count for quiz " + question.getQuizId() + ": " + e.getMessage());
+        // }
+
         return questionRepository.save(question);
     }
 
@@ -245,6 +271,12 @@ public class QuestionService {
                 .updatedAt(LocalDateTime.now())
                 .correctAnswer(dto.getCorrectAnswer())
                 .build();
+
+        // try {
+        //     quizClient.incrementQuestionCount(question.getQuizId());
+        // } catch (Exception e) {
+        //     System.err.println("Failed to increment question count for quiz " + question.getQuizId() + ": " + e.getMessage());
+        // }
 
         return questionTrueFalseRepository.save(question);
     }
@@ -317,6 +349,11 @@ public class QuestionService {
         }
 
         question.setChoiceOptions(choiceOptions);
+        // try {
+        //     quizClient.incrementQuestionCount(question.getQuizId());
+        // } catch (Exception e) {
+        //     System.err.println("Failed to increment question count for quiz " + question.getQuizId() + ": " + e.getMessage());
+        // }
 
         return questionChoiceRepository.save(question);
     }
@@ -359,6 +396,11 @@ public class QuestionService {
                 .correctAnswer(dto.getCorrectAnswer())
                 .color(dto.getColor())
                 .build();
+        // try {
+        //     quizClient.incrementQuestionCount(question.getQuizId());
+        // } catch (Exception e) {
+        //     System.err.println("Failed to increment question count for quiz " + question.getQuizId() + ": " + e.getMessage());
+        // }
 
         return questionSliderRepository.save(question);
     }
@@ -412,7 +454,11 @@ public class QuestionService {
         }
 
         question.setPuzzlePieces(puzzleOptions);
-
+        // try {
+        //     quizClient.incrementQuestionCount(question.getQuizId());
+        // } catch (Exception e) {
+        //     System.err.println("Failed to increment question count for quiz " + question.getQuizId() + ": " + e.getMessage());
+        // }
         return questionPuzzleRepository.save(question);
     }
 
@@ -467,6 +513,12 @@ public class QuestionService {
             
             question.setAcceptedAnswers(acceptedAnswers);
         }
+
+        // try {
+        //     quizClient.incrementQuestionCount(question.getQuizId());
+        // } catch (Exception e) {
+        //     System.err.println("Failed to increment question count for quiz " + question.getQuizId() + ": " + e.getMessage());
+        // }
 
         return questionTypeTextRepository.save(question);
     }

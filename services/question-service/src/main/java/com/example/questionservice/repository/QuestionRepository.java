@@ -15,5 +15,7 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
     boolean existsByQuizId(Long id);
     List<Question> findByQuizIdOrderByCreatedAtAsc(Long quizId);
     List<Question> findByQuizIdOrderByPositionAsc(Long quizId);
+    Integer countByQuizId(Long quizId);
+
 }
 

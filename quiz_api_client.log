@@ -3723,3 +3723,2517 @@
 2025-06-16 03:55:00,634 - INFO - Question created successfully with ID: 660
 2025-06-16 03:55:01,635 - INFO - Data processing completed
 2025-06-16 03:55:01,635 - INFO - Complete test environment setup successfully!
+2025-06-16 07:06:52,105 - INFO - Loading existing state from created_data_state.json
+2025-06-16 07:06:52,105 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 28, 'quizzes': {'Cơ bản về Widget': {'id': 136, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 137, 'questions': {}}, 'Điều hướng màn hình': {'id': 138, 'questions': {}}, 'Thiết kế Material Design': {'id': 139, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 140, 'questions': {}}}}, 'Lập trình Web': {'id': 29, 'quizzes': {'HTML cơ bản': {'id': 141, 'questions': {}}, 'CSS nâng cao': {'id': 142, 'questions': {}}, 'JavaScript DOM': {'id': 143, 'questions': {}}, 'Xây dựng SPA với React': {'id': 144, 'questions': {}}, 'RESTful API với Express': {'id': 145, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 30, 'quizzes': {'Danh sách liên kết': {'id': 146, 'questions': {}}, 'Cây nhị phân': {'id': 147, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 148, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 149, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 150, 'questions': {}}}}}}
+2025-06-16 07:06:52,105 - INFO - Loading existing state from created_users_state.json
+2025-06-16 07:06:52,106 - INFO - Loaded state: users created = 30
+2025-06-16 07:06:52,138 - INFO - Found 8 avatar images in images/users
+2025-06-16 07:06:52,138 - INFO - Setting up complete test environment...
+2025-06-16 07:06:52,139 - INFO - Creating test users...
+2025-06-16 07:06:52,139 - INFO - Deleting all existing users...
+2025-06-16 07:06:53,102 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:53,103 - INFO - Deleted 0 users successfully
+2025-06-16 07:06:53,103 - INFO - Creating 30 fake users...
+2025-06-16 07:06:53,106 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 07:06:53,106 - INFO - Creating user: christinewilliams0 (christinewilliams0@graham.org)
+2025-06-16 07:06:53,662 - INFO - User created successfully with ID: 1
+2025-06-16 07:06:53,662 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:54,199 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 07:06:54,199 - INFO - Creating user: curtisroberts1 (curtisroberts1@morales-may.com)
+2025-06-16 07:06:54,369 - INFO - User created successfully with ID: 2
+2025-06-16 07:06:54,370 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:54,871 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 07:06:54,871 - INFO - Creating user: davidjohnson2 (davidjohnson2@wilson-benjamin.biz)
+2025-06-16 07:06:55,041 - INFO - User created successfully with ID: 3
+2025-06-16 07:06:55,042 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:55,544 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 07:06:55,544 - INFO - Creating user: elizabethperez3 (elizabethperez3@ortiz-wagner.com)
+2025-06-16 07:06:55,720 - INFO - User created successfully with ID: 4
+2025-06-16 07:06:55,720 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:56,222 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 07:06:56,222 - INFO - Creating user: markwilliams4 (markwilliams4@henry-gardner.net)
+2025-06-16 07:06:56,351 - INFO - User created successfully with ID: 5
+2025-06-16 07:06:56,352 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:56,854 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 07:06:56,854 - INFO - Creating user: johnwebster5 (johnwebster5@larsen-martinez.com)
+2025-06-16 07:06:57,015 - INFO - User created successfully with ID: 6
+2025-06-16 07:06:57,016 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:57,517 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 07:06:57,517 - INFO - Creating user: rhondacole6 (rhondacole6@brown-brown.com)
+2025-06-16 07:06:57,649 - INFO - User created successfully with ID: 7
+2025-06-16 07:06:57,650 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:58,152 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 07:06:58,152 - INFO - Creating user: melaniemills7 (melaniemills7@perry.org)
+2025-06-16 07:06:58,313 - INFO - User created successfully with ID: 8
+2025-06-16 07:06:58,314 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:58,816 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 07:06:58,816 - INFO - Creating user: kelseymartinez8 (kelseymartinez8@hernandez.com)
+2025-06-16 07:06:58,945 - INFO - User created successfully with ID: 9
+2025-06-16 07:06:58,946 - INFO - State saved to created_users_state.json
+2025-06-16 07:06:59,448 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 07:06:59,448 - INFO - Creating user: johnwilliams9 (johnwilliams9@franklin.org)
+2025-06-16 07:06:59,579 - INFO - User created successfully with ID: 10
+2025-06-16 07:06:59,579 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:00,081 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 07:07:00,081 - INFO - Creating user: evangriffith10 (evangriffith10@wood.com)
+2025-06-16 07:07:00,234 - INFO - User created successfully with ID: 11
+2025-06-16 07:07:00,235 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:00,737 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 07:07:00,737 - INFO - Creating user: brendasimpson11 (brendasimpson11@davis.org)
+2025-06-16 07:07:00,856 - INFO - User created successfully with ID: 12
+2025-06-16 07:07:00,856 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:01,358 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 07:07:01,358 - INFO - Creating user: dominicdavis12 (dominicdavis12@bailey.com)
+2025-06-16 07:07:01,688 - INFO - User created successfully with ID: 13
+2025-06-16 07:07:01,689 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:02,191 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 07:07:02,191 - INFO - Creating user: paulabrown13 (paulabrown13@fletcher-rollins.org)
+2025-06-16 07:07:02,346 - INFO - User created successfully with ID: 14
+2025-06-16 07:07:02,346 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:02,848 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 07:07:02,848 - INFO - Creating user: karenpowell14 (karenpowell14@webb.biz)
+2025-06-16 07:07:02,970 - INFO - User created successfully with ID: 15
+2025-06-16 07:07:02,971 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:03,472 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 07:07:03,473 - INFO - Creating user: sarabarnett15 (sarabarnett15@jones.com)
+2025-06-16 07:07:03,595 - INFO - User created successfully with ID: 16
+2025-06-16 07:07:03,596 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:04,098 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 07:07:04,098 - INFO - Creating user: brianpowell16 (brianpowell16@donaldson.info)
+2025-06-16 07:07:04,219 - INFO - User created successfully with ID: 17
+2025-06-16 07:07:04,219 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:04,721 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 07:07:04,721 - INFO - Creating user: robertcollins17 (robertcollins17@valentine.com)
+2025-06-16 07:07:04,838 - INFO - User created successfully with ID: 18
+2025-06-16 07:07:04,838 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:05,340 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 07:07:05,340 - INFO - Creating user: anthonywilliams18 (anthonywilliams18@johnson.org)
+2025-06-16 07:07:05,490 - INFO - User created successfully with ID: 19
+2025-06-16 07:07:05,490 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:05,992 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 07:07:05,992 - INFO - Creating user: michaeljohnson19 (michaeljohnson19@reese.com)
+2025-06-16 07:07:06,112 - INFO - User created successfully with ID: 20
+2025-06-16 07:07:06,113 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:06,614 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 07:07:06,614 - INFO - Creating user: johnhodge20 (johnhodge20@martinez.com)
+2025-06-16 07:07:06,731 - INFO - User created successfully with ID: 21
+2025-06-16 07:07:06,732 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:07,234 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 07:07:07,234 - INFO - Creating user: sharonbrown21 (sharonbrown21@roberts-holt.com)
+2025-06-16 07:07:07,360 - INFO - User created successfully with ID: 22
+2025-06-16 07:07:07,360 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:07,862 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 07:07:07,862 - INFO - Creating user: brandypadilla22 (brandypadilla22@phillips-reese.net)
+2025-06-16 07:07:07,983 - INFO - User created successfully with ID: 23
+2025-06-16 07:07:07,984 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:08,485 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 07:07:08,485 - INFO - Creating user: josephmartin23 (josephmartin23@meyer.com)
+2025-06-16 07:07:08,610 - INFO - User created successfully with ID: 24
+2025-06-16 07:07:08,611 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:09,112 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 07:07:09,113 - INFO - Creating user: brianford24 (brianford24@arnold.info)
+2025-06-16 07:07:09,234 - INFO - User created successfully with ID: 25
+2025-06-16 07:07:09,234 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:09,736 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 07:07:09,736 - INFO - Creating user: sethmartinez25 (sethmartinez25@campbell.net)
+2025-06-16 07:07:09,897 - INFO - User created successfully with ID: 26
+2025-06-16 07:07:09,898 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:10,399 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 07:07:10,399 - INFO - Creating user: cherylgarrett26 (cherylgarrett26@deleon.info)
+2025-06-16 07:07:10,518 - INFO - User created successfully with ID: 27
+2025-06-16 07:07:10,519 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:11,020 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 07:07:11,020 - INFO - Creating user: nicolejackson27 (nicolejackson27@wade.com)
+2025-06-16 07:07:11,134 - INFO - User created successfully with ID: 28
+2025-06-16 07:07:11,135 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:11,636 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 07:07:11,636 - INFO - Creating user: shannoncollins28 (shannoncollins28@duncan.com)
+2025-06-16 07:07:11,752 - INFO - User created successfully with ID: 29
+2025-06-16 07:07:11,753 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:12,255 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 07:07:12,255 - INFO - Creating user: jenniferlane29 (jenniferlane29@miller-mcdonald.com)
+2025-06-16 07:07:12,375 - INFO - User created successfully with ID: 30
+2025-06-16 07:07:12,376 - INFO - State saved to created_users_state.json
+2025-06-16 07:07:12,876 - INFO - Successfully created 30 users out of 30 attempted
+2025-06-16 07:07:12,877 - INFO - Created 30 users successfully
+2025-06-16 07:07:12,877 - INFO - Creating quiz data...
+2025-06-16 07:07:12,877 - INFO - Deleting all existing data...
+2025-06-16 07:07:13,281 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:13,281 - INFO - All data deleted successfully
+2025-06-16 07:07:13,449 - INFO - Creating collection: Lập trình Mobile
+2025-06-16 07:07:13,658 - INFO - Collection created successfully with ID: 1
+2025-06-16 07:07:13,659 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:14,274 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 1
+2025-06-16 07:07:14,340 - INFO - Quiz created successfully with ID: 1
+2025-06-16 07:07:14,340 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:15,643 - INFO - Question created successfully with ID: 1
+2025-06-16 07:07:16,079 - INFO - Question created successfully with ID: 2
+2025-06-16 07:07:16,467 - INFO - Question created successfully with ID: 3
+2025-06-16 07:07:16,870 - INFO - Question created successfully with ID: 4
+2025-06-16 07:07:17,478 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 1
+2025-06-16 07:07:17,530 - INFO - Quiz created successfully with ID: 2
+2025-06-16 07:07:17,531 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:18,519 - INFO - Question created successfully with ID: 5
+2025-06-16 07:07:18,913 - INFO - Question created successfully with ID: 6
+2025-06-16 07:07:19,301 - INFO - Question created successfully with ID: 7
+2025-06-16 07:07:19,675 - INFO - Question created successfully with ID: 8
+2025-06-16 07:07:20,053 - INFO - Question created successfully with ID: 9
+2025-06-16 07:07:20,653 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 1
+2025-06-16 07:07:20,707 - INFO - Quiz created successfully with ID: 3
+2025-06-16 07:07:20,707 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:21,605 - INFO - Question created successfully with ID: 10
+2025-06-16 07:07:22,003 - INFO - Question created successfully with ID: 11
+2025-06-16 07:07:22,388 - INFO - Question created successfully with ID: 12
+2025-06-16 07:07:22,776 - INFO - Question created successfully with ID: 13
+2025-06-16 07:07:23,375 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 1
+2025-06-16 07:07:23,426 - INFO - Quiz created successfully with ID: 4
+2025-06-16 07:07:23,426 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:24,313 - INFO - Question created successfully with ID: 14
+2025-06-16 07:07:24,700 - INFO - Question created successfully with ID: 15
+2025-06-16 07:07:25,080 - INFO - Question created successfully with ID: 16
+2025-06-16 07:07:25,461 - INFO - Question created successfully with ID: 17
+2025-06-16 07:07:26,047 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 1
+2025-06-16 07:07:26,091 - INFO - Quiz created successfully with ID: 5
+2025-06-16 07:07:26,092 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:26,978 - INFO - Question created successfully with ID: 18
+2025-06-16 07:07:27,360 - INFO - Question created successfully with ID: 19
+2025-06-16 07:07:27,736 - INFO - Question created successfully with ID: 20
+2025-06-16 07:07:28,114 - INFO - Question created successfully with ID: 21
+2025-06-16 07:07:28,512 - INFO - Question created successfully with ID: 22
+2025-06-16 07:07:29,600 - INFO - Creating collection: Lập trình Web
+2025-06-16 07:07:29,633 - INFO - Collection created successfully with ID: 2
+2025-06-16 07:07:29,634 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:30,213 - INFO - Creating quiz: HTML cơ bản for collection ID: 2
+2025-06-16 07:07:30,335 - INFO - Quiz created successfully with ID: 6
+2025-06-16 07:07:30,336 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:31,211 - INFO - Question created successfully with ID: 23
+2025-06-16 07:07:31,589 - INFO - Question created successfully with ID: 24
+2025-06-16 07:07:31,954 - INFO - Question created successfully with ID: 25
+2025-06-16 07:07:32,328 - INFO - Question created successfully with ID: 26
+2025-06-16 07:07:32,909 - INFO - Creating quiz: CSS nâng cao for collection ID: 2
+2025-06-16 07:07:32,949 - INFO - Quiz created successfully with ID: 7
+2025-06-16 07:07:32,950 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:33,822 - INFO - Question created successfully with ID: 27
+2025-06-16 07:07:34,197 - INFO - Question created successfully with ID: 28
+2025-06-16 07:07:34,569 - INFO - Question created successfully with ID: 29
+2025-06-16 07:07:34,937 - INFO - Question created successfully with ID: 30
+2025-06-16 07:07:35,305 - INFO - Question created successfully with ID: 31
+2025-06-16 07:07:35,886 - INFO - Creating quiz: JavaScript DOM for collection ID: 2
+2025-06-16 07:07:35,934 - INFO - Quiz created successfully with ID: 8
+2025-06-16 07:07:35,934 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:36,808 - INFO - Question created successfully with ID: 32
+2025-06-16 07:07:37,185 - INFO - Question created successfully with ID: 33
+2025-06-16 07:07:37,555 - INFO - Question created successfully with ID: 34
+2025-06-16 07:07:37,929 - INFO - Question created successfully with ID: 35
+2025-06-16 07:07:38,304 - INFO - Question created successfully with ID: 36
+2025-06-16 07:07:38,876 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 2
+2025-06-16 07:07:38,919 - INFO - Quiz created successfully with ID: 9
+2025-06-16 07:07:38,919 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:39,801 - INFO - Question created successfully with ID: 37
+2025-06-16 07:07:40,176 - INFO - Question created successfully with ID: 38
+2025-06-16 07:07:40,543 - INFO - Question created successfully with ID: 39
+2025-06-16 07:07:40,915 - INFO - Question created successfully with ID: 40
+2025-06-16 07:07:41,281 - INFO - Question created successfully with ID: 41
+2025-06-16 07:07:41,853 - INFO - Creating quiz: RESTful API với Express for collection ID: 2
+2025-06-16 07:07:41,891 - INFO - Quiz created successfully with ID: 10
+2025-06-16 07:07:41,892 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:42,765 - INFO - Question created successfully with ID: 42
+2025-06-16 07:07:43,143 - INFO - Question created successfully with ID: 43
+2025-06-16 07:07:43,514 - INFO - Question created successfully with ID: 44
+2025-06-16 07:07:43,891 - INFO - Question created successfully with ID: 45
+2025-06-16 07:07:44,968 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-16 07:07:45,001 - INFO - Collection created successfully with ID: 3
+2025-06-16 07:07:45,002 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:45,573 - INFO - Creating quiz: Danh sách liên kết for collection ID: 3
+2025-06-16 07:07:45,605 - INFO - Quiz created successfully with ID: 11
+2025-06-16 07:07:45,606 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:46,481 - INFO - Question created successfully with ID: 46
+2025-06-16 07:07:46,850 - INFO - Question created successfully with ID: 47
+2025-06-16 07:07:47,215 - INFO - Question created successfully with ID: 48
+2025-06-16 07:07:47,585 - INFO - Question created successfully with ID: 49
+2025-06-16 07:07:47,953 - INFO - Question created successfully with ID: 50
+2025-06-16 07:07:48,529 - INFO - Creating quiz: Cây nhị phân for collection ID: 3
+2025-06-16 07:07:48,567 - INFO - Quiz created successfully with ID: 12
+2025-06-16 07:07:48,568 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:49,443 - INFO - Question created successfully with ID: 51
+2025-06-16 07:07:49,818 - INFO - Question created successfully with ID: 52
+2025-06-16 07:07:50,182 - INFO - Question created successfully with ID: 53
+2025-06-16 07:07:50,556 - INFO - Question created successfully with ID: 54
+2025-06-16 07:07:51,128 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 3
+2025-06-16 07:07:51,165 - INFO - Quiz created successfully with ID: 13
+2025-06-16 07:07:51,165 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:52,087 - INFO - Question created successfully with ID: 55
+2025-06-16 07:07:52,466 - INFO - Question created successfully with ID: 56
+2025-06-16 07:07:52,837 - INFO - Question created successfully with ID: 57
+2025-06-16 07:07:53,201 - INFO - Question created successfully with ID: 58
+2025-06-16 07:07:53,577 - INFO - Question created successfully with ID: 59
+2025-06-16 07:07:54,148 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 3
+2025-06-16 07:07:54,185 - INFO - Quiz created successfully with ID: 14
+2025-06-16 07:07:54,186 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:55,056 - INFO - Question created successfully with ID: 60
+2025-06-16 07:07:55,423 - INFO - Question created successfully with ID: 61
+2025-06-16 07:07:55,791 - INFO - Question created successfully with ID: 62
+2025-06-16 07:07:56,376 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 3
+2025-06-16 07:07:56,420 - INFO - Quiz created successfully with ID: 15
+2025-06-16 07:07:56,421 - INFO - State saved to created_data_state.json
+2025-06-16 07:07:57,299 - INFO - Question created successfully with ID: 63
+2025-06-16 07:07:57,667 - INFO - Question created successfully with ID: 64
+2025-06-16 07:07:58,038 - INFO - Question created successfully with ID: 65
+2025-06-16 07:07:58,407 - INFO - Question created successfully with ID: 66
+2025-06-16 07:07:59,408 - INFO - Data processing completed
+2025-06-16 07:07:59,408 - INFO - Complete test environment setup successfully!
+2025-06-16 09:13:45,861 - INFO - Loading existing state from created_data_state.json
+2025-06-16 09:13:45,862 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 1, 'quizzes': {'Cơ bản về Widget': {'id': 1, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 2, 'questions': {}}, 'Điều hướng màn hình': {'id': 3, 'questions': {}}, 'Thiết kế Material Design': {'id': 4, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 5, 'questions': {}}}}, 'Lập trình Web': {'id': 2, 'quizzes': {'HTML cơ bản': {'id': 6, 'questions': {}}, 'CSS nâng cao': {'id': 7, 'questions': {}}, 'JavaScript DOM': {'id': 8, 'questions': {}}, 'Xây dựng SPA với React': {'id': 9, 'questions': {}}, 'RESTful API với Express': {'id': 10, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 3, 'quizzes': {'Danh sách liên kết': {'id': 11, 'questions': {}}, 'Cây nhị phân': {'id': 12, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 13, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 14, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 15, 'questions': {}}}}}}
+2025-06-16 09:13:45,862 - INFO - Loading existing state from created_users_state.json
+2025-06-16 09:13:45,862 - INFO - Loaded state: users created = 30
+2025-06-16 09:13:45,893 - INFO - Found 8 avatar images in images/users
+2025-06-16 09:13:45,893 - INFO - Setting up complete test environment...
+2025-06-16 09:13:45,893 - INFO - Creating test users...
+2025-06-16 09:13:45,893 - INFO - Deleting all existing users...
+2025-06-16 09:13:45,943 - ERROR - Failed to fetch users: 401
+2025-06-16 09:13:45,944 - INFO - State saved to created_users_state.json
+2025-06-16 09:13:45,944 - INFO - Deleted 0 users successfully
+2025-06-16 09:13:45,944 - INFO - Creating 30 fake users...
+2025-06-16 09:13:45,948 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:13:45,948 - INFO - Creating user: sherrirodriguez0 (sherrirodriguez0@nolan.com)
+2025-06-16 09:13:46,010 - ERROR - Failed to create user: 401
+2025-06-16 09:13:46,010 - ERROR - Response: 
+2025-06-16 09:13:46,511 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:13:46,511 - INFO - Creating user: jasonwilson1 (jasonwilson1@ferguson.com)
+2025-06-16 09:13:46,594 - ERROR - Failed to create user: 401
+2025-06-16 09:13:46,594 - ERROR - Response: 
+2025-06-16 09:13:47,095 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:13:47,095 - INFO - Creating user: jasonwaters2 (jasonwaters2@bryant-brown.info)
+2025-06-16 09:13:47,153 - ERROR - Failed to create user: 401
+2025-06-16 09:13:47,153 - ERROR - Response: 
+2025-06-16 09:13:47,654 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:13:47,654 - INFO - Creating user: ryanschneider3 (ryanschneider3@kerr-lutz.net)
+2025-06-16 09:13:47,668 - ERROR - Failed to create user: 401
+2025-06-16 09:13:47,668 - ERROR - Response: 
+2025-06-16 09:13:48,169 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:13:48,169 - INFO - Creating user: andrewferguson4 (andrewferguson4@riley.org)
+2025-06-16 09:13:48,262 - ERROR - Failed to create user: 401
+2025-06-16 09:13:48,263 - ERROR - Response: 
+2025-06-16 09:13:48,764 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:13:48,764 - INFO - Creating user: juliegrant5 (juliegrant5@wong.com)
+2025-06-16 09:13:48,812 - ERROR - Failed to create user: 401
+2025-06-16 09:13:48,812 - ERROR - Response: 
+2025-06-16 09:13:49,314 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 09:13:49,314 - INFO - Creating user: kellybarnes6 (kellybarnes6@patrick.com)
+2025-06-16 09:13:49,362 - ERROR - Failed to create user: 401
+2025-06-16 09:13:49,363 - ERROR - Response: 
+2025-06-16 09:13:49,864 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 09:13:49,864 - INFO - Creating user: stevenwilliams7 (stevenwilliams7@reyes.com)
+2025-06-16 09:13:49,912 - ERROR - Failed to create user: 401
+2025-06-16 09:13:49,912 - ERROR - Response: 
+2025-06-16 09:13:50,413 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:13:50,413 - INFO - Creating user: nathanielharris8 (nathanielharris8@wallace.com)
+2025-06-16 09:13:50,464 - ERROR - Failed to create user: 401
+2025-06-16 09:13:50,464 - ERROR - Response: 
+2025-06-16 09:13:50,965 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:13:50,965 - INFO - Creating user: carolynfleming9 (carolynfleming9@spence.com)
+2025-06-16 09:13:50,979 - ERROR - Failed to create user: 401
+2025-06-16 09:13:50,979 - ERROR - Response: 
+2025-06-16 09:13:51,480 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:13:51,480 - INFO - Creating user: richarddavis10 (richarddavis10@craig.org)
+2025-06-16 09:13:51,496 - ERROR - Failed to create user: 401
+2025-06-16 09:13:51,496 - ERROR - Response: 
+2025-06-16 09:13:51,997 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:13:51,997 - INFO - Creating user: josesullivan11 (josesullivan11@hopkins.com)
+2025-06-16 09:13:52,054 - ERROR - Failed to create user: 401
+2025-06-16 09:13:52,054 - ERROR - Response: 
+2025-06-16 09:13:52,556 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:13:52,556 - INFO - Creating user: amyking12 (amyking12@sanchez-zhang.com)
+2025-06-16 09:13:52,570 - ERROR - Failed to create user: 401
+2025-06-16 09:13:52,570 - ERROR - Response: 
+2025-06-16 09:13:53,071 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:13:53,071 - INFO - Creating user: dennisdavidson13 (dennisdavidson13@case-burch.biz)
+2025-06-16 09:13:53,086 - ERROR - Failed to create user: 401
+2025-06-16 09:13:53,086 - ERROR - Response: 
+2025-06-16 09:13:53,588 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 09:13:53,588 - INFO - Creating user: daisygarcia14 (daisygarcia14@smith-lawson.biz)
+2025-06-16 09:13:53,604 - ERROR - Failed to create user: 401
+2025-06-16 09:13:53,604 - ERROR - Response: 
+2025-06-16 09:13:54,106 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 09:13:54,106 - INFO - Creating user: joshualowe15 (joshualowe15@adams.com)
+2025-06-16 09:13:54,120 - ERROR - Failed to create user: 401
+2025-06-16 09:13:54,120 - ERROR - Response: 
+2025-06-16 09:13:54,622 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:13:54,622 - INFO - Creating user: kevinjohnson16 (kevinjohnson16@meyers.com)
+2025-06-16 09:13:54,637 - ERROR - Failed to create user: 401
+2025-06-16 09:13:54,637 - ERROR - Response: 
+2025-06-16 09:13:55,139 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:13:55,139 - INFO - Creating user: jamieadams17 (jamieadams17@davis-mccarthy.com)
+2025-06-16 09:13:55,263 - ERROR - Failed to create user: 401
+2025-06-16 09:13:55,264 - ERROR - Response: 
+2025-06-16 09:13:55,765 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:13:55,765 - INFO - Creating user: kristenmartinez18 (kristenmartinez18@edwards-mccoy.org)
+2025-06-16 09:13:55,779 - ERROR - Failed to create user: 401
+2025-06-16 09:13:55,779 - ERROR - Response: 
+2025-06-16 09:13:56,280 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:13:56,280 - INFO - Creating user: debrawhite19 (debrawhite19@huber.com)
+2025-06-16 09:13:56,329 - ERROR - Failed to create user: 401
+2025-06-16 09:13:56,329 - ERROR - Response: 
+2025-06-16 09:13:56,831 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:13:56,831 - INFO - Creating user: tammypena20 (tammypena20@morales.com)
+2025-06-16 09:13:56,889 - ERROR - Failed to create user: 401
+2025-06-16 09:13:56,889 - ERROR - Response: 
+2025-06-16 09:13:57,391 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:13:57,391 - INFO - Creating user: ambermorris21 (ambermorris21@snyder.com)
+2025-06-16 09:13:57,404 - ERROR - Failed to create user: 401
+2025-06-16 09:13:57,405 - ERROR - Response: 
+2025-06-16 09:13:57,906 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 09:13:57,906 - INFO - Creating user: ashleygibson22 (ashleygibson22@jackson.net)
+2025-06-16 09:13:57,921 - ERROR - Failed to create user: 401
+2025-06-16 09:13:57,921 - ERROR - Response: 
+2025-06-16 09:13:58,422 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 09:13:58,422 - INFO - Creating user: stephenmoreno23 (stephenmoreno23@soto.com)
+2025-06-16 09:13:58,472 - ERROR - Failed to create user: 401
+2025-06-16 09:13:58,472 - ERROR - Response: 
+2025-06-16 09:13:58,974 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:13:58,974 - INFO - Creating user: jasonsloan24 (jasonsloan24@carter.com)
+2025-06-16 09:13:58,987 - ERROR - Failed to create user: 401
+2025-06-16 09:13:58,987 - ERROR - Response: 
+2025-06-16 09:13:59,489 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:13:59,489 - INFO - Creating user: jeffreyduncan25 (jeffreyduncan25@avery.org)
+2025-06-16 09:13:59,502 - ERROR - Failed to create user: 401
+2025-06-16 09:13:59,502 - ERROR - Response: 
+2025-06-16 09:14:00,003 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:14:00,003 - INFO - Creating user: maryblack26 (maryblack26@allen-bates.org)
+2025-06-16 09:14:00,017 - ERROR - Failed to create user: 401
+2025-06-16 09:14:00,017 - ERROR - Response: 
+2025-06-16 09:14:00,519 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:14:00,519 - INFO - Creating user: katelynstewart27 (katelynstewart27@powell.net)
+2025-06-16 09:14:00,533 - ERROR - Failed to create user: 401
+2025-06-16 09:14:00,533 - ERROR - Response: 
+2025-06-16 09:14:01,035 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:14:01,035 - INFO - Creating user: jacksontorres28 (jacksontorres28@moran.net)
+2025-06-16 09:14:01,050 - ERROR - Failed to create user: 401
+2025-06-16 09:14:01,050 - ERROR - Response: 
+2025-06-16 09:14:01,551 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:14:01,551 - INFO - Creating user: nathangreene29 (nathangreene29@williams.com)
+2025-06-16 09:14:01,565 - ERROR - Failed to create user: 401
+2025-06-16 09:14:01,565 - ERROR - Response: 
+2025-06-16 09:14:02,066 - INFO - Successfully created 0 users out of 30 attempted
+2025-06-16 09:14:02,066 - ERROR - Failed to create users
+2025-06-16 09:14:18,616 - INFO - Loading existing state from created_data_state.json
+2025-06-16 09:14:18,616 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 1, 'quizzes': {'Cơ bản về Widget': {'id': 1, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 2, 'questions': {}}, 'Điều hướng màn hình': {'id': 3, 'questions': {}}, 'Thiết kế Material Design': {'id': 4, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 5, 'questions': {}}}}, 'Lập trình Web': {'id': 2, 'quizzes': {'HTML cơ bản': {'id': 6, 'questions': {}}, 'CSS nâng cao': {'id': 7, 'questions': {}}, 'JavaScript DOM': {'id': 8, 'questions': {}}, 'Xây dựng SPA với React': {'id': 9, 'questions': {}}, 'RESTful API với Express': {'id': 10, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 3, 'quizzes': {'Danh sách liên kết': {'id': 11, 'questions': {}}, 'Cây nhị phân': {'id': 12, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 13, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 14, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 15, 'questions': {}}}}}}
+2025-06-16 09:14:18,616 - INFO - Loading existing state from created_users_state.json
+2025-06-16 09:14:18,617 - INFO - Loaded state: users created = 0
+2025-06-16 09:14:18,646 - INFO - Found 8 avatar images in images/users
+2025-06-16 09:14:18,646 - INFO - Setting up complete test environment...
+2025-06-16 09:14:18,646 - INFO - Creating test users...
+2025-06-16 09:14:18,646 - INFO - Deleting all existing users...
+2025-06-16 09:14:18,663 - ERROR - Failed to fetch users: 401
+2025-06-16 09:14:18,664 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:18,664 - INFO - Deleted 0 users successfully
+2025-06-16 09:14:18,664 - INFO - Creating 30 fake users...
+2025-06-16 09:14:18,666 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:14:18,666 - INFO - Creating user: deniseklein0 (deniseklein0@edwards-brandt.info)
+2025-06-16 09:14:18,680 - ERROR - Failed to create user: 401
+2025-06-16 09:14:18,680 - ERROR - Response: 
+2025-06-16 09:14:19,182 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:14:19,182 - INFO - Creating user: davidwright1 (davidwright1@stevens.net)
+2025-06-16 09:14:19,196 - ERROR - Failed to create user: 401
+2025-06-16 09:14:19,196 - ERROR - Response: 
+2025-06-16 09:14:19,698 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:14:19,698 - INFO - Creating user: johncannon2 (johncannon2@silva.com)
+2025-06-16 09:14:19,748 - ERROR - Failed to create user: 401
+2025-06-16 09:14:19,748 - ERROR - Response: 
+2025-06-16 09:14:20,250 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:14:20,250 - INFO - Creating user: darleneaguilar3 (darleneaguilar3@jackson-mccormick.biz)
+2025-06-16 09:14:20,264 - ERROR - Failed to create user: 401
+2025-06-16 09:14:20,264 - ERROR - Response: 
+2025-06-16 09:14:20,765 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:14:20,765 - INFO - Creating user: frankday4 (frankday4@norman-duncan.com)
+2025-06-16 09:14:20,779 - ERROR - Failed to create user: 401
+2025-06-16 09:14:20,779 - ERROR - Response: 
+2025-06-16 09:14:21,280 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:14:21,280 - INFO - Creating user: brandonjacobs5 (brandonjacobs5@davis.com)
+2025-06-16 09:14:21,294 - ERROR - Failed to create user: 401
+2025-06-16 09:14:21,294 - ERROR - Response: 
+2025-06-16 09:14:21,795 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 09:14:21,796 - INFO - Creating user: lisaconley6 (lisaconley6@jackson-dixon.com)
+2025-06-16 09:14:21,810 - ERROR - Failed to create user: 401
+2025-06-16 09:14:21,810 - ERROR - Response: 
+2025-06-16 09:14:22,312 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 09:14:22,312 - INFO - Creating user: timothythomas7 (timothythomas7@smith.net)
+2025-06-16 09:14:22,325 - ERROR - Failed to create user: 401
+2025-06-16 09:14:22,325 - ERROR - Response: 
+2025-06-16 09:14:22,826 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:14:22,826 - INFO - Creating user: anthonyknapp8 (anthonyknapp8@perry.biz)
+2025-06-16 09:14:22,841 - ERROR - Failed to create user: 401
+2025-06-16 09:14:22,841 - ERROR - Response: 
+2025-06-16 09:14:23,343 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:14:23,343 - INFO - Creating user: mariahart9 (mariahart9@glover.com)
+2025-06-16 09:14:23,358 - ERROR - Failed to create user: 401
+2025-06-16 09:14:23,358 - ERROR - Response: 
+2025-06-16 09:14:23,860 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:14:23,860 - INFO - Creating user: matthewhaney10 (matthewhaney10@miller-wheeler.com)
+2025-06-16 09:14:23,875 - ERROR - Failed to create user: 401
+2025-06-16 09:14:23,875 - ERROR - Response: 
+2025-06-16 09:14:24,376 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:14:24,376 - INFO - Creating user: scottclark11 (scottclark11@long.com)
+2025-06-16 09:14:24,391 - ERROR - Failed to create user: 401
+2025-06-16 09:14:24,391 - ERROR - Response: 
+2025-06-16 09:14:24,892 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:14:24,892 - INFO - Creating user: patrickmitchell12 (patrickmitchell12@scott.org)
+2025-06-16 09:14:24,941 - ERROR - Failed to create user: 401
+2025-06-16 09:14:24,941 - ERROR - Response: 
+2025-06-16 09:14:25,443 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:14:25,443 - INFO - Creating user: scottclark13 (scottclark13@smith-jones.com)
+2025-06-16 09:14:25,492 - ERROR - Failed to create user: 401
+2025-06-16 09:14:25,492 - ERROR - Response: 
+2025-06-16 09:14:25,994 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 09:14:25,994 - INFO - Creating user: frankschmidt14 (frankschmidt14@thompson-english.net)
+2025-06-16 09:14:26,008 - ERROR - Failed to create user: 401
+2025-06-16 09:14:26,008 - ERROR - Response: 
+2025-06-16 09:14:26,510 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 09:14:26,510 - INFO - Creating user: jonathanpatterson15 (jonathanpatterson15@johnson.com)
+2025-06-16 09:14:26,610 - ERROR - Failed to create user: 401
+2025-06-16 09:14:26,610 - ERROR - Response: 
+2025-06-16 09:14:27,111 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:14:27,111 - INFO - Creating user: miguelcastaneda16 (miguelcastaneda16@monroe.com)
+2025-06-16 09:14:27,125 - ERROR - Failed to create user: 401
+2025-06-16 09:14:27,125 - ERROR - Response: 
+2025-06-16 09:14:27,627 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:14:27,627 - INFO - Creating user: michelerussell17 (michelerussell17@coffey-sanchez.com)
+2025-06-16 09:14:27,641 - ERROR - Failed to create user: 401
+2025-06-16 09:14:27,642 - ERROR - Response: 
+2025-06-16 09:14:28,143 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:14:28,143 - INFO - Creating user: rogerpacheco18 (rogerpacheco18@collier.com)
+2025-06-16 09:14:28,359 - INFO - User created successfully with ID: 31
+2025-06-16 09:14:28,359 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:28,860 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:14:28,860 - INFO - Creating user: adamperkins19 (adamperkins19@edwards.com)
+2025-06-16 09:14:28,980 - INFO - User created successfully with ID: 32
+2025-06-16 09:14:28,981 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:29,482 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:14:29,482 - INFO - Creating user: karenfields20 (karenfields20@jones-phillips.com)
+2025-06-16 09:14:29,600 - INFO - User created successfully with ID: 33
+2025-06-16 09:14:29,600 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:30,102 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:14:30,102 - INFO - Creating user: rebekahpham21 (rebekahpham21@thompson-sanchez.org)
+2025-06-16 09:14:30,217 - INFO - User created successfully with ID: 34
+2025-06-16 09:14:30,217 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:30,718 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 09:14:30,719 - INFO - Creating user: dwaynecollins22 (dwaynecollins22@erickson.com)
+2025-06-16 09:14:30,833 - INFO - User created successfully with ID: 35
+2025-06-16 09:14:30,833 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:31,335 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 09:14:31,335 - INFO - Creating user: nicolemcdonald23 (nicolemcdonald23@johnson.org)
+2025-06-16 09:14:31,451 - INFO - User created successfully with ID: 36
+2025-06-16 09:14:31,452 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:31,953 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 09:14:31,953 - INFO - Creating user: randallsandoval24 (randallsandoval24@jefferson.info)
+2025-06-16 09:14:32,067 - INFO - User created successfully with ID: 37
+2025-06-16 09:14:32,068 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:32,569 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 09:14:32,570 - INFO - Creating user: brittanywaller25 (brittanywaller25@smith.net)
+2025-06-16 09:14:32,682 - INFO - User created successfully with ID: 38
+2025-06-16 09:14:32,683 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:33,184 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 09:14:33,185 - INFO - Creating user: joshuanunez26 (joshuanunez26@wilson-baker.com)
+2025-06-16 09:14:33,299 - INFO - User created successfully with ID: 39
+2025-06-16 09:14:33,300 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:33,801 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 09:14:33,801 - INFO - Creating user: angelaallen27 (angelaallen27@miller.com)
+2025-06-16 09:14:33,915 - INFO - User created successfully with ID: 40
+2025-06-16 09:14:33,916 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:34,417 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 09:14:34,417 - INFO - Creating user: juanjackson28 (juanjackson28@fritz-evans.com)
+2025-06-16 09:14:34,530 - INFO - User created successfully with ID: 41
+2025-06-16 09:14:34,530 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:35,032 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 09:14:35,032 - INFO - Creating user: claudiatorres29 (claudiatorres29@vaughn.org)
+2025-06-16 09:14:35,147 - INFO - User created successfully with ID: 42
+2025-06-16 09:14:35,148 - INFO - State saved to created_users_state.json
+2025-06-16 09:14:35,648 - INFO - Successfully created 12 users out of 30 attempted
+2025-06-16 09:14:35,649 - INFO - Created 12 users successfully
+2025-06-16 09:14:35,649 - INFO - Creating quiz data...
+2025-06-16 09:14:35,649 - INFO - Deleting all existing data...
+2025-06-16 09:14:36,300 - INFO - Deleted all questions for quiz ID: 1
+2025-06-16 09:14:36,378 - INFO - Deleted quiz with ID: 1
+2025-06-16 09:14:36,662 - INFO - Deleted all questions for quiz ID: 2
+2025-06-16 09:14:36,701 - INFO - Deleted quiz with ID: 2
+2025-06-16 09:14:36,965 - INFO - Deleted all questions for quiz ID: 3
+2025-06-16 09:14:37,000 - INFO - Deleted quiz with ID: 3
+2025-06-16 09:14:37,262 - INFO - Deleted all questions for quiz ID: 4
+2025-06-16 09:14:37,297 - INFO - Deleted quiz with ID: 4
+2025-06-16 09:14:37,568 - INFO - Deleted all questions for quiz ID: 5
+2025-06-16 09:14:37,602 - INFO - Deleted quiz with ID: 5
+2025-06-16 09:14:37,865 - INFO - Deleted all questions for quiz ID: 6
+2025-06-16 09:14:37,902 - INFO - Deleted quiz with ID: 6
+2025-06-16 09:14:38,171 - INFO - Deleted all questions for quiz ID: 7
+2025-06-16 09:14:38,207 - INFO - Deleted quiz with ID: 7
+2025-06-16 09:14:38,473 - INFO - Deleted all questions for quiz ID: 8
+2025-06-16 09:14:38,507 - INFO - Deleted quiz with ID: 8
+2025-06-16 09:14:38,767 - INFO - Deleted all questions for quiz ID: 9
+2025-06-16 09:14:38,800 - INFO - Deleted quiz with ID: 9
+2025-06-16 09:14:39,058 - INFO - Deleted all questions for quiz ID: 10
+2025-06-16 09:14:39,088 - INFO - Deleted quiz with ID: 10
+2025-06-16 09:14:39,347 - INFO - Deleted all questions for quiz ID: 11
+2025-06-16 09:14:39,381 - INFO - Deleted quiz with ID: 11
+2025-06-16 09:14:39,635 - INFO - Deleted all questions for quiz ID: 12
+2025-06-16 09:14:39,671 - INFO - Deleted quiz with ID: 12
+2025-06-16 09:14:39,929 - INFO - Deleted all questions for quiz ID: 13
+2025-06-16 09:14:39,960 - INFO - Deleted quiz with ID: 13
+2025-06-16 09:14:40,208 - INFO - Deleted all questions for quiz ID: 14
+2025-06-16 09:14:40,240 - INFO - Deleted quiz with ID: 14
+2025-06-16 09:14:40,523 - INFO - Deleted all questions for quiz ID: 15
+2025-06-16 09:14:40,554 - INFO - Deleted quiz with ID: 15
+2025-06-16 09:14:40,853 - INFO - Deleted collection with ID: 1
+2025-06-16 09:14:41,404 - INFO - Deleted collection with ID: 2
+2025-06-16 09:14:41,956 - INFO - Deleted collection with ID: 3
+2025-06-16 09:14:42,457 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:42,457 - INFO - All data deleted successfully
+2025-06-16 09:14:42,581 - INFO - Creating collection: Lập trình Mobile
+2025-06-16 09:14:42,671 - INFO - Collection created successfully with ID: 4
+2025-06-16 09:14:42,671 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:43,276 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 4
+2025-06-16 09:14:43,317 - INFO - Quiz created successfully with ID: 16
+2025-06-16 09:14:43,318 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:44,373 - INFO - Question created successfully with ID: 67
+2025-06-16 09:14:44,750 - INFO - Question created successfully with ID: 68
+2025-06-16 09:14:45,120 - INFO - Question created successfully with ID: 69
+2025-06-16 09:14:45,503 - INFO - Question created successfully with ID: 70
+2025-06-16 09:14:46,105 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 4
+2025-06-16 09:14:46,140 - INFO - Quiz created successfully with ID: 17
+2025-06-16 09:14:46,141 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:47,012 - INFO - Question created successfully with ID: 71
+2025-06-16 09:14:47,383 - INFO - Question created successfully with ID: 72
+2025-06-16 09:14:47,760 - INFO - Question created successfully with ID: 73
+2025-06-16 09:14:48,122 - INFO - Question created successfully with ID: 74
+2025-06-16 09:14:48,491 - INFO - Question created successfully with ID: 75
+2025-06-16 09:14:49,092 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 4
+2025-06-16 09:14:49,135 - INFO - Quiz created successfully with ID: 18
+2025-06-16 09:14:49,136 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:50,006 - INFO - Question created successfully with ID: 76
+2025-06-16 09:14:50,375 - INFO - Question created successfully with ID: 77
+2025-06-16 09:14:50,744 - INFO - Question created successfully with ID: 78
+2025-06-16 09:14:51,116 - INFO - Question created successfully with ID: 79
+2025-06-16 09:14:51,710 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 4
+2025-06-16 09:14:51,753 - INFO - Quiz created successfully with ID: 19
+2025-06-16 09:14:51,754 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:52,632 - INFO - Question created successfully with ID: 80
+2025-06-16 09:14:53,001 - INFO - Question created successfully with ID: 81
+2025-06-16 09:14:53,369 - INFO - Question created successfully with ID: 82
+2025-06-16 09:14:53,733 - INFO - Question created successfully with ID: 83
+2025-06-16 09:14:54,324 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 4
+2025-06-16 09:14:54,360 - INFO - Quiz created successfully with ID: 20
+2025-06-16 09:14:54,360 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:55,235 - INFO - Question created successfully with ID: 84
+2025-06-16 09:14:55,605 - INFO - Question created successfully with ID: 85
+2025-06-16 09:14:55,972 - INFO - Question created successfully with ID: 86
+2025-06-16 09:14:56,337 - INFO - Question created successfully with ID: 87
+2025-06-16 09:14:56,708 - INFO - Question created successfully with ID: 88
+2025-06-16 09:14:57,803 - INFO - Creating collection: Lập trình Web
+2025-06-16 09:14:57,834 - INFO - Collection created successfully with ID: 5
+2025-06-16 09:14:57,834 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:58,420 - INFO - Creating quiz: HTML cơ bản for collection ID: 5
+2025-06-16 09:14:58,464 - INFO - Quiz created successfully with ID: 21
+2025-06-16 09:14:58,464 - INFO - State saved to created_data_state.json
+2025-06-16 09:14:59,331 - INFO - Question created successfully with ID: 89
+2025-06-16 09:14:59,697 - INFO - Question created successfully with ID: 90
+2025-06-16 09:15:00,057 - INFO - Question created successfully with ID: 91
+2025-06-16 09:15:00,422 - INFO - Question created successfully with ID: 92
+2025-06-16 09:15:01,006 - INFO - Creating quiz: CSS nâng cao for collection ID: 5
+2025-06-16 09:15:01,039 - INFO - Quiz created successfully with ID: 22
+2025-06-16 09:15:01,040 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:01,912 - INFO - Question created successfully with ID: 93
+2025-06-16 09:15:02,278 - INFO - Question created successfully with ID: 94
+2025-06-16 09:15:02,652 - INFO - Question created successfully with ID: 95
+2025-06-16 09:15:03,013 - INFO - Question created successfully with ID: 96
+2025-06-16 09:15:03,378 - INFO - Question created successfully with ID: 97
+2025-06-16 09:15:03,966 - INFO - Creating quiz: JavaScript DOM for collection ID: 5
+2025-06-16 09:15:04,002 - INFO - Quiz created successfully with ID: 23
+2025-06-16 09:15:04,003 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:04,870 - INFO - Question created successfully with ID: 98
+2025-06-16 09:15:05,234 - INFO - Question created successfully with ID: 99
+2025-06-16 09:15:05,594 - INFO - Question created successfully with ID: 100
+2025-06-16 09:15:05,955 - INFO - Question created successfully with ID: 101
+2025-06-16 09:15:06,324 - INFO - Question created successfully with ID: 102
+2025-06-16 09:15:06,915 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 5
+2025-06-16 09:15:06,954 - INFO - Quiz created successfully with ID: 24
+2025-06-16 09:15:06,954 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:07,825 - INFO - Question created successfully with ID: 103
+2025-06-16 09:15:08,194 - INFO - Question created successfully with ID: 104
+2025-06-16 09:15:08,553 - INFO - Question created successfully with ID: 105
+2025-06-16 09:15:08,918 - INFO - Question created successfully with ID: 106
+2025-06-16 09:15:09,277 - INFO - Question created successfully with ID: 107
+2025-06-16 09:15:09,862 - INFO - Creating quiz: RESTful API với Express for collection ID: 5
+2025-06-16 09:15:09,897 - INFO - Quiz created successfully with ID: 25
+2025-06-16 09:15:09,898 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:10,762 - INFO - Question created successfully with ID: 108
+2025-06-16 09:15:11,126 - INFO - Question created successfully with ID: 109
+2025-06-16 09:15:11,486 - INFO - Question created successfully with ID: 110
+2025-06-16 09:15:11,856 - INFO - Question created successfully with ID: 111
+2025-06-16 09:15:12,938 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-16 09:15:12,966 - INFO - Collection created successfully with ID: 6
+2025-06-16 09:15:12,966 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:13,603 - INFO - Creating quiz: Danh sách liên kết for collection ID: 6
+2025-06-16 09:15:13,634 - INFO - Quiz created successfully with ID: 26
+2025-06-16 09:15:13,634 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:14,502 - INFO - Question created successfully with ID: 112
+2025-06-16 09:15:14,864 - INFO - Question created successfully with ID: 113
+2025-06-16 09:15:15,223 - INFO - Question created successfully with ID: 114
+2025-06-16 09:15:15,582 - INFO - Question created successfully with ID: 115
+2025-06-16 09:15:15,943 - INFO - Question created successfully with ID: 116
+2025-06-16 09:15:16,541 - INFO - Creating quiz: Cây nhị phân for collection ID: 6
+2025-06-16 09:15:16,574 - INFO - Quiz created successfully with ID: 27
+2025-06-16 09:15:16,574 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:17,437 - INFO - Question created successfully with ID: 117
+2025-06-16 09:15:17,803 - INFO - Question created successfully with ID: 118
+2025-06-16 09:15:18,160 - INFO - Question created successfully with ID: 119
+2025-06-16 09:15:18,523 - INFO - Question created successfully with ID: 120
+2025-06-16 09:15:19,102 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 6
+2025-06-16 09:15:19,135 - INFO - Quiz created successfully with ID: 28
+2025-06-16 09:15:19,136 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:20,000 - INFO - Question created successfully with ID: 121
+2025-06-16 09:15:20,363 - INFO - Question created successfully with ID: 122
+2025-06-16 09:15:20,724 - INFO - Question created successfully with ID: 123
+2025-06-16 09:15:21,080 - INFO - Question created successfully with ID: 124
+2025-06-16 09:15:21,439 - INFO - Question created successfully with ID: 125
+2025-06-16 09:15:22,020 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 6
+2025-06-16 09:15:22,052 - INFO - Quiz created successfully with ID: 29
+2025-06-16 09:15:22,052 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:22,920 - INFO - Question created successfully with ID: 126
+2025-06-16 09:15:23,276 - INFO - Question created successfully with ID: 127
+2025-06-16 09:15:23,640 - INFO - Question created successfully with ID: 128
+2025-06-16 09:15:24,214 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 6
+2025-06-16 09:15:24,245 - INFO - Quiz created successfully with ID: 30
+2025-06-16 09:15:24,246 - INFO - State saved to created_data_state.json
+2025-06-16 09:15:25,109 - INFO - Question created successfully with ID: 129
+2025-06-16 09:15:25,465 - INFO - Question created successfully with ID: 130
+2025-06-16 09:15:25,827 - INFO - Question created successfully with ID: 131
+2025-06-16 09:15:26,184 - INFO - Question created successfully with ID: 132
+2025-06-16 09:15:27,185 - INFO - Data processing completed
+2025-06-16 09:15:27,185 - INFO - Complete test environment setup successfully!
+2025-06-16 10:41:49,830 - INFO - Loading existing state from created_data_state.json
+2025-06-16 10:41:49,831 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 4, 'quizzes': {'Cơ bản về Widget': {'id': 16, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 17, 'questions': {}}, 'Điều hướng màn hình': {'id': 18, 'questions': {}}, 'Thiết kế Material Design': {'id': 19, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 20, 'questions': {}}}}, 'Lập trình Web': {'id': 5, 'quizzes': {'HTML cơ bản': {'id': 21, 'questions': {}}, 'CSS nâng cao': {'id': 22, 'questions': {}}, 'JavaScript DOM': {'id': 23, 'questions': {}}, 'Xây dựng SPA với React': {'id': 24, 'questions': {}}, 'RESTful API với Express': {'id': 25, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 6, 'quizzes': {'Danh sách liên kết': {'id': 26, 'questions': {}}, 'Cây nhị phân': {'id': 27, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 28, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 29, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 30, 'questions': {}}}}}}
+2025-06-16 10:41:49,831 - INFO - Loading existing state from created_users_state.json
+2025-06-16 10:41:49,831 - INFO - Loaded state: users created = 12
+2025-06-16 10:41:49,864 - INFO - Found 8 avatar images in images/users
+2025-06-16 10:41:49,864 - INFO - Setting up complete test environment...
+2025-06-16 10:41:49,865 - INFO - Creating test users...
+2025-06-16 10:41:49,865 - INFO - Deleting all existing users...
+2025-06-16 10:41:49,917 - ERROR - Failed to fetch users: 401
+2025-06-16 10:41:49,917 - INFO - State saved to created_users_state.json
+2025-06-16 10:41:49,917 - INFO - Deleted 0 users successfully
+2025-06-16 10:41:49,917 - INFO - Creating 30 fake users...
+2025-06-16 10:41:49,922 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 10:41:49,922 - INFO - Creating user: johnnyfields0 (johnnyfields0@villegas-scott.com)
+2025-06-16 10:41:50,019 - ERROR - Failed to create user: 401
+2025-06-16 10:41:50,019 - ERROR - Response: 
+2025-06-16 10:41:50,520 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 10:41:50,520 - INFO - Creating user: jasonlee1 (jasonlee1@foley.com)
+2025-06-16 10:41:50,583 - ERROR - Failed to create user: 401
+2025-06-16 10:41:50,583 - ERROR - Response: 
+2025-06-16 10:41:51,084 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 10:41:51,085 - INFO - Creating user: jerryhooper2 (jerryhooper2@bailey.biz)
+2025-06-16 10:41:51,100 - ERROR - Failed to create user: 401
+2025-06-16 10:41:51,100 - ERROR - Response: 
+2025-06-16 10:41:51,602 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 10:41:51,602 - INFO - Creating user: kellyturner3 (kellyturner3@novak.com)
+2025-06-16 10:41:51,617 - ERROR - Failed to create user: 401
+2025-06-16 10:41:51,617 - ERROR - Response: 
+2025-06-16 10:41:52,118 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 10:41:52,119 - INFO - Creating user: allisonwhitehead4 (allisonwhitehead4@leonard-booker.com)
+2025-06-16 10:41:52,169 - ERROR - Failed to create user: 401
+2025-06-16 10:41:52,169 - ERROR - Response: 
+2025-06-16 10:41:52,670 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 10:41:52,670 - INFO - Creating user: michaelobrien5 (michaelobrien5@howard.com)
+2025-06-16 10:41:52,720 - ERROR - Failed to create user: 401
+2025-06-16 10:41:52,720 - ERROR - Response: 
+2025-06-16 10:41:53,222 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 10:41:53,222 - INFO - Creating user: caitlyngutierrez6 (caitlyngutierrez6@vega.net)
+2025-06-16 10:41:53,273 - ERROR - Failed to create user: 401
+2025-06-16 10:41:53,273 - ERROR - Response: 
+2025-06-16 10:42:11,989 - INFO - Loading existing state from created_data_state.json
+2025-06-16 10:42:11,989 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 4, 'quizzes': {'Cơ bản về Widget': {'id': 16, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 17, 'questions': {}}, 'Điều hướng màn hình': {'id': 18, 'questions': {}}, 'Thiết kế Material Design': {'id': 19, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 20, 'questions': {}}}}, 'Lập trình Web': {'id': 5, 'quizzes': {'HTML cơ bản': {'id': 21, 'questions': {}}, 'CSS nâng cao': {'id': 22, 'questions': {}}, 'JavaScript DOM': {'id': 23, 'questions': {}}, 'Xây dựng SPA với React': {'id': 24, 'questions': {}}, 'RESTful API với Express': {'id': 25, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 6, 'quizzes': {'Danh sách liên kết': {'id': 26, 'questions': {}}, 'Cây nhị phân': {'id': 27, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 28, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 29, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 30, 'questions': {}}}}}}
+2025-06-16 10:42:11,989 - INFO - Loading existing state from created_users_state.json
+2025-06-16 10:42:11,989 - INFO - Loaded state: users created = 0
+2025-06-16 10:42:12,021 - INFO - Found 8 avatar images in images/users
+2025-06-16 10:42:12,021 - INFO - Setting up complete test environment...
+2025-06-16 10:42:12,021 - INFO - Creating test users...
+2025-06-16 10:42:12,021 - INFO - Deleting all existing users...
+2025-06-16 10:42:12,462 - INFO - Deleted user with ID: 1
+2025-06-16 10:42:12,745 - INFO - Deleted user with ID: 2
+2025-06-16 10:42:13,065 - INFO - Deleted user with ID: 3
+2025-06-16 10:42:13,360 - INFO - Deleted user with ID: 4
+2025-06-16 10:42:13,630 - INFO - Deleted user with ID: 5
+2025-06-16 10:42:13,912 - INFO - Deleted user with ID: 6
+2025-06-16 10:42:14,150 - INFO - Deleted user with ID: 7
+2025-06-16 10:42:14,420 - INFO - Deleted user with ID: 8
+2025-06-16 10:42:14,659 - INFO - Deleted user with ID: 9
+2025-06-16 10:42:14,897 - INFO - Deleted user with ID: 10
+2025-06-16 10:42:15,136 - INFO - Deleted user with ID: 11
+2025-06-16 10:42:15,373 - INFO - Deleted user with ID: 12
+2025-06-16 10:42:15,644 - INFO - Deleted user with ID: 13
+2025-06-16 10:42:15,920 - INFO - Deleted user with ID: 14
+2025-06-16 10:42:16,154 - INFO - Deleted user with ID: 15
+2025-06-16 10:42:16,389 - INFO - Deleted user with ID: 16
+2025-06-16 10:42:16,622 - INFO - Deleted user with ID: 17
+2025-06-16 10:42:16,853 - INFO - Deleted user with ID: 18
+2025-06-16 10:42:17,087 - INFO - Deleted user with ID: 19
+2025-06-16 10:42:17,323 - INFO - Deleted user with ID: 20
+2025-06-16 10:42:17,554 - INFO - Deleted user with ID: 21
+2025-06-16 10:42:17,787 - INFO - Deleted user with ID: 22
+2025-06-16 10:42:18,022 - INFO - Deleted user with ID: 23
+2025-06-16 10:42:18,257 - INFO - Deleted user with ID: 24
+2025-06-16 10:42:18,488 - INFO - Deleted user with ID: 25
+2025-06-16 10:42:18,721 - INFO - Deleted user with ID: 26
+2025-06-16 10:42:18,955 - INFO - Deleted user with ID: 27
+2025-06-16 10:42:19,192 - INFO - Deleted user with ID: 28
+2025-06-16 10:42:19,426 - INFO - Deleted user with ID: 29
+2025-06-16 10:42:19,661 - INFO - Deleted user with ID: 30
+2025-06-16 10:42:19,894 - INFO - Deleted user with ID: 31
+2025-06-16 10:42:20,129 - INFO - Deleted user with ID: 32
+2025-06-16 10:42:20,360 - INFO - Deleted user with ID: 33
+2025-06-16 10:42:20,592 - INFO - Deleted user with ID: 34
+2025-06-16 10:42:20,824 - INFO - Deleted user with ID: 35
+2025-06-16 10:42:21,056 - INFO - Deleted user with ID: 36
+2025-06-16 10:42:21,288 - INFO - Deleted user with ID: 37
+2025-06-16 10:42:21,518 - INFO - Deleted user with ID: 38
+2025-06-16 10:42:21,748 - INFO - Deleted user with ID: 39
+2025-06-16 10:42:21,981 - INFO - Deleted user with ID: 40
+2025-06-16 10:42:22,215 - INFO - Deleted user with ID: 41
+2025-06-16 10:42:22,449 - INFO - Deleted user with ID: 42
+2025-06-16 10:42:22,650 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:22,650 - INFO - Deleted 42 users successfully
+2025-06-16 10:42:22,650 - INFO - Creating 30 fake users...
+2025-06-16 10:42:22,653 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 10:42:22,653 - INFO - Creating user: francesking0 (francesking0@vega-owens.org)
+2025-06-16 10:42:22,857 - INFO - User created successfully with ID: 43
+2025-06-16 10:42:22,857 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:23,359 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 10:42:23,359 - INFO - Creating user: jamesanderson1 (jamesanderson1@jackson.net)
+2025-06-16 10:42:23,471 - INFO - User created successfully with ID: 44
+2025-06-16 10:42:23,472 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:23,973 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 10:42:23,973 - INFO - Creating user: jasonriley2 (jasonriley2@ali.com)
+2025-06-16 10:42:24,087 - INFO - User created successfully with ID: 45
+2025-06-16 10:42:24,087 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:24,589 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 10:42:24,589 - INFO - Creating user: annagraham3 (annagraham3@carney.info)
+2025-06-16 10:42:24,707 - INFO - User created successfully with ID: 46
+2025-06-16 10:42:24,707 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:25,209 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 10:42:25,209 - INFO - Creating user: alanwatts4 (alanwatts4@farmer.com)
+2025-06-16 10:42:25,322 - INFO - User created successfully with ID: 47
+2025-06-16 10:42:25,323 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:25,824 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 10:42:25,824 - INFO - Creating user: johnbaird5 (johnbaird5@day-baxter.com)
+2025-06-16 10:42:25,934 - INFO - User created successfully with ID: 48
+2025-06-16 10:42:25,934 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:26,436 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 10:42:26,436 - INFO - Creating user: susanrivera6 (susanrivera6@ramirez.com)
+2025-06-16 10:42:26,550 - INFO - User created successfully with ID: 49
+2025-06-16 10:42:26,551 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:27,052 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 10:42:27,053 - INFO - Creating user: katelynhamilton7 (katelynhamilton7@french-levine.info)
+2025-06-16 10:42:27,166 - INFO - User created successfully with ID: 50
+2025-06-16 10:42:27,167 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:27,668 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 10:42:27,669 - INFO - Creating user: nicoleparsons8 (nicoleparsons8@copeland.com)
+2025-06-16 10:42:27,783 - INFO - User created successfully with ID: 51
+2025-06-16 10:42:27,784 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:28,285 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 10:42:28,285 - INFO - Creating user: rachaelherrera9 (rachaelherrera9@wilson.com)
+2025-06-16 10:42:28,401 - INFO - User created successfully with ID: 52
+2025-06-16 10:42:28,401 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:28,903 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 10:42:28,903 - INFO - Creating user: allisonharrison10 (allisonharrison10@hernandez.biz)
+2025-06-16 10:42:29,010 - INFO - User created successfully with ID: 53
+2025-06-16 10:42:29,011 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:29,512 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 10:42:29,512 - INFO - Creating user: ashleyhobbs11 (ashleyhobbs11@mcbride.org)
+2025-06-16 10:42:29,626 - INFO - User created successfully with ID: 54
+2025-06-16 10:42:29,627 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:30,129 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 10:42:30,129 - INFO - Creating user: teresawilliams12 (teresawilliams12@reilly.com)
+2025-06-16 10:42:30,239 - INFO - User created successfully with ID: 55
+2025-06-16 10:42:30,239 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:30,741 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 10:42:30,741 - INFO - Creating user: tammydavila13 (tammydavila13@mccoy.com)
+2025-06-16 10:42:30,858 - INFO - User created successfully with ID: 56
+2025-06-16 10:42:30,859 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:31,360 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 10:42:31,360 - INFO - Creating user: pauladavid14 (pauladavid14@zavala.org)
+2025-06-16 10:42:31,471 - INFO - User created successfully with ID: 57
+2025-06-16 10:42:31,472 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:31,973 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 10:42:31,973 - INFO - Creating user: spencerbarrera15 (spencerbarrera15@ford.com)
+2025-06-16 10:42:32,089 - INFO - User created successfully with ID: 58
+2025-06-16 10:42:32,090 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:32,591 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 10:42:32,591 - INFO - Creating user: williammahoney16 (williammahoney16@tucker-ballard.com)
+2025-06-16 10:42:32,723 - INFO - User created successfully with ID: 59
+2025-06-16 10:42:32,724 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:33,225 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 10:42:33,226 - INFO - Creating user: thomashowell17 (thomashowell17@carter.com)
+2025-06-16 10:42:33,340 - INFO - User created successfully with ID: 60
+2025-06-16 10:42:33,340 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:33,842 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 10:42:33,842 - INFO - Creating user: davidmcmahon18 (davidmcmahon18@brown.com)
+2025-06-16 10:42:33,952 - INFO - User created successfully with ID: 61
+2025-06-16 10:42:33,952 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:34,454 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 10:42:34,454 - INFO - Creating user: julieanderson19 (julieanderson19@webb-greene.biz)
+2025-06-16 10:42:34,570 - INFO - User created successfully with ID: 62
+2025-06-16 10:42:34,571 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:35,073 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 10:42:35,073 - INFO - Creating user: carriebuchanan20 (carriebuchanan20@russell.com)
+2025-06-16 10:42:35,184 - INFO - User created successfully with ID: 63
+2025-06-16 10:42:35,184 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:35,686 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 10:42:35,686 - INFO - Creating user: nathansmith21 (nathansmith21@bowers-rivera.biz)
+2025-06-16 10:42:35,799 - INFO - User created successfully with ID: 64
+2025-06-16 10:42:35,802 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:36,303 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 10:42:36,303 - INFO - Creating user: ashleyrobinson22 (ashleyrobinson22@nelson.info)
+2025-06-16 10:42:36,414 - INFO - User created successfully with ID: 65
+2025-06-16 10:42:36,415 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:36,916 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 10:42:36,916 - INFO - Creating user: michaelbond23 (michaelbond23@compton.com)
+2025-06-16 10:42:37,026 - INFO - User created successfully with ID: 66
+2025-06-16 10:42:37,027 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:37,528 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 10:42:37,528 - INFO - Creating user: jesseterry24 (jesseterry24@williams-garcia.biz)
+2025-06-16 10:42:37,637 - INFO - User created successfully with ID: 67
+2025-06-16 10:42:37,638 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:38,139 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 10:42:38,140 - INFO - Creating user: rachelmendez25 (rachelmendez25@kent.org)
+2025-06-16 10:42:38,249 - INFO - User created successfully with ID: 68
+2025-06-16 10:42:38,249 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:38,751 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 10:42:38,751 - INFO - Creating user: henryfinley26 (henryfinley26@bray.com)
+2025-06-16 10:42:38,855 - INFO - User created successfully with ID: 69
+2025-06-16 10:42:38,856 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:39,357 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 10:42:39,357 - INFO - Creating user: travissmith27 (travissmith27@rodriguez-byrd.com)
+2025-06-16 10:42:39,463 - INFO - User created successfully with ID: 70
+2025-06-16 10:42:39,464 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:39,965 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 10:42:39,965 - INFO - Creating user: kevindowns28 (kevindowns28@smith.biz)
+2025-06-16 10:42:40,075 - INFO - User created successfully with ID: 71
+2025-06-16 10:42:40,076 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:40,577 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 10:42:40,577 - INFO - Creating user: angelamcguire29 (angelamcguire29@lopez.net)
+2025-06-16 10:42:40,687 - INFO - User created successfully with ID: 72
+2025-06-16 10:42:40,687 - INFO - State saved to created_users_state.json
+2025-06-16 10:42:41,188 - INFO - Successfully created 30 users out of 30 attempted
+2025-06-16 10:42:41,188 - INFO - Created 30 users successfully
+2025-06-16 10:42:41,188 - INFO - Creating quiz data...
+2025-06-16 10:42:41,189 - INFO - Deleting all existing data...
+2025-06-16 10:42:43,443 - INFO - Deleted all questions for quiz ID: 16
+2025-06-16 10:42:43,633 - INFO - Deleted quiz with ID: 16
+2025-06-16 10:42:44,055 - INFO - Deleted all questions for quiz ID: 19
+2025-06-16 10:42:44,104 - INFO - Deleted quiz with ID: 19
+2025-06-16 10:42:44,573 - INFO - Deleted all questions for quiz ID: 20
+2025-06-16 10:42:44,617 - INFO - Deleted quiz with ID: 20
+2025-06-16 10:42:45,135 - INFO - Deleted all questions for quiz ID: 23
+2025-06-16 10:42:45,176 - INFO - Deleted quiz with ID: 23
+2025-06-16 10:42:45,559 - INFO - Deleted all questions for quiz ID: 24
+2025-06-16 10:42:45,600 - INFO - Deleted quiz with ID: 24
+2025-06-16 10:42:45,980 - INFO - Deleted all questions for quiz ID: 27
+2025-06-16 10:42:46,027 - INFO - Deleted quiz with ID: 27
+2025-06-16 10:42:46,419 - INFO - Deleted all questions for quiz ID: 28
+2025-06-16 10:42:46,459 - INFO - Deleted quiz with ID: 28
+2025-06-16 10:42:46,774 - INFO - Deleted all questions for quiz ID: 29
+2025-06-16 10:42:46,830 - INFO - Deleted quiz with ID: 29
+2025-06-16 10:42:47,157 - INFO - Deleted all questions for quiz ID: 30
+2025-06-16 10:42:47,195 - INFO - Deleted quiz with ID: 30
+2025-06-16 10:42:47,455 - INFO - Deleted all questions for quiz ID: 31
+2025-06-16 10:42:47,490 - INFO - Deleted quiz with ID: 31
+2025-06-16 10:42:47,843 - INFO - Deleted collection with ID: 4
+2025-06-16 10:42:48,411 - INFO - Deleted collection with ID: 5
+2025-06-16 10:42:48,977 - INFO - Deleted collection with ID: 6
+2025-06-16 10:42:49,478 - INFO - State saved to created_data_state.json
+2025-06-16 10:42:49,479 - INFO - All data deleted successfully
+2025-06-16 10:42:49,639 - INFO - Creating collection: Lập trình Mobile
+2025-06-16 10:42:49,782 - INFO - Collection created successfully with ID: 7
+2025-06-16 10:42:49,818 - INFO - State saved to created_data_state.json
+2025-06-16 10:42:50,443 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 7
+2025-06-16 10:42:50,520 - INFO - Quiz created successfully with ID: 32
+2025-06-16 10:42:50,520 - INFO - State saved to created_data_state.json
+2025-06-16 10:42:51,475 - INFO - Question created successfully with ID: 135
+2025-06-16 10:42:51,868 - INFO - Question created successfully with ID: 136
+2025-06-16 10:42:52,259 - INFO - Question created successfully with ID: 137
+2025-06-16 10:42:52,678 - INFO - Question created successfully with ID: 138
+2025-06-16 10:42:53,322 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 7
+2025-06-16 10:42:53,379 - INFO - Quiz created successfully with ID: 33
+2025-06-16 10:42:53,379 - INFO - State saved to created_data_state.json
+2025-06-16 10:42:54,277 - INFO - Question created successfully with ID: 139
+2025-06-16 10:42:54,685 - INFO - Question created successfully with ID: 140
+2025-06-16 10:42:55,084 - INFO - Question created successfully with ID: 141
+2025-06-16 10:42:55,463 - INFO - Question created successfully with ID: 142
+2025-06-16 10:42:55,847 - INFO - Question created successfully with ID: 143
+2025-06-16 10:42:56,424 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 7
+2025-06-16 10:42:56,474 - INFO - Quiz created successfully with ID: 34
+2025-06-16 10:42:56,474 - INFO - State saved to created_data_state.json
+2025-06-16 10:42:57,383 - INFO - Question created successfully with ID: 144
+2025-06-16 10:42:57,779 - INFO - Question created successfully with ID: 145
+2025-06-16 10:42:58,168 - INFO - Question created successfully with ID: 146
+2025-06-16 10:42:58,564 - INFO - Question created successfully with ID: 147
+2025-06-16 10:42:59,163 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 7
+2025-06-16 10:42:59,210 - INFO - Quiz created successfully with ID: 35
+2025-06-16 10:42:59,210 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:00,104 - INFO - Question created successfully with ID: 148
+2025-06-16 10:43:00,501 - INFO - Question created successfully with ID: 149
+2025-06-16 10:43:00,896 - INFO - Question created successfully with ID: 150
+2025-06-16 10:43:01,280 - INFO - Question created successfully with ID: 151
+2025-06-16 10:43:01,863 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 7
+2025-06-16 10:43:01,903 - INFO - Quiz created successfully with ID: 36
+2025-06-16 10:43:01,903 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:02,797 - INFO - Question created successfully with ID: 152
+2025-06-16 10:43:03,185 - INFO - Question created successfully with ID: 153
+2025-06-16 10:43:03,574 - INFO - Question created successfully with ID: 154
+2025-06-16 10:43:04,096 - INFO - Question created successfully with ID: 155
+2025-06-16 10:43:04,486 - INFO - Question created successfully with ID: 156
+2025-06-16 10:43:05,568 - INFO - Creating collection: Lập trình Web
+2025-06-16 10:43:05,602 - INFO - Collection created successfully with ID: 8
+2025-06-16 10:43:05,602 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:06,183 - INFO - Creating quiz: HTML cơ bản for collection ID: 8
+2025-06-16 10:43:06,231 - INFO - Quiz created successfully with ID: 37
+2025-06-16 10:43:06,231 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:07,147 - INFO - Question created successfully with ID: 157
+2025-06-16 10:43:07,671 - INFO - Question created successfully with ID: 158
+2025-06-16 10:43:08,217 - INFO - Question created successfully with ID: 159
+2025-06-16 10:43:09,237 - INFO - Question created successfully with ID: 160
+2025-06-16 10:43:09,811 - INFO - Creating quiz: CSS nâng cao for collection ID: 8
+2025-06-16 10:43:09,844 - INFO - Quiz created successfully with ID: 38
+2025-06-16 10:43:09,844 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:10,725 - INFO - Question created successfully with ID: 161
+2025-06-16 10:43:11,101 - INFO - Question created successfully with ID: 162
+2025-06-16 10:43:11,484 - INFO - Question created successfully with ID: 163
+2025-06-16 10:43:11,855 - INFO - Question created successfully with ID: 164
+2025-06-16 10:43:12,235 - INFO - Question created successfully with ID: 165
+2025-06-16 10:43:12,813 - INFO - Creating quiz: JavaScript DOM for collection ID: 8
+2025-06-16 10:43:12,850 - INFO - Quiz created successfully with ID: 39
+2025-06-16 10:43:12,851 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:13,734 - INFO - Question created successfully with ID: 166
+2025-06-16 10:43:14,115 - INFO - Question created successfully with ID: 167
+2025-06-16 10:43:14,547 - INFO - Question created successfully with ID: 168
+2025-06-16 10:43:14,922 - INFO - Question created successfully with ID: 169
+2025-06-16 10:43:15,301 - INFO - Question created successfully with ID: 170
+2025-06-16 10:43:15,877 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 8
+2025-06-16 10:43:15,926 - INFO - Quiz created successfully with ID: 40
+2025-06-16 10:43:15,926 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:16,809 - INFO - Question created successfully with ID: 171
+2025-06-16 10:43:17,195 - INFO - Question created successfully with ID: 172
+2025-06-16 10:43:17,572 - INFO - Question created successfully with ID: 173
+2025-06-16 10:43:17,952 - INFO - Question created successfully with ID: 174
+2025-06-16 10:43:18,327 - INFO - Question created successfully with ID: 175
+2025-06-16 10:43:18,897 - INFO - Creating quiz: RESTful API với Express for collection ID: 8
+2025-06-16 10:43:18,932 - INFO - Quiz created successfully with ID: 41
+2025-06-16 10:43:18,933 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:21,836 - INFO - Question created successfully with ID: 176
+2025-06-16 10:43:22,212 - INFO - Question created successfully with ID: 177
+2025-06-16 10:43:22,583 - INFO - Question created successfully with ID: 178
+2025-06-16 10:43:22,960 - INFO - Question created successfully with ID: 179
+2025-06-16 10:43:24,029 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-16 10:43:24,055 - INFO - Collection created successfully with ID: 9
+2025-06-16 10:43:24,056 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:24,625 - INFO - Creating quiz: Danh sách liên kết for collection ID: 9
+2025-06-16 10:43:24,657 - INFO - Quiz created successfully with ID: 42
+2025-06-16 10:43:24,657 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:25,535 - INFO - Question created successfully with ID: 180
+2025-06-16 10:43:25,908 - INFO - Question created successfully with ID: 181
+2025-06-16 10:43:26,279 - INFO - Question created successfully with ID: 182
+2025-06-16 10:43:26,650 - INFO - Question created successfully with ID: 183
+2025-06-16 10:43:27,023 - INFO - Question created successfully with ID: 184
+2025-06-16 10:43:27,600 - INFO - Creating quiz: Cây nhị phân for collection ID: 9
+2025-06-16 10:43:27,632 - INFO - Quiz created successfully with ID: 43
+2025-06-16 10:43:27,633 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:28,513 - INFO - Question created successfully with ID: 185
+2025-06-16 10:43:28,896 - INFO - Question created successfully with ID: 186
+2025-06-16 10:43:29,268 - INFO - Question created successfully with ID: 187
+2025-06-16 10:43:29,647 - INFO - Question created successfully with ID: 188
+2025-06-16 10:43:30,226 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 9
+2025-06-16 10:43:30,261 - INFO - Quiz created successfully with ID: 44
+2025-06-16 10:43:30,261 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:31,144 - INFO - Question created successfully with ID: 189
+2025-06-16 10:43:31,527 - INFO - Question created successfully with ID: 190
+2025-06-16 10:43:32,503 - INFO - Question created successfully with ID: 191
+2025-06-16 10:43:32,875 - INFO - Question created successfully with ID: 192
+2025-06-16 10:43:33,252 - INFO - Question created successfully with ID: 193
+2025-06-16 10:43:33,832 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 9
+2025-06-16 10:43:33,867 - INFO - Quiz created successfully with ID: 45
+2025-06-16 10:43:33,868 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:34,758 - INFO - Question created successfully with ID: 194
+2025-06-16 10:43:35,128 - INFO - Question created successfully with ID: 195
+2025-06-16 10:43:35,503 - INFO - Question created successfully with ID: 196
+2025-06-16 10:43:36,081 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 9
+2025-06-16 10:43:36,767 - INFO - Quiz created successfully with ID: 46
+2025-06-16 10:43:36,768 - INFO - State saved to created_data_state.json
+2025-06-16 10:43:37,654 - INFO - Question created successfully with ID: 197
+2025-06-16 10:43:38,064 - INFO - Question created successfully with ID: 198
+2025-06-16 10:43:38,487 - INFO - Question created successfully with ID: 199
+2025-06-16 10:43:38,863 - INFO - Question created successfully with ID: 200
+2025-06-16 10:43:39,863 - INFO - Data processing completed
+2025-06-16 10:43:39,864 - INFO - Complete test environment setup successfully!
+2025-06-16 13:33:11,426 - INFO - Loading existing state from created_data_state.json
+2025-06-16 13:33:11,426 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 7, 'quizzes': {'Cơ bản về Widget': {'id': 32, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 33, 'questions': {}}, 'Điều hướng màn hình': {'id': 34, 'questions': {}}, 'Thiết kế Material Design': {'id': 35, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 36, 'questions': {}}}}, 'Lập trình Web': {'id': 8, 'quizzes': {'HTML cơ bản': {'id': 37, 'questions': {}}, 'CSS nâng cao': {'id': 38, 'questions': {}}, 'JavaScript DOM': {'id': 39, 'questions': {}}, 'Xây dựng SPA với React': {'id': 40, 'questions': {}}, 'RESTful API với Express': {'id': 41, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 9, 'quizzes': {'Danh sách liên kết': {'id': 42, 'questions': {}}, 'Cây nhị phân': {'id': 43, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 44, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 45, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 46, 'questions': {}}}}}}
+2025-06-16 13:33:11,426 - INFO - Loading existing state from created_users_state.json
+2025-06-16 13:33:11,427 - INFO - Loaded state: users created = 30
+2025-06-16 13:33:11,459 - INFO - Found 8 avatar images in images/users
+2025-06-16 13:33:11,459 - INFO - Setting up complete test environment...
+2025-06-16 13:33:11,459 - INFO - Creating test users...
+2025-06-16 13:33:11,459 - INFO - Deleting all existing users...
+2025-06-16 13:33:11,832 - INFO - Deleted user with ID: 43
+2025-06-16 13:33:12,072 - INFO - Deleted user with ID: 44
+2025-06-16 13:33:12,344 - INFO - Deleted user with ID: 45
+2025-06-16 13:33:12,583 - INFO - Deleted user with ID: 46
+2025-06-16 13:33:12,936 - INFO - Deleted user with ID: 47
+2025-06-16 13:33:13,172 - INFO - Deleted user with ID: 48
+2025-06-16 13:33:13,448 - INFO - Deleted user with ID: 49
+2025-06-16 13:33:13,725 - INFO - Deleted user with ID: 50
+2025-06-16 13:33:13,998 - INFO - Deleted user with ID: 51
+2025-06-16 13:33:14,271 - INFO - Deleted user with ID: 52
+2025-06-16 13:33:14,509 - INFO - Deleted user with ID: 53
+2025-06-16 13:33:14,788 - INFO - Deleted user with ID: 54
+2025-06-16 13:33:15,023 - INFO - Deleted user with ID: 55
+2025-06-16 13:33:15,290 - INFO - Deleted user with ID: 56
+2025-06-16 13:33:15,553 - INFO - Deleted user with ID: 57
+2025-06-16 13:33:15,787 - INFO - Deleted user with ID: 58
+2025-06-16 13:33:16,062 - INFO - Deleted user with ID: 59
+2025-06-16 13:33:16,294 - INFO - Deleted user with ID: 60
+2025-06-16 13:33:16,527 - INFO - Deleted user with ID: 61
+2025-06-16 13:33:16,794 - INFO - Deleted user with ID: 62
+2025-06-16 13:33:17,028 - INFO - Deleted user with ID: 63
+2025-06-16 13:33:17,265 - INFO - Deleted user with ID: 64
+2025-06-16 13:33:17,497 - INFO - Deleted user with ID: 65
+2025-06-16 13:33:17,729 - INFO - Deleted user with ID: 66
+2025-06-16 13:33:17,963 - INFO - Deleted user with ID: 67
+2025-06-16 13:33:18,196 - INFO - Deleted user with ID: 68
+2025-06-16 13:33:18,432 - INFO - Deleted user with ID: 69
+2025-06-16 13:33:18,663 - INFO - Deleted user with ID: 70
+2025-06-16 13:33:18,897 - INFO - Deleted user with ID: 71
+2025-06-16 13:33:19,130 - INFO - Deleted user with ID: 72
+2025-06-16 13:33:19,331 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:19,331 - INFO - Deleted 30 users successfully
+2025-06-16 13:33:19,331 - INFO - Creating 30 fake users...
+2025-06-16 13:33:19,335 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 13:33:19,335 - INFO - Creating user: kristiesweeney0 (kristiesweeney0@cunningham.net)
+2025-06-16 13:33:19,536 - INFO - User created successfully with ID: 73
+2025-06-16 13:33:19,537 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:20,039 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 13:33:20,039 - INFO - Creating user: matthewkeith1 (matthewkeith1@davis-adams.com)
+2025-06-16 13:33:20,162 - INFO - User created successfully with ID: 74
+2025-06-16 13:33:20,163 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:20,664 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 13:33:20,664 - INFO - Creating user: jaredwilliams2 (jaredwilliams2@johnson.com)
+2025-06-16 13:33:20,781 - INFO - User created successfully with ID: 75
+2025-06-16 13:33:20,781 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:21,283 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 13:33:21,283 - INFO - Creating user: jacobhunt3 (jacobhunt3@beard.org)
+2025-06-16 13:33:21,399 - INFO - User created successfully with ID: 76
+2025-06-16 13:33:21,400 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:21,901 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 13:33:21,902 - INFO - Creating user: timothyvaldez4 (timothyvaldez4@bond.com)
+2025-06-16 13:33:22,019 - INFO - User created successfully with ID: 77
+2025-06-16 13:33:22,019 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:22,521 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 13:33:22,521 - INFO - Creating user: davidmata5 (davidmata5@norton-taylor.com)
+2025-06-16 13:33:22,636 - INFO - User created successfully with ID: 78
+2025-06-16 13:33:22,637 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:23,139 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 13:33:23,139 - INFO - Creating user: christinedunlap6 (christinedunlap6@henry.com)
+2025-06-16 13:33:23,257 - INFO - User created successfully with ID: 79
+2025-06-16 13:33:23,257 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:23,759 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 13:33:23,759 - INFO - Creating user: barbarajohnson7 (barbarajohnson7@combs-collins.org)
+2025-06-16 13:33:23,872 - INFO - User created successfully with ID: 80
+2025-06-16 13:33:23,873 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:24,375 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 13:33:24,375 - INFO - Creating user: robertjones8 (robertjones8@jackson-everett.com)
+2025-06-16 13:33:24,492 - INFO - User created successfully with ID: 81
+2025-06-16 13:33:24,492 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:24,994 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 13:33:24,994 - INFO - Creating user: reginasimmons9 (reginasimmons9@king-miller.com)
+2025-06-16 13:33:25,108 - INFO - User created successfully with ID: 82
+2025-06-16 13:33:25,108 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:25,610 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 13:33:25,611 - INFO - Creating user: bryanpage10 (bryanpage10@miller-williams.com)
+2025-06-16 13:33:25,725 - INFO - User created successfully with ID: 83
+2025-06-16 13:33:25,726 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:26,227 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 13:33:26,227 - INFO - Creating user: mistyscott11 (mistyscott11@gibson.info)
+2025-06-16 13:33:26,337 - INFO - User created successfully with ID: 84
+2025-06-16 13:33:26,338 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:26,840 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 13:33:26,840 - INFO - Creating user: ericmartinez12 (ericmartinez12@montoya.com)
+2025-06-16 13:33:26,998 - INFO - User created successfully with ID: 85
+2025-06-16 13:33:26,998 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:27,500 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 13:33:27,500 - INFO - Creating user: jamesstewart13 (jamesstewart13@myers.com)
+2025-06-16 13:33:27,614 - INFO - User created successfully with ID: 86
+2025-06-16 13:33:27,614 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:28,116 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 13:33:28,116 - INFO - Creating user: ericbush14 (ericbush14@hull-lane.com)
+2025-06-16 13:33:28,231 - INFO - User created successfully with ID: 87
+2025-06-16 13:33:28,232 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:28,733 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 13:33:28,734 - INFO - Creating user: danielelliott15 (danielelliott15@patton.com)
+2025-06-16 13:33:28,852 - INFO - User created successfully with ID: 88
+2025-06-16 13:33:28,852 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:29,354 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 13:33:29,354 - INFO - Creating user: charleswhite16 (charleswhite16@harvey-anderson.net)
+2025-06-16 13:33:29,468 - INFO - User created successfully with ID: 89
+2025-06-16 13:33:29,468 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:29,970 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 13:33:29,970 - INFO - Creating user: janiceguerrero17 (janiceguerrero17@lee.com)
+2025-06-16 13:33:30,079 - INFO - User created successfully with ID: 90
+2025-06-16 13:33:30,079 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:30,581 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 13:33:30,581 - INFO - Creating user: davidvaldez18 (davidvaldez18@lopez.com)
+2025-06-16 13:33:30,696 - INFO - User created successfully with ID: 91
+2025-06-16 13:33:30,697 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:31,199 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 13:33:31,199 - INFO - Creating user: juliesilva19 (juliesilva19@wheeler.net)
+2025-06-16 13:33:31,310 - INFO - User created successfully with ID: 92
+2025-06-16 13:33:31,310 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:31,812 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 13:33:31,812 - INFO - Creating user: markmarsh20 (markmarsh20@jones.net)
+2025-06-16 13:33:31,928 - INFO - User created successfully with ID: 93
+2025-06-16 13:33:31,929 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:32,431 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 13:33:32,431 - INFO - Creating user: jamesalexander21 (jamesalexander21@solis.org)
+2025-06-16 13:33:32,545 - INFO - User created successfully with ID: 94
+2025-06-16 13:33:32,545 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:33,049 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-16 13:33:33,049 - INFO - Creating user: tiffanywest22 (tiffanywest22@lucas.org)
+2025-06-16 13:33:33,165 - INFO - User created successfully with ID: 95
+2025-06-16 13:33:33,166 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:33,667 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-16 13:33:33,668 - INFO - Creating user: angelasmith23 (angelasmith23@miller.info)
+2025-06-16 13:33:33,782 - INFO - User created successfully with ID: 96
+2025-06-16 13:33:33,783 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:34,284 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-16 13:33:34,284 - INFO - Creating user: davidnewton24 (davidnewton24@smith-peters.com)
+2025-06-16 13:33:34,400 - INFO - User created successfully with ID: 97
+2025-06-16 13:33:34,401 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:34,903 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-16 13:33:34,903 - INFO - Creating user: erikmorgan25 (erikmorgan25@clay.com)
+2025-06-16 13:33:35,017 - INFO - User created successfully with ID: 98
+2025-06-16 13:33:35,017 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:35,519 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-16 13:33:35,519 - INFO - Creating user: christinabarton26 (christinabarton26@shields-carroll.com)
+2025-06-16 13:33:35,631 - INFO - User created successfully with ID: 99
+2025-06-16 13:33:35,632 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:36,133 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-16 13:33:36,133 - INFO - Creating user: allisonfaulkner27 (allisonfaulkner27@gregory.com)
+2025-06-16 13:33:36,246 - INFO - User created successfully with ID: 100
+2025-06-16 13:33:36,246 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:36,748 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-16 13:33:36,748 - INFO - Creating user: charlesmcgee28 (charlesmcgee28@delacruz-rivera.net)
+2025-06-16 13:33:36,864 - INFO - User created successfully with ID: 101
+2025-06-16 13:33:36,865 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:37,367 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-16 13:33:37,367 - INFO - Creating user: brianscott29 (brianscott29@wagner-jones.info)
+2025-06-16 13:33:37,479 - INFO - User created successfully with ID: 102
+2025-06-16 13:33:37,480 - INFO - State saved to created_users_state.json
+2025-06-16 13:33:37,980 - INFO - Successfully created 30 users out of 30 attempted
+2025-06-16 13:33:37,981 - INFO - Created 30 users successfully
+2025-06-16 13:33:37,981 - INFO - Creating quiz data...
+2025-06-16 13:33:37,981 - INFO - Deleting all existing data...
+2025-06-16 13:33:39,110 - INFO - Deleted all questions for quiz ID: 32
+2025-06-16 13:33:39,166 - INFO - Deleted quiz with ID: 32
+2025-06-16 13:33:39,553 - INFO - Deleted all questions for quiz ID: 33
+2025-06-16 13:33:39,590 - INFO - Deleted quiz with ID: 33
+2025-06-16 13:33:39,936 - INFO - Deleted all questions for quiz ID: 34
+2025-06-16 13:33:39,973 - INFO - Deleted quiz with ID: 34
+2025-06-16 13:33:40,301 - INFO - Deleted all questions for quiz ID: 35
+2025-06-16 13:33:40,336 - INFO - Deleted quiz with ID: 35
+2025-06-16 13:33:40,711 - INFO - Deleted all questions for quiz ID: 36
+2025-06-16 13:33:40,741 - INFO - Deleted quiz with ID: 36
+2025-06-16 13:33:41,075 - INFO - Deleted all questions for quiz ID: 37
+2025-06-16 13:33:41,110 - INFO - Deleted quiz with ID: 37
+2025-06-16 13:33:41,456 - INFO - Deleted all questions for quiz ID: 38
+2025-06-16 13:33:41,493 - INFO - Deleted quiz with ID: 38
+2025-06-16 13:33:41,816 - INFO - Deleted all questions for quiz ID: 39
+2025-06-16 13:33:41,847 - INFO - Deleted quiz with ID: 39
+2025-06-16 13:33:42,176 - INFO - Deleted all questions for quiz ID: 40
+2025-06-16 13:33:42,206 - INFO - Deleted quiz with ID: 40
+2025-06-16 13:33:42,507 - INFO - Deleted all questions for quiz ID: 41
+2025-06-16 13:33:42,536 - INFO - Deleted quiz with ID: 41
+2025-06-16 13:33:42,862 - INFO - Deleted all questions for quiz ID: 42
+2025-06-16 13:33:42,896 - INFO - Deleted quiz with ID: 42
+2025-06-16 13:33:43,206 - INFO - Deleted all questions for quiz ID: 43
+2025-06-16 13:33:43,236 - INFO - Deleted quiz with ID: 43
+2025-06-16 13:33:43,556 - INFO - Deleted all questions for quiz ID: 44
+2025-06-16 13:33:43,587 - INFO - Deleted quiz with ID: 44
+2025-06-16 13:33:43,869 - INFO - Deleted all questions for quiz ID: 45
+2025-06-16 13:33:43,900 - INFO - Deleted quiz with ID: 45
+2025-06-16 13:33:44,190 - INFO - Deleted all questions for quiz ID: 46
+2025-06-16 13:33:44,217 - INFO - Deleted quiz with ID: 46
+2025-06-16 13:33:44,524 - INFO - Deleted collection with ID: 7
+2025-06-16 13:33:45,079 - INFO - Deleted collection with ID: 8
+2025-06-16 13:33:45,630 - INFO - Deleted collection with ID: 9
+2025-06-16 13:33:46,131 - INFO - State saved to created_data_state.json
+2025-06-16 13:33:46,131 - INFO - All data deleted successfully
+2025-06-16 13:33:46,224 - INFO - Creating collection: Lập trình Mobile
+2025-06-16 13:33:46,310 - INFO - Collection created successfully with ID: 10
+2025-06-16 13:33:46,310 - INFO - State saved to created_data_state.json
+2025-06-16 13:33:46,905 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 10
+2025-06-16 13:33:46,953 - INFO - Quiz created successfully with ID: 47
+2025-06-16 13:33:46,954 - INFO - State saved to created_data_state.json
+2025-06-16 13:33:47,922 - INFO - Question created successfully with ID: 201
+2025-06-16 13:33:48,309 - INFO - Question created successfully with ID: 202
+2025-06-16 13:33:48,691 - INFO - Question created successfully with ID: 203
+2025-06-16 13:33:49,085 - INFO - Question created successfully with ID: 204
+2025-06-16 13:33:49,669 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 10
+2025-06-16 13:33:49,708 - INFO - Quiz created successfully with ID: 48
+2025-06-16 13:33:49,709 - INFO - State saved to created_data_state.json
+2025-06-16 13:33:50,594 - INFO - Question created successfully with ID: 205
+2025-06-16 13:33:50,982 - INFO - Question created successfully with ID: 206
+2025-06-16 13:33:51,376 - INFO - Question created successfully with ID: 207
+2025-06-16 13:33:51,756 - INFO - Question created successfully with ID: 208
+2025-06-16 13:33:52,134 - INFO - Question created successfully with ID: 209
+2025-06-16 13:33:52,715 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 10
+2025-06-16 13:33:52,761 - INFO - Quiz created successfully with ID: 49
+2025-06-16 13:33:52,762 - INFO - State saved to created_data_state.json
+2025-06-16 13:33:53,649 - INFO - Question created successfully with ID: 210
+2025-06-16 13:33:54,031 - INFO - Question created successfully with ID: 211
+2025-06-16 13:33:54,410 - INFO - Question created successfully with ID: 212
+2025-06-16 13:33:54,794 - INFO - Question created successfully with ID: 213
+2025-06-16 13:33:55,375 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 10
+2025-06-16 13:33:55,421 - INFO - Quiz created successfully with ID: 50
+2025-06-16 13:33:55,422 - INFO - State saved to created_data_state.json
+2025-06-16 13:33:56,309 - INFO - Question created successfully with ID: 214
+2025-06-16 13:33:56,698 - INFO - Question created successfully with ID: 215
+2025-06-16 13:33:57,081 - INFO - Question created successfully with ID: 216
+2025-06-16 13:33:57,457 - INFO - Question created successfully with ID: 217
+2025-06-16 13:33:58,035 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 10
+2025-06-16 13:33:58,074 - INFO - Quiz created successfully with ID: 51
+2025-06-16 13:33:58,074 - INFO - State saved to created_data_state.json
+2025-06-16 13:33:58,959 - INFO - Question created successfully with ID: 218
+2025-06-16 13:33:59,340 - INFO - Question created successfully with ID: 219
+2025-06-16 13:33:59,719 - INFO - Question created successfully with ID: 220
+2025-06-16 13:34:00,093 - INFO - Question created successfully with ID: 221
+2025-06-16 13:34:00,474 - INFO - Question created successfully with ID: 222
+2025-06-16 13:34:01,546 - INFO - Creating collection: Lập trình Web
+2025-06-16 13:34:01,574 - INFO - Collection created successfully with ID: 11
+2025-06-16 13:34:01,574 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:02,155 - INFO - Creating quiz: HTML cơ bản for collection ID: 11
+2025-06-16 13:34:02,214 - INFO - Quiz created successfully with ID: 52
+2025-06-16 13:34:02,214 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:03,097 - INFO - Question created successfully with ID: 223
+2025-06-16 13:34:03,492 - INFO - Question created successfully with ID: 224
+2025-06-16 13:34:03,874 - INFO - Question created successfully with ID: 225
+2025-06-16 13:34:04,254 - INFO - Question created successfully with ID: 226
+2025-06-16 13:34:04,827 - INFO - Creating quiz: CSS nâng cao for collection ID: 11
+2025-06-16 13:34:04,860 - INFO - Quiz created successfully with ID: 53
+2025-06-16 13:34:04,860 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:05,743 - INFO - Question created successfully with ID: 227
+2025-06-16 13:34:06,120 - INFO - Question created successfully with ID: 228
+2025-06-16 13:34:06,499 - INFO - Question created successfully with ID: 229
+2025-06-16 13:34:06,870 - INFO - Question created successfully with ID: 230
+2025-06-16 13:34:07,246 - INFO - Question created successfully with ID: 231
+2025-06-16 13:34:07,822 - INFO - Creating quiz: JavaScript DOM for collection ID: 11
+2025-06-16 13:34:07,859 - INFO - Quiz created successfully with ID: 54
+2025-06-16 13:34:07,859 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:08,743 - INFO - Question created successfully with ID: 232
+2025-06-16 13:34:09,120 - INFO - Question created successfully with ID: 233
+2025-06-16 13:34:09,494 - INFO - Question created successfully with ID: 234
+2025-06-16 13:34:09,876 - INFO - Question created successfully with ID: 235
+2025-06-16 13:34:10,259 - INFO - Question created successfully with ID: 236
+2025-06-16 13:34:10,843 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 11
+2025-06-16 13:34:10,880 - INFO - Quiz created successfully with ID: 55
+2025-06-16 13:34:10,881 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:11,759 - INFO - Question created successfully with ID: 237
+2025-06-16 13:34:12,878 - INFO - Question created successfully with ID: 238
+2025-06-16 13:34:13,260 - INFO - Question created successfully with ID: 239
+2025-06-16 13:34:13,643 - INFO - Question created successfully with ID: 240
+2025-06-16 13:34:14,031 - INFO - Question created successfully with ID: 241
+2025-06-16 13:34:14,608 - INFO - Creating quiz: RESTful API với Express for collection ID: 11
+2025-06-16 13:34:14,643 - INFO - Quiz created successfully with ID: 56
+2025-06-16 13:34:14,643 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:15,522 - INFO - Question created successfully with ID: 242
+2025-06-16 13:34:15,903 - INFO - Question created successfully with ID: 243
+2025-06-16 13:34:16,282 - INFO - Question created successfully with ID: 244
+2025-06-16 13:34:16,671 - INFO - Question created successfully with ID: 245
+2025-06-16 13:34:17,759 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-16 13:34:17,788 - INFO - Collection created successfully with ID: 12
+2025-06-16 13:34:17,788 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:18,389 - INFO - Creating quiz: Danh sách liên kết for collection ID: 12
+2025-06-16 13:34:18,424 - INFO - Quiz created successfully with ID: 57
+2025-06-16 13:34:18,425 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:19,315 - INFO - Question created successfully with ID: 246
+2025-06-16 13:34:19,688 - INFO - Question created successfully with ID: 247
+2025-06-16 13:34:20,064 - INFO - Question created successfully with ID: 248
+2025-06-16 13:34:20,446 - INFO - Question created successfully with ID: 249
+2025-06-16 13:34:21,191 - INFO - Question created successfully with ID: 250
+2025-06-16 13:34:21,770 - INFO - Creating quiz: Cây nhị phân for collection ID: 12
+2025-06-16 13:34:21,805 - INFO - Quiz created successfully with ID: 58
+2025-06-16 13:34:21,806 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:22,689 - INFO - Question created successfully with ID: 251
+2025-06-16 13:34:23,070 - INFO - Question created successfully with ID: 252
+2025-06-16 13:34:23,468 - INFO - Question created successfully with ID: 253
+2025-06-16 13:34:23,858 - INFO - Question created successfully with ID: 254
+2025-06-16 13:34:24,435 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 12
+2025-06-16 13:34:24,470 - INFO - Quiz created successfully with ID: 59
+2025-06-16 13:34:24,470 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:25,351 - INFO - Question created successfully with ID: 255
+2025-06-16 13:34:25,730 - INFO - Question created successfully with ID: 256
+2025-06-16 13:34:26,109 - INFO - Question created successfully with ID: 257
+2025-06-16 13:34:26,481 - INFO - Question created successfully with ID: 258
+2025-06-16 13:34:26,854 - INFO - Question created successfully with ID: 259
+2025-06-16 13:34:27,427 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 12
+2025-06-16 13:34:27,462 - INFO - Quiz created successfully with ID: 60
+2025-06-16 13:34:27,462 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:28,349 - INFO - Question created successfully with ID: 260
+2025-06-16 13:34:28,727 - INFO - Question created successfully with ID: 261
+2025-06-16 13:34:29,106 - INFO - Question created successfully with ID: 262
+2025-06-16 13:34:29,685 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 12
+2025-06-16 13:34:29,720 - INFO - Quiz created successfully with ID: 61
+2025-06-16 13:34:29,720 - INFO - State saved to created_data_state.json
+2025-06-16 13:34:30,608 - INFO - Question created successfully with ID: 263
+2025-06-16 13:34:30,987 - INFO - Question created successfully with ID: 264
+2025-06-16 13:34:31,366 - INFO - Question created successfully with ID: 265
+2025-06-16 13:34:32,033 - INFO - Question created successfully with ID: 266
+2025-06-16 13:34:33,034 - INFO - Data processing completed
+2025-06-16 13:34:33,034 - INFO - Complete test environment setup successfully!
+2025-06-17 04:20:47,361 - INFO - Loading existing state from created_data_state.json
+2025-06-17 04:20:47,361 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 10, 'quizzes': {'Cơ bản về Widget': {'id': 47, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 48, 'questions': {}}, 'Điều hướng màn hình': {'id': 49, 'questions': {}}, 'Thiết kế Material Design': {'id': 50, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 51, 'questions': {}}}}, 'Lập trình Web': {'id': 11, 'quizzes': {'HTML cơ bản': {'id': 52, 'questions': {}}, 'CSS nâng cao': {'id': 53, 'questions': {}}, 'JavaScript DOM': {'id': 54, 'questions': {}}, 'Xây dựng SPA với React': {'id': 55, 'questions': {}}, 'RESTful API với Express': {'id': 56, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 12, 'quizzes': {'Danh sách liên kết': {'id': 57, 'questions': {}}, 'Cây nhị phân': {'id': 58, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 59, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 60, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 61, 'questions': {}}}}}}
+2025-06-17 04:20:47,362 - INFO - Loading existing state from created_users_state.json
+2025-06-17 04:20:47,362 - INFO - Loaded state: users created = 30
+2025-06-17 04:20:47,406 - INFO - Found 8 avatar images in images/users
+2025-06-17 04:20:47,406 - INFO - Setting up complete test environment...
+2025-06-17 04:20:47,406 - INFO - Creating test users...
+2025-06-17 04:20:47,406 - INFO - Deleting all existing users...
+2025-06-17 04:20:47,703 - INFO - Deleted user with ID: 73
+2025-06-17 04:20:48,077 - INFO - Deleted user with ID: 74
+2025-06-17 04:20:48,338 - INFO - Deleted user with ID: 75
+2025-06-17 04:20:48,600 - INFO - Deleted user with ID: 76
+2025-06-17 04:20:48,893 - INFO - Deleted user with ID: 77
+2025-06-17 04:20:49,120 - INFO - Deleted user with ID: 78
+2025-06-17 04:20:49,345 - INFO - Deleted user with ID: 79
+2025-06-17 04:20:49,686 - INFO - Deleted user with ID: 80
+2025-06-17 04:20:49,947 - INFO - Deleted user with ID: 81
+2025-06-17 04:20:50,174 - INFO - Deleted user with ID: 82
+2025-06-17 04:20:50,444 - INFO - Deleted user with ID: 83
+2025-06-17 04:20:50,706 - INFO - Deleted user with ID: 84
+2025-06-17 04:20:50,933 - INFO - Deleted user with ID: 85
+2025-06-17 04:20:51,165 - INFO - Deleted user with ID: 86
+2025-06-17 04:20:51,469 - INFO - Deleted user with ID: 87
+2025-06-17 04:20:51,748 - INFO - Deleted user with ID: 88
+2025-06-17 04:20:51,976 - INFO - Deleted user with ID: 89
+2025-06-17 04:20:52,244 - INFO - Deleted user with ID: 90
+2025-06-17 04:20:52,507 - INFO - Deleted user with ID: 91
+2025-06-17 04:20:52,733 - INFO - Deleted user with ID: 92
+2025-06-17 04:20:52,959 - INFO - Deleted user with ID: 93
+2025-06-17 04:20:53,184 - INFO - Deleted user with ID: 94
+2025-06-17 04:20:53,411 - INFO - Deleted user with ID: 95
+2025-06-17 04:20:53,637 - INFO - Deleted user with ID: 96
+2025-06-17 04:20:53,865 - INFO - Deleted user with ID: 97
+2025-06-17 04:20:54,096 - INFO - Deleted user with ID: 98
+2025-06-17 04:20:54,322 - INFO - Deleted user with ID: 99
+2025-06-17 04:20:54,549 - INFO - Deleted user with ID: 100
+2025-06-17 04:20:54,775 - INFO - Deleted user with ID: 101
+2025-06-17 04:20:55,002 - INFO - Deleted user with ID: 102
+2025-06-17 04:20:55,203 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:55,203 - INFO - Deleted 30 users successfully
+2025-06-17 04:20:55,203 - INFO - Creating 30 fake users...
+2025-06-17 04:20:55,207 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:20:55,207 - INFO - Creating user: sharonarmstrong0 (sharonarmstrong0@jacobson.org)
+2025-06-17 04:20:55,385 - INFO - User created successfully with ID: 103
+2025-06-17 04:20:55,386 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:55,887 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:20:55,888 - INFO - Creating user: scottjohnston1 (scottjohnston1@davenport-bradshaw.com)
+2025-06-17 04:20:55,999 - INFO - User created successfully with ID: 104
+2025-06-17 04:20:55,999 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:56,500 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:20:56,500 - INFO - Creating user: morganweiss2 (morganweiss2@lewis.info)
+2025-06-17 04:20:56,610 - INFO - User created successfully with ID: 105
+2025-06-17 04:20:56,610 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:57,112 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:20:57,112 - INFO - Creating user: shaunjensen3 (shaunjensen3@mitchell.com)
+2025-06-17 04:20:57,225 - INFO - User created successfully with ID: 106
+2025-06-17 04:20:57,225 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:57,727 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:20:57,727 - INFO - Creating user: tammysavage4 (tammysavage4@browning.biz)
+2025-06-17 04:20:57,841 - INFO - User created successfully with ID: 107
+2025-06-17 04:20:57,842 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:58,343 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:20:58,344 - INFO - Creating user: hannahknox5 (hannahknox5@martinez-hubbard.info)
+2025-06-17 04:20:58,454 - INFO - User created successfully with ID: 108
+2025-06-17 04:20:58,455 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:58,957 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:20:58,957 - INFO - Creating user: glorialee6 (glorialee6@walker.biz)
+2025-06-17 04:20:59,067 - INFO - User created successfully with ID: 109
+2025-06-17 04:20:59,067 - INFO - State saved to created_users_state.json
+2025-06-17 04:20:59,569 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:20:59,569 - INFO - Creating user: krystaldecker7 (krystaldecker7@mccarthy-rogers.net)
+2025-06-17 04:20:59,684 - INFO - User created successfully with ID: 110
+2025-06-17 04:20:59,684 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:00,185 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:21:00,185 - INFO - Creating user: brianclark8 (brianclark8@nolan.com)
+2025-06-17 04:21:00,339 - INFO - User created successfully with ID: 111
+2025-06-17 04:21:00,339 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:00,841 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:21:00,841 - INFO - Creating user: dakotajackson9 (dakotajackson9@murillo.com)
+2025-06-17 04:21:00,951 - INFO - User created successfully with ID: 112
+2025-06-17 04:21:00,952 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:01,453 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:21:01,454 - INFO - Creating user: briannanelson10 (briannanelson10@ramirez-harris.com)
+2025-06-17 04:21:01,569 - INFO - User created successfully with ID: 113
+2025-06-17 04:21:01,570 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:02,072 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:21:02,072 - INFO - Creating user: mistyjones11 (mistyjones11@little-smith.com)
+2025-06-17 04:21:02,185 - INFO - User created successfully with ID: 114
+2025-06-17 04:21:02,185 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:02,687 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:21:02,687 - INFO - Creating user: darrenmartinez12 (darrenmartinez12@wood-bates.com)
+2025-06-17 04:21:02,798 - INFO - User created successfully with ID: 115
+2025-06-17 04:21:02,799 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:03,300 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:21:03,301 - INFO - Creating user: marissahernandez13 (marissahernandez13@morales-galvan.com)
+2025-06-17 04:21:03,408 - INFO - User created successfully with ID: 116
+2025-06-17 04:21:03,408 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:03,910 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:21:03,910 - INFO - Creating user: frankyork14 (frankyork14@west.com)
+2025-06-17 04:21:04,019 - INFO - User created successfully with ID: 117
+2025-06-17 04:21:04,020 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:04,522 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:21:04,522 - INFO - Creating user: ericandersen15 (ericandersen15@jackson-harrington.com)
+2025-06-17 04:21:04,634 - INFO - User created successfully with ID: 118
+2025-06-17 04:21:04,634 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:05,136 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:21:05,136 - INFO - Creating user: brianowens16 (brianowens16@wood.net)
+2025-06-17 04:21:05,250 - INFO - User created successfully with ID: 119
+2025-06-17 04:21:05,250 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:05,752 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:21:05,752 - INFO - Creating user: michaelking17 (michaelking17@mccormick-white.info)
+2025-06-17 04:21:05,863 - INFO - User created successfully with ID: 120
+2025-06-17 04:21:05,864 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:06,365 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:21:06,365 - INFO - Creating user: yolandabowers18 (yolandabowers18@martin.net)
+2025-06-17 04:21:06,473 - INFO - User created successfully with ID: 121
+2025-06-17 04:21:06,473 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:06,975 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:21:06,975 - INFO - Creating user: danielledorsey19 (danielledorsey19@duarte-gillespie.com)
+2025-06-17 04:21:07,081 - INFO - User created successfully with ID: 122
+2025-06-17 04:21:07,082 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:07,583 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:21:07,584 - INFO - Creating user: cynthiajones20 (cynthiajones20@murray-alexander.org)
+2025-06-17 04:21:07,700 - INFO - User created successfully with ID: 123
+2025-06-17 04:21:07,700 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:08,202 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:21:08,202 - INFO - Creating user: carlaallen21 (carlaallen21@singh-bennett.net)
+2025-06-17 04:21:08,319 - INFO - User created successfully with ID: 124
+2025-06-17 04:21:08,320 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:08,821 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:21:08,821 - INFO - Creating user: davidmathis22 (davidmathis22@crawford.biz)
+2025-06-17 04:21:08,927 - INFO - User created successfully with ID: 125
+2025-06-17 04:21:08,927 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:09,429 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:21:09,429 - INFO - Creating user: tabitharios23 (tabitharios23@hall.org)
+2025-06-17 04:21:09,534 - INFO - User created successfully with ID: 126
+2025-06-17 04:21:09,535 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:10,039 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:21:10,039 - INFO - Creating user: davidball24 (davidball24@stewart-richardson.biz)
+2025-06-17 04:21:10,152 - INFO - User created successfully with ID: 127
+2025-06-17 04:21:10,153 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:10,654 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:21:10,655 - INFO - Creating user: andreafinley25 (andreafinley25@castillo.org)
+2025-06-17 04:21:10,764 - INFO - User created successfully with ID: 128
+2025-06-17 04:21:10,765 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:11,266 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:21:11,266 - INFO - Creating user: lisabauer26 (lisabauer26@harvey-clark.org)
+2025-06-17 04:21:11,372 - INFO - User created successfully with ID: 129
+2025-06-17 04:21:11,373 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:11,875 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:21:11,875 - INFO - Creating user: dianenorton27 (dianenorton27@monroe.org)
+2025-06-17 04:21:11,988 - INFO - User created successfully with ID: 130
+2025-06-17 04:21:11,989 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:12,490 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:21:12,490 - INFO - Creating user: timothypark28 (timothypark28@marquez.net)
+2025-06-17 04:21:12,600 - INFO - User created successfully with ID: 131
+2025-06-17 04:21:12,601 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:13,102 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:21:13,102 - INFO - Creating user: heatherbyrd29 (heatherbyrd29@mitchell-valdez.com)
+2025-06-17 04:21:13,209 - INFO - User created successfully with ID: 132
+2025-06-17 04:21:13,210 - INFO - State saved to created_users_state.json
+2025-06-17 04:21:13,711 - INFO - Successfully created 30 users out of 30 attempted
+2025-06-17 04:21:13,711 - INFO - Created 30 users successfully
+2025-06-17 04:21:13,711 - INFO - Creating quiz data...
+2025-06-17 04:21:13,711 - INFO - Deleting all existing data...
+2025-06-17 04:21:13,837 - INFO - Deleted all questions for quiz ID: 47
+2025-06-17 04:21:13,868 - INFO - Deleted quiz with ID: 47
+2025-06-17 04:21:14,169 - INFO - Deleted all questions for quiz ID: 48
+2025-06-17 04:21:14,225 - INFO - Deleted quiz with ID: 48
+2025-06-17 04:21:14,511 - INFO - Deleted all questions for quiz ID: 49
+2025-06-17 04:21:14,536 - INFO - Deleted quiz with ID: 49
+2025-06-17 04:21:14,838 - INFO - Deleted all questions for quiz ID: 51
+2025-06-17 04:21:14,862 - INFO - Deleted quiz with ID: 51
+2025-06-17 04:21:15,149 - INFO - Deleted all questions for quiz ID: 52
+2025-06-17 04:21:15,175 - INFO - Deleted quiz with ID: 52
+2025-06-17 04:21:15,485 - INFO - Deleted all questions for quiz ID: 53
+2025-06-17 04:21:15,512 - INFO - Deleted quiz with ID: 53
+2025-06-17 04:21:15,813 - INFO - Deleted all questions for quiz ID: 54
+2025-06-17 04:21:15,843 - INFO - Deleted quiz with ID: 54
+2025-06-17 04:21:16,157 - INFO - Deleted all questions for quiz ID: 55
+2025-06-17 04:21:16,184 - INFO - Deleted quiz with ID: 55
+2025-06-17 04:21:16,485 - INFO - Deleted all questions for quiz ID: 57
+2025-06-17 04:21:16,547 - INFO - Deleted quiz with ID: 57
+2025-06-17 04:21:16,834 - INFO - Deleted all questions for quiz ID: 58
+2025-06-17 04:21:16,861 - INFO - Deleted quiz with ID: 58
+2025-06-17 04:21:17,129 - INFO - Deleted all questions for quiz ID: 60
+2025-06-17 04:21:17,156 - INFO - Deleted quiz with ID: 60
+2025-06-17 04:21:17,424 - INFO - Deleted all questions for quiz ID: 61
+2025-06-17 04:21:17,449 - INFO - Deleted quiz with ID: 61
+2025-06-17 04:21:17,708 - INFO - Deleted all questions for quiz ID: 62
+2025-06-17 04:21:17,736 - INFO - Deleted quiz with ID: 62
+2025-06-17 04:21:17,977 - INFO - Deleted all questions for quiz ID: 63
+2025-06-17 04:21:18,003 - INFO - Deleted quiz with ID: 63
+2025-06-17 04:21:18,276 - INFO - Deleted collection with ID: 10
+2025-06-17 04:21:18,820 - INFO - Deleted collection with ID: 11
+2025-06-17 04:21:19,363 - INFO - Deleted collection with ID: 12
+2025-06-17 04:21:19,864 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:19,865 - INFO - All data deleted successfully
+2025-06-17 04:21:19,929 - INFO - Creating collection: Lập trình Mobile
+2025-06-17 04:21:20,036 - INFO - Collection created successfully with ID: 13
+2025-06-17 04:21:20,036 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:20,602 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 13
+2025-06-17 04:21:20,632 - INFO - Quiz created successfully with ID: 64
+2025-06-17 04:21:20,633 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:21,507 - INFO - Question created successfully with ID: 291
+2025-06-17 04:21:21,883 - INFO - Question created successfully with ID: 292
+2025-06-17 04:21:22,251 - INFO - Question created successfully with ID: 293
+2025-06-17 04:21:22,630 - INFO - Question created successfully with ID: 294
+2025-06-17 04:21:23,192 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 13
+2025-06-17 04:21:23,222 - INFO - Quiz created successfully with ID: 65
+2025-06-17 04:21:23,222 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:24,098 - INFO - Question created successfully with ID: 295
+2025-06-17 04:21:24,468 - INFO - Question created successfully with ID: 296
+2025-06-17 04:21:24,837 - INFO - Question created successfully with ID: 297
+2025-06-17 04:21:25,204 - INFO - Question created successfully with ID: 298
+2025-06-17 04:21:25,572 - INFO - Question created successfully with ID: 299
+2025-06-17 04:21:26,131 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 13
+2025-06-17 04:21:26,169 - INFO - Quiz created successfully with ID: 66
+2025-06-17 04:21:26,169 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:27,053 - INFO - Question created successfully with ID: 300
+2025-06-17 04:21:27,429 - INFO - Question created successfully with ID: 301
+2025-06-17 04:21:27,797 - INFO - Question created successfully with ID: 302
+2025-06-17 04:21:28,179 - INFO - Question created successfully with ID: 303
+2025-06-17 04:21:28,740 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 13
+2025-06-17 04:21:28,778 - INFO - Quiz created successfully with ID: 67
+2025-06-17 04:21:28,778 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:29,652 - INFO - Question created successfully with ID: 304
+2025-06-17 04:21:30,026 - INFO - Question created successfully with ID: 305
+2025-06-17 04:21:30,391 - INFO - Question created successfully with ID: 306
+2025-06-17 04:21:30,759 - INFO - Question created successfully with ID: 307
+2025-06-17 04:21:31,318 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 13
+2025-06-17 04:21:31,351 - INFO - Quiz created successfully with ID: 68
+2025-06-17 04:21:31,352 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:32,233 - INFO - Question created successfully with ID: 308
+2025-06-17 04:21:32,614 - INFO - Question created successfully with ID: 309
+2025-06-17 04:21:32,986 - INFO - Question created successfully with ID: 310
+2025-06-17 04:21:33,354 - INFO - Question created successfully with ID: 311
+2025-06-17 04:21:33,738 - INFO - Question created successfully with ID: 312
+2025-06-17 04:21:34,797 - INFO - Creating collection: Lập trình Web
+2025-06-17 04:21:34,829 - INFO - Collection created successfully with ID: 14
+2025-06-17 04:21:34,829 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:35,389 - INFO - Creating quiz: HTML cơ bản for collection ID: 14
+2025-06-17 04:21:35,430 - INFO - Quiz created successfully with ID: 69
+2025-06-17 04:21:35,431 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:36,301 - INFO - Question created successfully with ID: 313
+2025-06-17 04:21:36,715 - INFO - Question created successfully with ID: 314
+2025-06-17 04:21:37,081 - INFO - Question created successfully with ID: 315
+2025-06-17 04:21:37,452 - INFO - Question created successfully with ID: 316
+2025-06-17 04:21:38,010 - INFO - Creating quiz: CSS nâng cao for collection ID: 14
+2025-06-17 04:21:38,039 - INFO - Quiz created successfully with ID: 70
+2025-06-17 04:21:38,039 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:38,909 - INFO - Question created successfully with ID: 317
+2025-06-17 04:21:39,277 - INFO - Question created successfully with ID: 318
+2025-06-17 04:21:39,652 - INFO - Question created successfully with ID: 319
+2025-06-17 04:21:40,014 - INFO - Question created successfully with ID: 320
+2025-06-17 04:21:40,381 - INFO - Question created successfully with ID: 321
+2025-06-17 04:21:40,939 - INFO - Creating quiz: JavaScript DOM for collection ID: 14
+2025-06-17 04:21:40,973 - INFO - Quiz created successfully with ID: 71
+2025-06-17 04:21:40,973 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:41,844 - INFO - Question created successfully with ID: 322
+2025-06-17 04:21:42,222 - INFO - Question created successfully with ID: 323
+2025-06-17 04:21:42,584 - INFO - Question created successfully with ID: 324
+2025-06-17 04:21:42,955 - INFO - Question created successfully with ID: 325
+2025-06-17 04:21:43,326 - INFO - Question created successfully with ID: 326
+2025-06-17 04:21:43,884 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 14
+2025-06-17 04:21:43,915 - INFO - Quiz created successfully with ID: 72
+2025-06-17 04:21:43,915 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:44,789 - INFO - Question created successfully with ID: 327
+2025-06-17 04:21:45,157 - INFO - Question created successfully with ID: 328
+2025-06-17 04:21:45,519 - INFO - Question created successfully with ID: 329
+2025-06-17 04:21:45,884 - INFO - Question created successfully with ID: 330
+2025-06-17 04:21:46,250 - INFO - Question created successfully with ID: 331
+2025-06-17 04:21:46,808 - INFO - Creating quiz: RESTful API với Express for collection ID: 14
+2025-06-17 04:21:46,841 - INFO - Quiz created successfully with ID: 73
+2025-06-17 04:21:46,841 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:47,714 - INFO - Question created successfully with ID: 332
+2025-06-17 04:21:48,086 - INFO - Question created successfully with ID: 333
+2025-06-17 04:21:48,448 - INFO - Question created successfully with ID: 334
+2025-06-17 04:21:48,817 - INFO - Question created successfully with ID: 335
+2025-06-17 04:21:49,876 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-17 04:21:49,902 - INFO - Collection created successfully with ID: 15
+2025-06-17 04:21:49,903 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:50,461 - INFO - Creating quiz: Danh sách liên kết for collection ID: 15
+2025-06-17 04:21:50,492 - INFO - Quiz created successfully with ID: 74
+2025-06-17 04:21:50,492 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:51,360 - INFO - Question created successfully with ID: 336
+2025-06-17 04:21:51,731 - INFO - Question created successfully with ID: 337
+2025-06-17 04:21:52,092 - INFO - Question created successfully with ID: 338
+2025-06-17 04:21:52,456 - INFO - Question created successfully with ID: 339
+2025-06-17 04:21:52,820 - INFO - Question created successfully with ID: 340
+2025-06-17 04:21:53,377 - INFO - Creating quiz: Cây nhị phân for collection ID: 15
+2025-06-17 04:21:53,424 - INFO - Quiz created successfully with ID: 75
+2025-06-17 04:21:53,425 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:54,299 - INFO - Question created successfully with ID: 341
+2025-06-17 04:21:54,667 - INFO - Question created successfully with ID: 342
+2025-06-17 04:21:55,032 - INFO - Question created successfully with ID: 343
+2025-06-17 04:21:55,395 - INFO - Question created successfully with ID: 344
+2025-06-17 04:21:55,954 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 15
+2025-06-17 04:21:55,984 - INFO - Quiz created successfully with ID: 76
+2025-06-17 04:21:55,985 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:56,859 - INFO - Question created successfully with ID: 345
+2025-06-17 04:21:57,229 - INFO - Question created successfully with ID: 346
+2025-06-17 04:21:57,591 - INFO - Question created successfully with ID: 347
+2025-06-17 04:21:57,952 - INFO - Question created successfully with ID: 348
+2025-06-17 04:21:58,318 - INFO - Question created successfully with ID: 349
+2025-06-17 04:21:58,874 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 15
+2025-06-17 04:21:58,903 - INFO - Quiz created successfully with ID: 77
+2025-06-17 04:21:58,904 - INFO - State saved to created_data_state.json
+2025-06-17 04:21:59,769 - INFO - Question created successfully with ID: 350
+2025-06-17 04:22:00,131 - INFO - Question created successfully with ID: 351
+2025-06-17 04:22:00,501 - INFO - Question created successfully with ID: 352
+2025-06-17 04:22:01,057 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 15
+2025-06-17 04:22:01,088 - INFO - Quiz created successfully with ID: 78
+2025-06-17 04:22:01,089 - INFO - State saved to created_data_state.json
+2025-06-17 04:22:01,964 - INFO - Question created successfully with ID: 353
+2025-06-17 04:22:02,328 - INFO - Question created successfully with ID: 354
+2025-06-17 04:22:02,696 - INFO - Question created successfully with ID: 355
+2025-06-17 04:22:03,065 - INFO - Question created successfully with ID: 356
+2025-06-17 04:22:04,065 - INFO - Data processing completed
+2025-06-17 04:22:04,066 - INFO - Complete test environment setup successfully!
+2025-06-17 04:37:52,057 - INFO - Loading existing state from created_data_state.json
+2025-06-17 04:37:52,057 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 13, 'quizzes': {'Cơ bản về Widget': {'id': 64, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 65, 'questions': {}}, 'Điều hướng màn hình': {'id': 66, 'questions': {}}, 'Thiết kế Material Design': {'id': 67, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 68, 'questions': {}}}}, 'Lập trình Web': {'id': 14, 'quizzes': {'HTML cơ bản': {'id': 69, 'questions': {}}, 'CSS nâng cao': {'id': 70, 'questions': {}}, 'JavaScript DOM': {'id': 71, 'questions': {}}, 'Xây dựng SPA với React': {'id': 72, 'questions': {}}, 'RESTful API với Express': {'id': 73, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 15, 'quizzes': {'Danh sách liên kết': {'id': 74, 'questions': {}}, 'Cây nhị phân': {'id': 75, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 76, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 77, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 78, 'questions': {}}}}}}
+2025-06-17 04:37:52,057 - INFO - Loading existing state from created_users_state.json
+2025-06-17 04:37:52,058 - INFO - Loaded state: users created = 30
+2025-06-17 04:37:52,093 - INFO - Found 8 avatar images in images/users
+2025-06-17 04:37:52,093 - INFO - Setting up complete test environment...
+2025-06-17 04:37:52,093 - INFO - Creating test users...
+2025-06-17 04:37:52,093 - INFO - Deleting all existing users...
+2025-06-17 04:37:52,543 - INFO - Deleted user with ID: 103
+2025-06-17 04:37:52,841 - INFO - Deleted user with ID: 104
+2025-06-17 04:37:53,219 - INFO - Deleted user with ID: 105
+2025-06-17 04:37:53,453 - INFO - Deleted user with ID: 106
+2025-06-17 04:37:53,742 - INFO - Deleted user with ID: 107
+2025-06-17 04:37:54,048 - INFO - Deleted user with ID: 108
+2025-06-17 04:37:54,341 - INFO - Deleted user with ID: 109
+2025-06-17 04:37:54,642 - INFO - Deleted user with ID: 110
+2025-06-17 04:37:55,039 - INFO - Deleted user with ID: 111
+2025-06-17 04:37:55,339 - INFO - Deleted user with ID: 112
+2025-06-17 04:37:55,638 - INFO - Deleted user with ID: 113
+2025-06-17 04:37:55,934 - INFO - Deleted user with ID: 114
+2025-06-17 04:37:56,247 - INFO - Deleted user with ID: 115
+2025-06-17 04:37:56,542 - INFO - Deleted user with ID: 116
+2025-06-17 04:37:56,846 - INFO - Deleted user with ID: 117
+2025-06-17 04:37:57,148 - INFO - Deleted user with ID: 118
+2025-06-17 04:37:57,437 - INFO - Deleted user with ID: 119
+2025-06-17 04:37:57,720 - INFO - Deleted user with ID: 120
+2025-06-17 04:37:58,054 - INFO - Deleted user with ID: 121
+2025-06-17 04:37:58,341 - INFO - Deleted user with ID: 122
+2025-06-17 04:37:58,643 - INFO - Deleted user with ID: 123
+2025-06-17 04:37:58,920 - INFO - Deleted user with ID: 124
+2025-06-17 04:37:59,156 - INFO - Deleted user with ID: 125
+2025-06-17 04:37:59,540 - INFO - Deleted user with ID: 126
+2025-06-17 04:37:59,837 - INFO - Deleted user with ID: 127
+2025-06-17 04:38:00,128 - INFO - Deleted user with ID: 128
+2025-06-17 04:38:00,463 - INFO - Deleted user with ID: 129
+2025-06-17 04:38:00,835 - INFO - Deleted user with ID: 130
+2025-06-17 04:38:01,072 - INFO - Deleted user with ID: 131
+2025-06-17 04:38:01,451 - INFO - Deleted user with ID: 132
+2025-06-17 04:38:01,653 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:01,654 - INFO - Deleted 30 users successfully
+2025-06-17 04:38:01,654 - INFO - Creating 30 fake users...
+2025-06-17 04:38:01,658 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:38:01,659 - INFO - Creating user: edwardrivera0 (edwardrivera0@webster-bolton.com)
+2025-06-17 04:38:01,954 - INFO - User created successfully with ID: 133
+2025-06-17 04:38:01,955 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:02,458 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:38:02,459 - INFO - Creating user: ronaldfleming1 (ronaldfleming1@glover-ho.biz)
+2025-06-17 04:38:02,753 - INFO - User created successfully with ID: 134
+2025-06-17 04:38:02,754 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:03,257 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:38:03,257 - INFO - Creating user: aaronwaller2 (aaronwaller2@dixon.net)
+2025-06-17 04:38:03,527 - INFO - User created successfully with ID: 135
+2025-06-17 04:38:03,528 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:04,030 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:38:04,030 - INFO - Creating user: jessicajones3 (jessicajones3@coleman-david.com)
+2025-06-17 04:38:04,324 - INFO - User created successfully with ID: 136
+2025-06-17 04:38:04,325 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:04,827 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:38:04,827 - INFO - Creating user: elijahramirez4 (elijahramirez4@orr-ramirez.com)
+2025-06-17 04:38:05,055 - INFO - User created successfully with ID: 137
+2025-06-17 04:38:05,066 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:05,568 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:38:05,569 - INFO - Creating user: kennethmurphy5 (kennethmurphy5@snyder.info)
+2025-06-17 04:38:05,831 - INFO - User created successfully with ID: 138
+2025-06-17 04:38:05,832 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:06,335 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:38:06,335 - INFO - Creating user: tarawilliams6 (tarawilliams6@perkins.biz)
+2025-06-17 04:38:06,481 - INFO - User created successfully with ID: 139
+2025-06-17 04:38:06,481 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:07,020 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:38:07,021 - INFO - Creating user: jeremyfarmer7 (jeremyfarmer7@rhodes.info)
+2025-06-17 04:38:07,191 - INFO - User created successfully with ID: 140
+2025-06-17 04:38:07,192 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:07,694 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:38:07,695 - INFO - Creating user: donaldford8 (donaldford8@sanders-kim.net)
+2025-06-17 04:38:07,817 - INFO - User created successfully with ID: 141
+2025-06-17 04:38:07,818 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:08,320 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:38:08,320 - INFO - Creating user: danielchang9 (danielchang9@carter-lamb.com)
+2025-06-17 04:38:08,439 - INFO - User created successfully with ID: 142
+2025-06-17 04:38:08,440 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:08,942 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:38:08,942 - INFO - Creating user: tinagill10 (tinagill10@mccormick.com)
+2025-06-17 04:38:09,065 - INFO - User created successfully with ID: 143
+2025-06-17 04:38:09,065 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:09,567 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:38:09,568 - INFO - Creating user: marcusjarvis11 (marcusjarvis11@duncan.com)
+2025-06-17 04:38:09,690 - INFO - User created successfully with ID: 144
+2025-06-17 04:38:09,691 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:10,192 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:38:10,193 - INFO - Creating user: lindseymiller12 (lindseymiller12@robinson.com)
+2025-06-17 04:38:10,315 - INFO - User created successfully with ID: 145
+2025-06-17 04:38:10,316 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:10,819 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:38:10,819 - INFO - Creating user: annasloan13 (annasloan13@jacobs.com)
+2025-06-17 04:38:10,948 - INFO - User created successfully with ID: 146
+2025-06-17 04:38:10,949 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:11,451 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:38:11,451 - INFO - Creating user: tracybrown14 (tracybrown14@collins.net)
+2025-06-17 04:38:11,569 - INFO - User created successfully with ID: 147
+2025-06-17 04:38:11,569 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:12,072 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:38:12,072 - INFO - Creating user: madelinetyler15 (madelinetyler15@martinez-ramos.net)
+2025-06-17 04:38:12,186 - INFO - User created successfully with ID: 148
+2025-06-17 04:38:12,187 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:12,689 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:38:12,689 - INFO - Creating user: lorihampton16 (lorihampton16@skinner-allen.biz)
+2025-06-17 04:38:12,988 - INFO - User created successfully with ID: 149
+2025-06-17 04:38:12,988 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:13,491 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:38:13,491 - INFO - Creating user: sarahcook17 (sarahcook17@holloway-simpson.com)
+2025-06-17 04:38:13,629 - INFO - User created successfully with ID: 150
+2025-06-17 04:38:13,630 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:14,132 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:38:14,132 - INFO - Creating user: tracycox18 (tracycox18@mayer.com)
+2025-06-17 04:38:14,265 - INFO - User created successfully with ID: 151
+2025-06-17 04:38:14,266 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:14,768 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:38:14,768 - INFO - Creating user: matthewrowe19 (matthewrowe19@brown.org)
+2025-06-17 04:38:15,173 - INFO - User created successfully with ID: 152
+2025-06-17 04:38:15,174 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:15,676 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:38:15,676 - INFO - Creating user: jennifertaylor20 (jennifertaylor20@rodgers.com)
+2025-06-17 04:38:15,805 - INFO - User created successfully with ID: 153
+2025-06-17 04:38:15,806 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:16,307 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:38:16,308 - INFO - Creating user: kirstendickerson21 (kirstendickerson21@mitchell.org)
+2025-06-17 04:38:16,426 - INFO - User created successfully with ID: 154
+2025-06-17 04:38:16,427 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:16,930 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:38:16,930 - INFO - Creating user: edwardmiller22 (edwardmiller22@brewer.biz)
+2025-06-17 04:38:17,039 - INFO - User created successfully with ID: 155
+2025-06-17 04:38:17,040 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:17,542 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:38:17,542 - INFO - Creating user: jasonphillips23 (jasonphillips23@gibbs.com)
+2025-06-17 04:38:17,668 - INFO - User created successfully with ID: 156
+2025-06-17 04:38:17,669 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:18,171 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:38:18,171 - INFO - Creating user: tracyperez24 (tracyperez24@chen.com)
+2025-06-17 04:38:18,359 - INFO - User created successfully with ID: 157
+2025-06-17 04:38:18,360 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:18,862 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:38:18,862 - INFO - Creating user: courtneynichols25 (courtneynichols25@martinez.com)
+2025-06-17 04:38:18,969 - INFO - User created successfully with ID: 158
+2025-06-17 04:38:18,970 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:19,472 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:38:19,472 - INFO - Creating user: davidmoore26 (davidmoore26@haynes-fischer.info)
+2025-06-17 04:38:19,584 - INFO - User created successfully with ID: 159
+2025-06-17 04:38:19,585 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:20,086 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:38:20,087 - INFO - Creating user: danaramos27 (danaramos27@morales.com)
+2025-06-17 04:38:20,200 - INFO - User created successfully with ID: 160
+2025-06-17 04:38:20,201 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:20,703 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:38:20,703 - INFO - Creating user: cheryllewis28 (cheryllewis28@wong.biz)
+2025-06-17 04:38:21,323 - INFO - User created successfully with ID: 161
+2025-06-17 04:38:21,324 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:21,825 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:38:21,825 - INFO - Creating user: teresarose29 (teresarose29@garcia-lee.com)
+2025-06-17 04:38:21,933 - INFO - User created successfully with ID: 162
+2025-06-17 04:38:21,934 - INFO - State saved to created_users_state.json
+2025-06-17 04:38:22,435 - INFO - Successfully created 30 users out of 30 attempted
+2025-06-17 04:38:22,435 - INFO - Created 30 users successfully
+2025-06-17 04:38:22,435 - INFO - Creating quiz data...
+2025-06-17 04:38:22,435 - INFO - Deleting all existing data...
+2025-06-17 04:38:22,511 - ERROR - Failed to fetch quizzes: 503
+2025-06-17 04:38:22,530 - ERROR - Failed to fetch collections: 503
+2025-06-17 04:38:22,531 - INFO - State saved to created_data_state.json
+2025-06-17 04:38:22,531 - INFO - All data deleted successfully
+2025-06-17 04:38:22,593 - INFO - Creating collection: Lập trình Mobile
+2025-06-17 04:38:22,615 - ERROR - Failed to create collection: 503
+2025-06-17 04:38:22,615 - ERROR - Response: {"timestamp":"2025-06-17T04:38:22.613+00:00","path":"/api/quiz-collections","status":503,"error":"Service Unavailable","requestId":"acaea1c4-2325"}
+2025-06-17 04:38:23,687 - INFO - Creating collection: Lập trình Web
+2025-06-17 04:38:23,706 - ERROR - Failed to create collection: 503
+2025-06-17 04:38:23,706 - ERROR - Response: {"timestamp":"2025-06-17T04:38:23.704+00:00","path":"/api/quiz-collections","status":503,"error":"Service Unavailable","requestId":"1fbce6f7-2327"}
+2025-06-17 04:38:24,765 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-17 04:38:24,785 - ERROR - Failed to create collection: 503
+2025-06-17 04:38:24,785 - ERROR - Response: {"timestamp":"2025-06-17T04:38:24.783+00:00","path":"/api/quiz-collections","status":503,"error":"Service Unavailable","requestId":"885b481c-2329"}
+2025-06-17 04:38:25,786 - INFO - Data processing completed
+2025-06-17 04:38:25,786 - INFO - Complete test environment setup successfully!
+2025-06-17 04:39:02,848 - INFO - Loading existing state from created_data_state.json
+2025-06-17 04:39:02,848 - INFO - Loaded state: {'collections': {}}
+2025-06-17 04:39:02,848 - INFO - Loading existing state from created_users_state.json
+2025-06-17 04:39:02,849 - INFO - Loaded state: users created = 30
+2025-06-17 04:39:02,903 - INFO - Found 8 avatar images in images/users
+2025-06-17 04:39:02,903 - INFO - Setting up complete test environment...
+2025-06-17 04:39:02,903 - INFO - Creating test users...
+2025-06-17 04:39:02,903 - INFO - Deleting all existing users...
+2025-06-17 04:39:03,030 - INFO - Deleted user with ID: 133
+2025-06-17 04:39:03,259 - INFO - Deleted user with ID: 134
+2025-06-17 04:39:03,490 - INFO - Deleted user with ID: 135
+2025-06-17 04:39:03,720 - INFO - Deleted user with ID: 136
+2025-06-17 04:39:03,950 - INFO - Deleted user with ID: 137
+2025-06-17 04:39:04,187 - INFO - Deleted user with ID: 138
+2025-06-17 04:39:04,418 - INFO - Deleted user with ID: 139
+2025-06-17 04:39:04,649 - INFO - Deleted user with ID: 140
+2025-06-17 04:39:04,878 - INFO - Deleted user with ID: 141
+2025-06-17 04:39:05,107 - INFO - Deleted user with ID: 142
+2025-06-17 04:39:05,336 - INFO - Deleted user with ID: 143
+2025-06-17 04:39:05,563 - INFO - Deleted user with ID: 144
+2025-06-17 04:39:05,788 - INFO - Deleted user with ID: 145
+2025-06-17 04:39:06,015 - INFO - Deleted user with ID: 146
+2025-06-17 04:39:06,244 - INFO - Deleted user with ID: 147
+2025-06-17 04:39:06,473 - INFO - Deleted user with ID: 148
+2025-06-17 04:39:06,706 - INFO - Deleted user with ID: 149
+2025-06-17 04:39:06,946 - INFO - Deleted user with ID: 150
+2025-06-17 04:39:07,183 - INFO - Deleted user with ID: 151
+2025-06-17 04:39:07,448 - INFO - Deleted user with ID: 152
+2025-06-17 04:39:07,682 - INFO - Deleted user with ID: 153
+2025-06-17 04:39:07,924 - INFO - Deleted user with ID: 154
+2025-06-17 04:39:08,161 - INFO - Deleted user with ID: 155
+2025-06-17 04:39:08,391 - INFO - Deleted user with ID: 156
+2025-06-17 04:39:08,632 - INFO - Deleted user with ID: 157
+2025-06-17 04:39:08,871 - INFO - Deleted user with ID: 158
+2025-06-17 04:39:09,103 - INFO - Deleted user with ID: 159
+2025-06-17 04:39:09,339 - INFO - Deleted user with ID: 160
+2025-06-17 04:39:09,574 - INFO - Deleted user with ID: 161
+2025-06-17 04:39:09,806 - INFO - Deleted user with ID: 162
+2025-06-17 04:39:10,007 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:10,007 - INFO - Deleted 30 users successfully
+2025-06-17 04:39:10,007 - INFO - Creating 30 fake users...
+2025-06-17 04:39:10,010 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:39:10,010 - INFO - Creating user: kathleenanderson0 (kathleenanderson0@may.com)
+2025-06-17 04:39:10,138 - INFO - User created successfully with ID: 163
+2025-06-17 04:39:10,139 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:10,641 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:39:10,641 - INFO - Creating user: maryruiz1 (maryruiz1@scott.info)
+2025-06-17 04:39:10,787 - INFO - User created successfully with ID: 164
+2025-06-17 04:39:10,788 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:11,289 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:39:11,289 - INFO - Creating user: christopherparker2 (christopherparker2@hammond-vaughn.info)
+2025-06-17 04:39:11,402 - INFO - User created successfully with ID: 165
+2025-06-17 04:39:11,402 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:11,903 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:39:11,904 - INFO - Creating user: laurasmith3 (laurasmith3@yu.com)
+2025-06-17 04:39:12,032 - INFO - User created successfully with ID: 166
+2025-06-17 04:39:12,033 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:12,534 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:39:12,534 - INFO - Creating user: douglasoliver4 (douglasoliver4@walter.com)
+2025-06-17 04:39:12,660 - INFO - User created successfully with ID: 167
+2025-06-17 04:39:12,661 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:13,162 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:39:13,163 - INFO - Creating user: tylernguyen5 (tylernguyen5@burns.biz)
+2025-06-17 04:39:13,267 - INFO - User created successfully with ID: 168
+2025-06-17 04:39:13,268 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:13,769 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:39:13,770 - INFO - Creating user: jessesullivan6 (jessesullivan6@stone.biz)
+2025-06-17 04:39:13,874 - INFO - User created successfully with ID: 169
+2025-06-17 04:39:13,874 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:14,376 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:39:14,376 - INFO - Creating user: michellewilliams7 (michellewilliams7@thompson.org)
+2025-06-17 04:39:14,477 - INFO - User created successfully with ID: 170
+2025-06-17 04:39:14,477 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:14,979 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:39:14,979 - INFO - Creating user: victoriacastillo8 (victoriacastillo8@james.com)
+2025-06-17 04:39:15,079 - INFO - User created successfully with ID: 171
+2025-06-17 04:39:15,080 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:15,582 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:39:15,582 - INFO - Creating user: taylormitchell9 (taylormitchell9@pena.info)
+2025-06-17 04:39:15,685 - INFO - User created successfully with ID: 172
+2025-06-17 04:39:15,685 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:16,187 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:39:16,187 - INFO - Creating user: lindablair10 (lindablair10@mccormick.com)
+2025-06-17 04:39:16,291 - INFO - User created successfully with ID: 173
+2025-06-17 04:39:16,291 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:16,793 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:39:16,793 - INFO - Creating user: alexandrafoster11 (alexandrafoster11@martinez.net)
+2025-06-17 04:39:16,899 - INFO - User created successfully with ID: 174
+2025-06-17 04:39:16,899 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:17,401 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:39:17,401 - INFO - Creating user: laurarichardson12 (laurarichardson12@wheeler-wilcox.com)
+2025-06-17 04:39:17,505 - INFO - User created successfully with ID: 175
+2025-06-17 04:39:17,506 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:18,007 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:39:18,007 - INFO - Creating user: danielleobrien13 (danielleobrien13@perry-chambers.org)
+2025-06-17 04:39:18,108 - INFO - User created successfully with ID: 176
+2025-06-17 04:39:18,109 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:18,611 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:39:18,611 - INFO - Creating user: tammyrichardson14 (tammyrichardson14@ingram-morgan.info)
+2025-06-17 04:39:18,717 - INFO - User created successfully with ID: 177
+2025-06-17 04:39:18,717 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:19,218 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:39:19,219 - INFO - Creating user: madisoncoleman15 (madisoncoleman15@west.com)
+2025-06-17 04:39:19,322 - INFO - User created successfully with ID: 178
+2025-06-17 04:39:19,323 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:19,824 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:39:19,825 - INFO - Creating user: carolynharrington16 (carolynharrington16@wade.net)
+2025-06-17 04:39:19,926 - INFO - User created successfully with ID: 179
+2025-06-17 04:39:19,926 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:20,427 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:39:20,427 - INFO - Creating user: brendajohnston17 (brendajohnston17@patel.com)
+2025-06-17 04:39:20,528 - INFO - User created successfully with ID: 180
+2025-06-17 04:39:20,529 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:21,031 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:39:21,031 - INFO - Creating user: janehampton18 (janehampton18@ward-rice.com)
+2025-06-17 04:39:21,149 - INFO - User created successfully with ID: 181
+2025-06-17 04:39:21,150 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:21,651 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:39:21,652 - INFO - Creating user: patrickbradley19 (patrickbradley19@young.com)
+2025-06-17 04:39:21,778 - INFO - User created successfully with ID: 182
+2025-06-17 04:39:21,785 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:22,289 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:39:22,289 - INFO - Creating user: oscaraguilar20 (oscaraguilar20@davis.biz)
+2025-06-17 04:39:22,390 - INFO - User created successfully with ID: 183
+2025-06-17 04:39:22,390 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:22,892 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:39:22,892 - INFO - Creating user: judithcooper21 (judithcooper21@shaw.com)
+2025-06-17 04:39:22,992 - INFO - User created successfully with ID: 184
+2025-06-17 04:39:22,992 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:23,494 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 04:39:23,494 - INFO - Creating user: derrickortiz22 (derrickortiz22@sullivan.biz)
+2025-06-17 04:39:23,595 - INFO - User created successfully with ID: 185
+2025-06-17 04:39:23,595 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:24,097 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 04:39:24,097 - INFO - Creating user: bretthanna23 (bretthanna23@cruz-hickman.com)
+2025-06-17 04:39:24,203 - INFO - User created successfully with ID: 186
+2025-06-17 04:39:24,204 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:24,705 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 04:39:24,705 - INFO - Creating user: deborahbenton24 (deborahbenton24@payne.com)
+2025-06-17 04:39:24,805 - INFO - User created successfully with ID: 187
+2025-06-17 04:39:24,806 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:25,307 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 04:39:25,307 - INFO - Creating user: teresahoward25 (teresahoward25@boyd.biz)
+2025-06-17 04:39:25,410 - INFO - User created successfully with ID: 188
+2025-06-17 04:39:25,410 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:25,912 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 04:39:25,912 - INFO - Creating user: cindyrice26 (cindyrice26@hunter-rodriguez.com)
+2025-06-17 04:39:26,011 - INFO - User created successfully with ID: 189
+2025-06-17 04:39:26,012 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:26,513 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 04:39:26,513 - INFO - Creating user: christophermurray27 (christophermurray27@carter.info)
+2025-06-17 04:39:26,612 - INFO - User created successfully with ID: 190
+2025-06-17 04:39:26,612 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:27,114 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 04:39:27,114 - INFO - Creating user: aaronwallace28 (aaronwallace28@ray.net)
+2025-06-17 04:39:27,214 - INFO - User created successfully with ID: 191
+2025-06-17 04:39:27,214 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:27,716 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 04:39:27,716 - INFO - Creating user: jaredreed29 (jaredreed29@nelson-parks.com)
+2025-06-17 04:39:27,816 - INFO - User created successfully with ID: 192
+2025-06-17 04:39:27,817 - INFO - State saved to created_users_state.json
+2025-06-17 04:39:28,317 - INFO - Successfully created 30 users out of 30 attempted
+2025-06-17 04:39:28,317 - INFO - Created 30 users successfully
+2025-06-17 04:39:28,317 - INFO - Creating quiz data...
+2025-06-17 04:39:28,318 - INFO - Deleting all existing data...
+2025-06-17 04:39:29,336 - INFO - Deleted all questions for quiz ID: 64
+2025-06-17 04:39:29,380 - INFO - Deleted quiz with ID: 64
+2025-06-17 04:39:29,761 - INFO - Deleted all questions for quiz ID: 65
+2025-06-17 04:39:29,793 - INFO - Deleted quiz with ID: 65
+2025-06-17 04:39:30,154 - INFO - Deleted all questions for quiz ID: 66
+2025-06-17 04:39:30,185 - INFO - Deleted quiz with ID: 66
+2025-06-17 04:39:30,498 - INFO - Deleted all questions for quiz ID: 67
+2025-06-17 04:39:30,524 - INFO - Deleted quiz with ID: 67
+2025-06-17 04:39:30,852 - INFO - Deleted all questions for quiz ID: 68
+2025-06-17 04:39:30,883 - INFO - Deleted quiz with ID: 68
+2025-06-17 04:39:31,222 - INFO - Deleted all questions for quiz ID: 69
+2025-06-17 04:39:31,254 - INFO - Deleted quiz with ID: 69
+2025-06-17 04:39:31,621 - INFO - Deleted all questions for quiz ID: 70
+2025-06-17 04:39:31,653 - INFO - Deleted quiz with ID: 70
+2025-06-17 04:39:31,980 - INFO - Deleted all questions for quiz ID: 71
+2025-06-17 04:39:32,032 - INFO - Deleted quiz with ID: 71
+2025-06-17 04:39:32,354 - INFO - Deleted all questions for quiz ID: 72
+2025-06-17 04:39:32,381 - INFO - Deleted quiz with ID: 72
+2025-06-17 04:39:32,721 - INFO - Deleted all questions for quiz ID: 73
+2025-06-17 04:39:32,749 - INFO - Deleted quiz with ID: 73
+2025-06-17 04:39:33,128 - INFO - Deleted all questions for quiz ID: 74
+2025-06-17 04:39:33,160 - INFO - Deleted quiz with ID: 74
+2025-06-17 04:39:33,463 - INFO - Deleted all questions for quiz ID: 75
+2025-06-17 04:39:33,492 - INFO - Deleted quiz with ID: 75
+2025-06-17 04:39:33,861 - INFO - Deleted all questions for quiz ID: 76
+2025-06-17 04:39:33,937 - INFO - Deleted quiz with ID: 76
+2025-06-17 04:39:34,218 - INFO - Deleted all questions for quiz ID: 77
+2025-06-17 04:39:34,248 - INFO - Deleted quiz with ID: 77
+2025-06-17 04:39:34,540 - INFO - Deleted all questions for quiz ID: 78
+2025-06-17 04:39:34,572 - INFO - Deleted quiz with ID: 78
+2025-06-17 04:39:34,857 - INFO - Deleted collection with ID: 13
+2025-06-17 04:39:35,405 - INFO - Deleted collection with ID: 14
+2025-06-17 04:39:35,950 - INFO - Deleted collection with ID: 15
+2025-06-17 04:39:36,451 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:36,451 - INFO - All data deleted successfully
+2025-06-17 04:39:36,506 - INFO - Creating collection: Lập trình Mobile
+2025-06-17 04:39:36,580 - INFO - Collection created successfully with ID: 16
+2025-06-17 04:39:36,581 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:37,138 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 16
+2025-06-17 04:39:37,176 - INFO - Quiz created successfully with ID: 79
+2025-06-17 04:39:37,177 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:38,225 - INFO - Question created successfully with ID: 357
+2025-06-17 04:39:38,603 - INFO - Question created successfully with ID: 358
+2025-06-17 04:39:38,980 - INFO - Question created successfully with ID: 359
+2025-06-17 04:39:39,363 - INFO - Question created successfully with ID: 360
+2025-06-17 04:39:39,916 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 16
+2025-06-17 04:39:39,952 - INFO - Quiz created successfully with ID: 80
+2025-06-17 04:39:39,952 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:40,832 - INFO - Question created successfully with ID: 361
+2025-06-17 04:39:41,210 - INFO - Question created successfully with ID: 362
+2025-06-17 04:39:41,587 - INFO - Question created successfully with ID: 363
+2025-06-17 04:39:41,958 - INFO - Question created successfully with ID: 364
+2025-06-17 04:39:42,339 - INFO - Question created successfully with ID: 365
+2025-06-17 04:39:42,900 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 16
+2025-06-17 04:39:42,941 - INFO - Quiz created successfully with ID: 81
+2025-06-17 04:39:42,942 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:43,819 - INFO - Question created successfully with ID: 366
+2025-06-17 04:39:44,199 - INFO - Question created successfully with ID: 367
+2025-06-17 04:39:44,578 - INFO - Question created successfully with ID: 368
+2025-06-17 04:39:44,956 - INFO - Question created successfully with ID: 369
+2025-06-17 04:39:45,509 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 16
+2025-06-17 04:39:45,547 - INFO - Quiz created successfully with ID: 82
+2025-06-17 04:39:45,548 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:46,429 - INFO - Question created successfully with ID: 370
+2025-06-17 04:39:46,813 - INFO - Question created successfully with ID: 371
+2025-06-17 04:39:47,194 - INFO - Question created successfully with ID: 372
+2025-06-17 04:39:47,581 - INFO - Question created successfully with ID: 373
+2025-06-17 04:39:48,136 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 16
+2025-06-17 04:39:48,170 - INFO - Quiz created successfully with ID: 83
+2025-06-17 04:39:48,170 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:49,053 - INFO - Question created successfully with ID: 374
+2025-06-17 04:39:49,437 - INFO - Question created successfully with ID: 375
+2025-06-17 04:39:49,813 - INFO - Question created successfully with ID: 376
+2025-06-17 04:39:50,179 - INFO - Question created successfully with ID: 377
+2025-06-17 04:39:50,555 - INFO - Question created successfully with ID: 378
+2025-06-17 04:39:51,619 - INFO - Creating collection: Lập trình Web
+2025-06-17 04:39:51,647 - INFO - Collection created successfully with ID: 17
+2025-06-17 04:39:51,647 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:52,201 - INFO - Creating quiz: HTML cơ bản for collection ID: 17
+2025-06-17 04:39:52,247 - INFO - Quiz created successfully with ID: 84
+2025-06-17 04:39:52,248 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:53,120 - INFO - Question created successfully with ID: 379
+2025-06-17 04:39:53,494 - INFO - Question created successfully with ID: 380
+2025-06-17 04:39:53,861 - INFO - Question created successfully with ID: 381
+2025-06-17 04:39:54,233 - INFO - Question created successfully with ID: 382
+2025-06-17 04:39:54,786 - INFO - Creating quiz: CSS nâng cao for collection ID: 17
+2025-06-17 04:39:54,818 - INFO - Quiz created successfully with ID: 85
+2025-06-17 04:39:54,818 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:55,701 - INFO - Question created successfully with ID: 383
+2025-06-17 04:39:56,075 - INFO - Question created successfully with ID: 384
+2025-06-17 04:39:56,449 - INFO - Question created successfully with ID: 385
+2025-06-17 04:39:56,817 - INFO - Question created successfully with ID: 386
+2025-06-17 04:39:57,189 - INFO - Question created successfully with ID: 387
+2025-06-17 04:39:57,742 - INFO - Creating quiz: JavaScript DOM for collection ID: 17
+2025-06-17 04:39:57,773 - INFO - Quiz created successfully with ID: 86
+2025-06-17 04:39:57,773 - INFO - State saved to created_data_state.json
+2025-06-17 04:39:58,647 - INFO - Question created successfully with ID: 388
+2025-06-17 04:39:59,017 - INFO - Question created successfully with ID: 389
+2025-06-17 04:39:59,389 - INFO - Question created successfully with ID: 390
+2025-06-17 04:39:59,760 - INFO - Question created successfully with ID: 391
+2025-06-17 04:40:00,137 - INFO - Question created successfully with ID: 392
+2025-06-17 04:40:00,692 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 17
+2025-06-17 04:40:00,728 - INFO - Quiz created successfully with ID: 87
+2025-06-17 04:40:00,729 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:01,604 - INFO - Question created successfully with ID: 393
+2025-06-17 04:40:01,988 - INFO - Question created successfully with ID: 394
+2025-06-17 04:40:02,355 - INFO - Question created successfully with ID: 395
+2025-06-17 04:40:02,725 - INFO - Question created successfully with ID: 396
+2025-06-17 04:40:03,095 - INFO - Question created successfully with ID: 397
+2025-06-17 04:40:03,650 - INFO - Creating quiz: RESTful API với Express for collection ID: 17
+2025-06-17 04:40:03,684 - INFO - Quiz created successfully with ID: 88
+2025-06-17 04:40:03,684 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:04,555 - INFO - Question created successfully with ID: 398
+2025-06-17 04:40:04,944 - INFO - Question created successfully with ID: 399
+2025-06-17 04:40:05,314 - INFO - Question created successfully with ID: 400
+2025-06-17 04:40:05,689 - INFO - Question created successfully with ID: 401
+2025-06-17 04:40:06,744 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-17 04:40:06,771 - INFO - Collection created successfully with ID: 18
+2025-06-17 04:40:06,771 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:07,327 - INFO - Creating quiz: Danh sách liên kết for collection ID: 18
+2025-06-17 04:40:07,356 - INFO - Quiz created successfully with ID: 89
+2025-06-17 04:40:07,357 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:08,224 - INFO - Question created successfully with ID: 402
+2025-06-17 04:40:08,596 - INFO - Question created successfully with ID: 403
+2025-06-17 04:40:08,960 - INFO - Question created successfully with ID: 404
+2025-06-17 04:40:09,332 - INFO - Question created successfully with ID: 405
+2025-06-17 04:40:09,698 - INFO - Question created successfully with ID: 406
+2025-06-17 04:40:10,253 - INFO - Creating quiz: Cây nhị phân for collection ID: 18
+2025-06-17 04:40:10,287 - INFO - Quiz created successfully with ID: 90
+2025-06-17 04:40:10,287 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:11,160 - INFO - Question created successfully with ID: 407
+2025-06-17 04:40:11,529 - INFO - Question created successfully with ID: 408
+2025-06-17 04:40:11,894 - INFO - Question created successfully with ID: 409
+2025-06-17 04:40:12,267 - INFO - Question created successfully with ID: 410
+2025-06-17 04:40:12,819 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 18
+2025-06-17 04:40:12,850 - INFO - Quiz created successfully with ID: 91
+2025-06-17 04:40:12,850 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:13,723 - INFO - Question created successfully with ID: 411
+2025-06-17 04:40:14,094 - INFO - Question created successfully with ID: 412
+2025-06-17 04:40:14,464 - INFO - Question created successfully with ID: 413
+2025-06-17 04:40:14,829 - INFO - Question created successfully with ID: 414
+2025-06-17 04:40:15,195 - INFO - Question created successfully with ID: 415
+2025-06-17 04:40:15,746 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 18
+2025-06-17 04:40:15,776 - INFO - Quiz created successfully with ID: 92
+2025-06-17 04:40:15,777 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:16,653 - INFO - Question created successfully with ID: 416
+2025-06-17 04:40:17,023 - INFO - Question created successfully with ID: 417
+2025-06-17 04:40:17,403 - INFO - Question created successfully with ID: 418
+2025-06-17 04:40:17,960 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 18
+2025-06-17 04:40:17,994 - INFO - Quiz created successfully with ID: 93
+2025-06-17 04:40:17,995 - INFO - State saved to created_data_state.json
+2025-06-17 04:40:18,868 - INFO - Question created successfully with ID: 419
+2025-06-17 04:40:19,234 - INFO - Question created successfully with ID: 420
+2025-06-17 04:40:19,604 - INFO - Question created successfully with ID: 421
+2025-06-17 04:40:19,968 - INFO - Question created successfully with ID: 422
+2025-06-17 04:40:20,969 - INFO - Data processing completed
+2025-06-17 04:40:20,969 - INFO - Complete test environment setup successfully!
+2025-06-17 05:52:59,228 - INFO - Loading existing state from created_data_state.json
+2025-06-17 05:52:59,229 - INFO - Loaded state: {'collections': {'Lập trình Mobile': {'id': 16, 'quizzes': {'Cơ bản về Widget': {'id': 79, 'questions': {}}, 'Quản lý trạng thái trong Flutter': {'id': 80, 'questions': {}}, 'Điều hướng màn hình': {'id': 81, 'questions': {}}, 'Thiết kế Material Design': {'id': 82, 'questions': {}}, 'Tương tác API trong Flutter': {'id': 83, 'questions': {}}}}, 'Lập trình Web': {'id': 17, 'quizzes': {'HTML cơ bản': {'id': 84, 'questions': {}}, 'CSS nâng cao': {'id': 85, 'questions': {}}, 'JavaScript DOM': {'id': 86, 'questions': {}}, 'Xây dựng SPA với React': {'id': 87, 'questions': {}}, 'RESTful API với Express': {'id': 88, 'questions': {}}}}, 'Cấu trúc dữ liệu và Giải thuật': {'id': 18, 'quizzes': {'Danh sách liên kết': {'id': 89, 'questions': {}}, 'Cây nhị phân': {'id': 90, 'questions': {}}, 'Thuật toán sắp xếp': {'id': 91, 'questions': {}}, 'Tìm kiếm nhị phân': {'id': 92, 'questions': {}}, 'Đệ quy và quy hoạch động': {'id': 93, 'questions': {}}}}}}
+2025-06-17 05:52:59,229 - INFO - Loading existing state from created_users_state.json
+2025-06-17 05:52:59,229 - INFO - Loaded state: users created = 30
+2025-06-17 05:52:59,267 - INFO - Found 8 avatar images in images/users
+2025-06-17 05:52:59,267 - INFO - Setting up complete test environment...
+2025-06-17 05:52:59,267 - INFO - Creating test users...
+2025-06-17 05:52:59,267 - INFO - Deleting all existing users...
+2025-06-17 05:52:59,426 - INFO - Deleted user with ID: 163
+2025-06-17 05:52:59,692 - INFO - Deleted user with ID: 164
+2025-06-17 05:53:00,006 - INFO - Deleted user with ID: 165
+2025-06-17 05:53:00,274 - INFO - Deleted user with ID: 166
+2025-06-17 05:53:00,498 - INFO - Deleted user with ID: 167
+2025-06-17 05:53:00,772 - INFO - Deleted user with ID: 168
+2025-06-17 05:53:01,031 - INFO - Deleted user with ID: 169
+2025-06-17 05:53:01,255 - INFO - Deleted user with ID: 170
+2025-06-17 05:53:01,479 - INFO - Deleted user with ID: 171
+2025-06-17 05:53:01,736 - INFO - Deleted user with ID: 172
+2025-06-17 05:53:01,960 - INFO - Deleted user with ID: 173
+2025-06-17 05:53:02,219 - INFO - Deleted user with ID: 174
+2025-06-17 05:53:02,442 - INFO - Deleted user with ID: 175
+2025-06-17 05:53:02,699 - INFO - Deleted user with ID: 176
+2025-06-17 05:53:02,920 - INFO - Deleted user with ID: 177
+2025-06-17 05:53:03,143 - INFO - Deleted user with ID: 178
+2025-06-17 05:53:03,401 - INFO - Deleted user with ID: 179
+2025-06-17 05:53:03,666 - INFO - Deleted user with ID: 180
+2025-06-17 05:53:03,934 - INFO - Deleted user with ID: 181
+2025-06-17 05:53:04,157 - INFO - Deleted user with ID: 182
+2025-06-17 05:53:04,427 - INFO - Deleted user with ID: 183
+2025-06-17 05:53:04,649 - INFO - Deleted user with ID: 184
+2025-06-17 05:53:04,871 - INFO - Deleted user with ID: 185
+2025-06-17 05:53:05,094 - INFO - Deleted user with ID: 186
+2025-06-17 05:53:05,317 - INFO - Deleted user with ID: 187
+2025-06-17 05:53:05,542 - INFO - Deleted user with ID: 188
+2025-06-17 05:53:05,766 - INFO - Deleted user with ID: 189
+2025-06-17 05:53:05,989 - INFO - Deleted user with ID: 190
+2025-06-17 05:53:06,213 - INFO - Deleted user with ID: 191
+2025-06-17 05:53:06,437 - INFO - Deleted user with ID: 192
+2025-06-17 05:53:06,638 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:06,638 - INFO - Deleted 30 users successfully
+2025-06-17 05:53:06,638 - INFO - Creating 30 fake users...
+2025-06-17 05:53:06,641 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 05:53:06,641 - INFO - Creating user: susansantos0 (susansantos0@collins.info)
+2025-06-17 05:53:06,817 - INFO - User created successfully with ID: 193
+2025-06-17 05:53:06,818 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:07,319 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 05:53:07,319 - INFO - Creating user: josephdiaz1 (josephdiaz1@thomas-lewis.com)
+2025-06-17 05:53:07,419 - INFO - User created successfully with ID: 194
+2025-06-17 05:53:07,419 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:07,920 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 05:53:07,921 - INFO - Creating user: jeffreynelson2 (jeffreynelson2@jones.org)
+2025-06-17 05:53:08,018 - INFO - User created successfully with ID: 195
+2025-06-17 05:53:08,019 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:08,520 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 05:53:08,521 - INFO - Creating user: keithjohnson3 (keithjohnson3@sanders-jones.com)
+2025-06-17 05:53:08,666 - INFO - User created successfully with ID: 196
+2025-06-17 05:53:08,666 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:09,167 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 05:53:09,168 - INFO - Creating user: kellysmith4 (kellysmith4@miller.com)
+2025-06-17 05:53:09,267 - INFO - User created successfully with ID: 197
+2025-06-17 05:53:09,267 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:09,768 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 05:53:09,769 - INFO - Creating user: randymoore5 (randymoore5@walsh.biz)
+2025-06-17 05:53:09,868 - INFO - User created successfully with ID: 198
+2025-06-17 05:53:09,868 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:10,370 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 05:53:10,370 - INFO - Creating user: christopherrobinson6 (christopherrobinson6@berry.biz)
+2025-06-17 05:53:10,467 - INFO - User created successfully with ID: 199
+2025-06-17 05:53:10,468 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:10,970 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 05:53:10,970 - INFO - Creating user: jameshebert7 (jameshebert7@lee.biz)
+2025-06-17 05:53:11,075 - INFO - User created successfully with ID: 200
+2025-06-17 05:53:11,075 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:11,577 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 05:53:11,577 - INFO - Creating user: jamesreynolds8 (jamesreynolds8@phillips.net)
+2025-06-17 05:53:11,673 - INFO - User created successfully with ID: 201
+2025-06-17 05:53:11,674 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:12,175 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 05:53:12,175 - INFO - Creating user: seanflores9 (seanflores9@hoffman.com)
+2025-06-17 05:53:12,273 - INFO - User created successfully with ID: 202
+2025-06-17 05:53:12,273 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:12,775 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 05:53:12,775 - INFO - Creating user: thomaswhite10 (thomaswhite10@burke.com)
+2025-06-17 05:53:12,873 - INFO - User created successfully with ID: 203
+2025-06-17 05:53:12,874 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:13,376 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 05:53:13,376 - INFO - Creating user: christopherobrien11 (christopherobrien11@james.com)
+2025-06-17 05:53:13,474 - INFO - User created successfully with ID: 204
+2025-06-17 05:53:13,475 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:13,976 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 05:53:13,976 - INFO - Creating user: ronaldsantiago12 (ronaldsantiago12@schneider.biz)
+2025-06-17 05:53:14,074 - INFO - User created successfully with ID: 205
+2025-06-17 05:53:14,074 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:14,576 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 05:53:14,576 - INFO - Creating user: lisagrant13 (lisagrant13@willis.com)
+2025-06-17 05:53:14,672 - INFO - User created successfully with ID: 206
+2025-06-17 05:53:14,673 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:15,174 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 05:53:15,174 - INFO - Creating user: matthewdavis14 (matthewdavis14@collins.biz)
+2025-06-17 05:53:15,274 - INFO - User created successfully with ID: 207
+2025-06-17 05:53:15,275 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:15,776 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 05:53:15,776 - INFO - Creating user: colelee15 (colelee15@sanchez-bailey.org)
+2025-06-17 05:53:15,879 - INFO - User created successfully with ID: 208
+2025-06-17 05:53:15,880 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:16,381 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 05:53:16,381 - INFO - Creating user: jasonhamilton16 (jasonhamilton16@moran.info)
+2025-06-17 05:53:16,515 - INFO - User created successfully with ID: 209
+2025-06-17 05:53:16,515 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:17,016 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 05:53:17,017 - INFO - Creating user: rebeccaramirez17 (rebeccaramirez17@lopez.com)
+2025-06-17 05:53:17,113 - INFO - User created successfully with ID: 210
+2025-06-17 05:53:17,114 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:17,615 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 05:53:17,615 - INFO - Creating user: nicoleoliver18 (nicoleoliver18@mora.com)
+2025-06-17 05:53:17,712 - INFO - User created successfully with ID: 211
+2025-06-17 05:53:17,713 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:18,214 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 05:53:18,214 - INFO - Creating user: darrellbrennan19 (darrellbrennan19@ward.com)
+2025-06-17 05:53:18,313 - INFO - User created successfully with ID: 212
+2025-06-17 05:53:18,313 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:18,815 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 05:53:18,815 - INFO - Creating user: justincarr20 (justincarr20@nguyen.info)
+2025-06-17 05:53:18,910 - INFO - User created successfully with ID: 213
+2025-06-17 05:53:18,911 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:19,412 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 05:53:19,412 - INFO - Creating user: sheilaboyd21 (sheilaboyd21@cox-george.com)
+2025-06-17 05:53:19,509 - INFO - User created successfully with ID: 214
+2025-06-17 05:53:19,510 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:20,011 - INFO - Using avatar: images/users/avatar7.jpg
+2025-06-17 05:53:20,011 - INFO - Creating user: markdavis22 (markdavis22@lopez-cabrera.com)
+2025-06-17 05:53:20,110 - INFO - User created successfully with ID: 215
+2025-06-17 05:53:20,111 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:20,612 - INFO - Using avatar: images/users/avatar8.jpg
+2025-06-17 05:53:20,613 - INFO - Creating user: hollybaldwin23 (hollybaldwin23@andrade.com)
+2025-06-17 05:53:20,708 - INFO - User created successfully with ID: 216
+2025-06-17 05:53:20,709 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:21,210 - INFO - Using avatar: images/users/avatar1.jpg
+2025-06-17 05:53:21,210 - INFO - Creating user: brianmorrison24 (brianmorrison24@johnson.com)
+2025-06-17 05:53:21,307 - INFO - User created successfully with ID: 217
+2025-06-17 05:53:21,307 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:21,809 - INFO - Using avatar: images/users/avatar2.jpg
+2025-06-17 05:53:21,809 - INFO - Creating user: timothylee25 (timothylee25@flores.net)
+2025-06-17 05:53:21,906 - INFO - User created successfully with ID: 218
+2025-06-17 05:53:21,906 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:22,408 - INFO - Using avatar: images/users/avatar3.jpg
+2025-06-17 05:53:22,408 - INFO - Creating user: desireefry26 (desireefry26@kelly.com)
+2025-06-17 05:53:22,504 - INFO - User created successfully with ID: 219
+2025-06-17 05:53:22,505 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:23,006 - INFO - Using avatar: images/users/avatar4.jpg
+2025-06-17 05:53:23,006 - INFO - Creating user: chelsealester27 (chelsealester27@wheeler.com)
+2025-06-17 05:53:23,104 - INFO - User created successfully with ID: 220
+2025-06-17 05:53:23,105 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:23,606 - INFO - Using avatar: images/users/avatar5.jpg
+2025-06-17 05:53:23,606 - INFO - Creating user: angelaross28 (angelaross28@fuller-williams.com)
+2025-06-17 05:53:23,701 - INFO - User created successfully with ID: 221
+2025-06-17 05:53:23,702 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:24,203 - INFO - Using avatar: images/users/avatar6.jpg
+2025-06-17 05:53:24,203 - INFO - Creating user: charlottestark29 (charlottestark29@garcia.com)
+2025-06-17 05:53:24,298 - INFO - User created successfully with ID: 222
+2025-06-17 05:53:24,299 - INFO - State saved to created_users_state.json
+2025-06-17 05:53:24,800 - INFO - Successfully created 30 users out of 30 attempted
+2025-06-17 05:53:24,800 - INFO - Created 30 users successfully
+2025-06-17 05:53:24,800 - INFO - Creating quiz data...
+2025-06-17 05:53:24,800 - INFO - Deleting all existing data...
+2025-06-17 05:53:25,239 - INFO - Deleted all questions for quiz ID: 79
+2025-06-17 05:53:25,276 - INFO - Deleted quiz with ID: 79
+2025-06-17 05:53:25,604 - INFO - Deleted all questions for quiz ID: 80
+2025-06-17 05:53:25,633 - INFO - Deleted quiz with ID: 80
+2025-06-17 05:53:25,935 - INFO - Deleted all questions for quiz ID: 81
+2025-06-17 05:53:25,961 - INFO - Deleted quiz with ID: 81
+2025-06-17 05:53:26,263 - INFO - Deleted all questions for quiz ID: 82
+2025-06-17 05:53:26,290 - INFO - Deleted quiz with ID: 82
+2025-06-17 05:53:26,599 - INFO - Deleted all questions for quiz ID: 83
+2025-06-17 05:53:26,626 - INFO - Deleted quiz with ID: 83
+2025-06-17 05:53:26,923 - INFO - Deleted all questions for quiz ID: 84
+2025-06-17 05:53:26,948 - INFO - Deleted quiz with ID: 84
+2025-06-17 05:53:27,253 - INFO - Deleted all questions for quiz ID: 85
+2025-06-17 05:53:27,279 - INFO - Deleted quiz with ID: 85
+2025-06-17 05:53:27,588 - INFO - Deleted all questions for quiz ID: 86
+2025-06-17 05:53:27,614 - INFO - Deleted quiz with ID: 86
+2025-06-17 05:53:27,916 - INFO - Deleted all questions for quiz ID: 87
+2025-06-17 05:53:27,943 - INFO - Deleted quiz with ID: 87
+2025-06-17 05:53:28,262 - INFO - Deleted all questions for quiz ID: 88
+2025-06-17 05:53:28,294 - INFO - Deleted quiz with ID: 88
+2025-06-17 05:53:28,623 - INFO - Deleted all questions for quiz ID: 89
+2025-06-17 05:53:28,658 - INFO - Deleted quiz with ID: 89
+2025-06-17 05:53:28,962 - INFO - Deleted all questions for quiz ID: 90
+2025-06-17 05:53:28,993 - INFO - Deleted quiz with ID: 90
+2025-06-17 05:53:29,305 - INFO - Deleted all questions for quiz ID: 91
+2025-06-17 05:53:29,336 - INFO - Deleted quiz with ID: 91
+2025-06-17 05:53:29,618 - INFO - Deleted all questions for quiz ID: 92
+2025-06-17 05:53:29,647 - INFO - Deleted quiz with ID: 92
+2025-06-17 05:53:29,941 - INFO - Deleted all questions for quiz ID: 93
+2025-06-17 05:53:29,968 - INFO - Deleted quiz with ID: 93
+2025-06-17 05:53:30,281 - INFO - Deleted collection with ID: 18
+2025-06-17 05:53:30,782 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:30,782 - INFO - All data deleted successfully
+2025-06-17 05:53:30,827 - INFO - Creating collection: Lập trình Mobile
+2025-06-17 05:53:30,907 - INFO - Collection created successfully with ID: 19
+2025-06-17 05:53:30,907 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:31,456 - INFO - Creating quiz: Cơ bản về Widget for collection ID: 19
+2025-06-17 05:53:31,496 - INFO - Quiz created successfully with ID: 94
+2025-06-17 05:53:31,497 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:32,441 - INFO - Question created successfully with ID: 423
+2025-06-17 05:53:32,827 - INFO - Question created successfully with ID: 424
+2025-06-17 05:53:33,208 - INFO - Question created successfully with ID: 425
+2025-06-17 05:53:33,591 - INFO - Question created successfully with ID: 426
+2025-06-17 05:53:34,143 - INFO - Creating quiz: Quản lý trạng thái trong Flutter for collection ID: 19
+2025-06-17 05:53:34,183 - INFO - Quiz created successfully with ID: 95
+2025-06-17 05:53:34,184 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:35,066 - INFO - Question created successfully with ID: 427
+2025-06-17 05:53:35,450 - INFO - Question created successfully with ID: 428
+2025-06-17 05:53:35,831 - INFO - Question created successfully with ID: 429
+2025-06-17 05:53:36,209 - INFO - Question created successfully with ID: 430
+2025-06-17 05:53:36,591 - INFO - Question created successfully with ID: 431
+2025-06-17 05:53:37,140 - INFO - Creating quiz: Điều hướng màn hình for collection ID: 19
+2025-06-17 05:53:37,188 - INFO - Quiz created successfully with ID: 96
+2025-06-17 05:53:37,189 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:38,072 - INFO - Question created successfully with ID: 432
+2025-06-17 05:53:38,463 - INFO - Question created successfully with ID: 433
+2025-06-17 05:53:38,838 - INFO - Question created successfully with ID: 434
+2025-06-17 05:53:39,224 - INFO - Question created successfully with ID: 435
+2025-06-17 05:53:39,774 - INFO - Creating quiz: Thiết kế Material Design for collection ID: 19
+2025-06-17 05:53:39,820 - INFO - Quiz created successfully with ID: 97
+2025-06-17 05:53:39,820 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:40,705 - INFO - Question created successfully with ID: 436
+2025-06-17 05:53:41,084 - INFO - Question created successfully with ID: 437
+2025-06-17 05:53:41,462 - INFO - Question created successfully with ID: 438
+2025-06-17 05:53:41,834 - INFO - Question created successfully with ID: 439
+2025-06-17 05:53:42,382 - INFO - Creating quiz: Tương tác API trong Flutter for collection ID: 19
+2025-06-17 05:53:42,424 - INFO - Quiz created successfully with ID: 98
+2025-06-17 05:53:42,424 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:43,307 - INFO - Question created successfully with ID: 440
+2025-06-17 05:53:43,692 - INFO - Question created successfully with ID: 441
+2025-06-17 05:53:44,078 - INFO - Question created successfully with ID: 442
+2025-06-17 05:53:44,459 - INFO - Question created successfully with ID: 443
+2025-06-17 05:53:44,838 - INFO - Question created successfully with ID: 444
+2025-06-17 05:53:45,889 - INFO - Creating collection: Lập trình Web
+2025-06-17 05:53:45,915 - INFO - Collection created successfully with ID: 20
+2025-06-17 05:53:45,916 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:46,468 - INFO - Creating quiz: HTML cơ bản for collection ID: 20
+2025-06-17 05:53:46,516 - INFO - Quiz created successfully with ID: 99
+2025-06-17 05:53:46,516 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:47,397 - INFO - Question created successfully with ID: 445
+2025-06-17 05:53:47,772 - INFO - Question created successfully with ID: 446
+2025-06-17 05:53:48,141 - INFO - Question created successfully with ID: 447
+2025-06-17 05:53:48,520 - INFO - Question created successfully with ID: 448
+2025-06-17 05:53:49,068 - INFO - Creating quiz: CSS nâng cao for collection ID: 20
+2025-06-17 05:53:49,102 - INFO - Quiz created successfully with ID: 100
+2025-06-17 05:53:49,103 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:49,981 - INFO - Question created successfully with ID: 449
+2025-06-17 05:53:50,354 - INFO - Question created successfully with ID: 450
+2025-06-17 05:53:50,727 - INFO - Question created successfully with ID: 451
+2025-06-17 05:53:51,100 - INFO - Question created successfully with ID: 452
+2025-06-17 05:53:51,473 - INFO - Question created successfully with ID: 453
+2025-06-17 05:53:52,025 - INFO - Creating quiz: JavaScript DOM for collection ID: 20
+2025-06-17 05:53:52,063 - INFO - Quiz created successfully with ID: 101
+2025-06-17 05:53:52,063 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:52,940 - INFO - Question created successfully with ID: 454
+2025-06-17 05:53:53,316 - INFO - Question created successfully with ID: 455
+2025-06-17 05:53:53,690 - INFO - Question created successfully with ID: 456
+2025-06-17 05:53:54,062 - INFO - Question created successfully with ID: 457
+2025-06-17 05:53:54,444 - INFO - Question created successfully with ID: 458
+2025-06-17 05:53:54,992 - INFO - Creating quiz: Xây dựng SPA với React for collection ID: 20
+2025-06-17 05:53:55,028 - INFO - Quiz created successfully with ID: 102
+2025-06-17 05:53:55,029 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:55,908 - INFO - Question created successfully with ID: 459
+2025-06-17 05:53:56,283 - INFO - Question created successfully with ID: 460
+2025-06-17 05:53:56,661 - INFO - Question created successfully with ID: 461
+2025-06-17 05:53:57,034 - INFO - Question created successfully with ID: 462
+2025-06-17 05:53:57,407 - INFO - Question created successfully with ID: 463
+2025-06-17 05:53:57,959 - INFO - Creating quiz: RESTful API với Express for collection ID: 20
+2025-06-17 05:53:57,999 - INFO - Quiz created successfully with ID: 103
+2025-06-17 05:53:58,000 - INFO - State saved to created_data_state.json
+2025-06-17 05:53:58,876 - INFO - Question created successfully with ID: 464
+2025-06-17 05:53:59,252 - INFO - Question created successfully with ID: 465
+2025-06-17 05:53:59,624 - INFO - Question created successfully with ID: 466
+2025-06-17 05:54:00,000 - INFO - Question created successfully with ID: 467
+2025-06-17 05:54:01,048 - INFO - Creating collection: Cấu trúc dữ liệu và Giải thuật
+2025-06-17 05:54:01,072 - INFO - Collection created successfully with ID: 21
+2025-06-17 05:54:01,073 - INFO - State saved to created_data_state.json
+2025-06-17 05:54:01,619 - INFO - Creating quiz: Danh sách liên kết for collection ID: 21
+2025-06-17 05:54:01,656 - INFO - Quiz created successfully with ID: 104
+2025-06-17 05:54:01,657 - INFO - State saved to created_data_state.json
+2025-06-17 05:54:02,529 - INFO - Question created successfully with ID: 468
+2025-06-17 05:54:02,900 - INFO - Question created successfully with ID: 469
+2025-06-17 05:54:03,263 - INFO - Question created successfully with ID: 470
+2025-06-17 05:54:03,631 - INFO - Question created successfully with ID: 471
+2025-06-17 05:54:03,998 - INFO - Question created successfully with ID: 472
+2025-06-17 05:54:04,545 - INFO - Creating quiz: Cây nhị phân for collection ID: 21
+2025-06-17 05:54:04,581 - INFO - Quiz created successfully with ID: 105
+2025-06-17 05:54:04,582 - INFO - State saved to created_data_state.json
+2025-06-17 05:54:05,456 - INFO - Question created successfully with ID: 473
+2025-06-17 05:54:05,826 - INFO - Question created successfully with ID: 474
+2025-06-17 05:54:06,190 - INFO - Question created successfully with ID: 475
+2025-06-17 05:54:06,561 - INFO - Question created successfully with ID: 476
+2025-06-17 05:54:07,113 - INFO - Creating quiz: Thuật toán sắp xếp for collection ID: 21
+2025-06-17 05:54:07,149 - INFO - Quiz created successfully with ID: 106
+2025-06-17 05:54:07,149 - INFO - State saved to created_data_state.json
+2025-06-17 05:54:08,025 - INFO - Question created successfully with ID: 477
+2025-06-17 05:54:08,401 - INFO - Question created successfully with ID: 478
+2025-06-17 05:54:08,769 - INFO - Question created successfully with ID: 479
+2025-06-17 05:54:09,137 - INFO - Question created successfully with ID: 480
+2025-06-17 05:54:09,510 - INFO - Question created successfully with ID: 481
+2025-06-17 05:54:10,057 - INFO - Creating quiz: Tìm kiếm nhị phân for collection ID: 21
+2025-06-17 05:54:10,091 - INFO - Quiz created successfully with ID: 107
+2025-06-17 05:54:10,091 - INFO - State saved to created_data_state.json
+2025-06-17 05:54:10,975 - INFO - Question created successfully with ID: 482
+2025-06-17 05:54:11,349 - INFO - Question created successfully with ID: 483
+2025-06-17 05:54:11,731 - INFO - Question created successfully with ID: 484
+2025-06-17 05:54:12,279 - INFO - Creating quiz: Đệ quy và quy hoạch động for collection ID: 21
+2025-06-17 05:54:12,315 - INFO - Quiz created successfully with ID: 108
+2025-06-17 05:54:12,315 - INFO - State saved to created_data_state.json
+2025-06-17 05:54:13,197 - INFO - Question created successfully with ID: 485
+2025-06-17 05:54:13,572 - INFO - Question created successfully with ID: 486
+2025-06-17 05:54:13,947 - INFO - Question created successfully with ID: 487
+2025-06-17 05:54:14,313 - INFO - Question created successfully with ID: 488
+2025-06-17 05:54:15,314 - INFO - Data processing completed
+2025-06-17 05:54:15,314 - INFO - Complete test environment setup successfully!

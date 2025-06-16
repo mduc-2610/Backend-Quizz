@@ -283,4 +283,14 @@ public class QuestionController {
             question.setAudio(urlService.getCompleteFileUrl(question.getAudio(), request));
         }
     }
+
+    @GetMapping("/quiz/{quizId}/count")
+    public ResponseEntity<Integer> getQuestionCountByQuizId(@PathVariable Long quizId) {
+        try {
+            Integer count = questionService.getQuestionCountByQuizId(quizId);
+            return ResponseEntity.ok(count);
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+    }
 }

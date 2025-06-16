@@ -20,6 +20,7 @@ public class QuizDTO {
     private Boolean visible;
     private Boolean visibleQuizQuestion;
     private Boolean shuffle;
+    private Integer numberQuestion;
     
     private transient MultipartFile coverPhotoFile;
 }
